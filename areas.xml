@@ -1,0 +1,47 @@
+<?xml version="1.0"? encoding="UTF-8"?>
+<author>
+	<name>Lukáš</name>
+	<surname>Rynt</surname>
+	<email>ryntluka@fit.cvut.cz</email>
+</author>
+	
+<state name="Cote d&apos;Ivoire">
+	<government>
+		<chief-of-state type="president">Alassane Dramane OUATTARA</chief-of-state>
+		<head-of-government type="prime minister">Amadou Gon COULIBALY</head-of-government>
+		<government-type>presidential republic</government-type>
+		<capital type="legislative">Yamoussoukro</capital>
+		<capital type="administrative">Abidjan</capital>
+		<legislature>
+			<senate seats="99"/>
+			<national-assembly seats="255"/>
+		</legislature>
+		<judiciary>
+			<supreme-court>
+				<court-president/>
+				<vice-president>
+					<judicial/>
+					<audit/>
+					<administrative/>
+				<vice-president/>
+				<associate-judge count="9"/>
+			</supreme-court>
+		</judiciary>
+		<ambassador-to-us>Mamadou HAIDARA</ambassador-to-US>
+		<us-ambassador>Richard K. BELL</us-ambassador>
+	</government>
+	<geography>
+		<area units="sq km">
+			<total>322,463</total>
+			<land>318,003</land>
+			<water>4,460</water>
+		</area>
+		<climate>
+			<coast>tropical</coast>
+			<north>semiarid</north>
+			<season from="November" to="March">warm and dry</season>
+			<season from="March" to="May">hot and dry</season>
+			<season from="June" to="October">hot and wet</season>
+		</climate>
+	</geography>
+</state>
