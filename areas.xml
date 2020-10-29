@@ -31,7 +31,7 @@
 		<us-ambassador>Richard K. BELL</us-ambassador>
 	</government>
 	<geography>
-		<area units="sq km">
+		<area unit="sq km">
 			<total>322,463</total>
 			<land>318,003</land>
 			<water>4,460</water>
@@ -43,5 +43,169 @@
 			<season from="March" to="May">hot and dry</season>
 			<season from="June" to="October">hot and wet</season>
 		</climate>
+		<natural-resources>
+			<resource>petroleum</resource>
+			<resource>natural gas</resource>
+			<resource>diamonds</resource>
+			<resource>manganese</resource>
+			<resource>iron ore</resource>
+			<resource>cobalt</resource>
+			<resource>bauxite</resource>
+			<resource>copper</resource>
+			<resource>gold</resource>
+			<resource>nickel</resource>
+			<resource>tantalum</resource>
+			<resource>silica sand</resource>
+			<resource>clay</resource>
+			<resource>cocoa beans</resource>
+			<resource>coffee</resource>
+			<resource>palm oil</resource>
+			<resource>hydropower</resource>
+		</natural-resources>
 	</geography>
+	<economy>
+		<growth-rate>among highest</growth-rate>
+		<main-area>agriculture</main-area>
+		<gdp year="2017">
+			<total unit="billion $">97.16</total>
+			<per-capita unit="$">3,900</per-capita>
+		</gdp>
+		<export year="2017">
+			<product>cocoa beans</product>
+			<product>coffee</product>
+			<product>palm oil</product>
+			<total unit="billion $">11.74</total>
+			<partner>
+				<name>Netherlands</name>
+				<percent>11.8</percent>
+			</partner>
+			<partner>
+				<name>US</name>
+				<percent>7.9</percent>
+			</partner>
+			<partner>
+				<name>France</name>
+				<percent>6.4</percent>
+			</partner>
+			<partner>
+				<name>Belgium</name>
+				<percent>6.4</percent>
+			</partner>
+			<partner>
+				<name>Germany</name>
+				<percent>5.8</percent>
+			</partner>
+			<partner>
+				<name>Burkina Faso</name>
+				<percent>4.5</percent>
+			</partner>
+			<partner>
+				<name>India</name>
+				<percent>4.4</percent>
+			</partner>
+			<partner>
+				<name>Mali</name>
+				<percent>4.2</percent>
+			</partner>
+		</export>
+		<import year="2017">
+			<total unit="billion $">9.447</total>
+			<partner>
+				<name>Nigeria</name>
+				<percent>15</percent>
+			</partner>
+			<partner>
+				<name>France</name>
+				<percent>13.4</percent>
+			</partner>
+			<partner>
+				<name>China</name>
+				<percent>11.3</percent>
+			</partner>
+			<partner>
+				<name>US</name>
+				<percent>4.3</percent>
+			</partner>
+		</import>
+	</economy>
+	<society>
+		<population>
+			<total unit="million" year="2020">27.5</total>
+			<growth unit="%">2.3</growth>
+		</population>
+		<ethnics year="2014">
+			<ethnicity>
+				<name>Akan</name>
+				<percent>28.9</percent>
+			</ethnicity>
+			<ethnicity>
+				<name>Voltaique or Gur</name>
+				<percent>16.1</percent>
+			</ethnicity>
+			<ethnicity>
+				<name>Northern Mande</name>
+				<percent>14.5</percent>
+			</ethnicity>
+			<ethnicity>
+				<name>Kru</name>
+				<percent>8.5</percent>
+			</ethnicity>
+			<ethnicity>
+				<name>Southern Mande</name>
+				<percent>6.9</percent>
+			</ethnicity>
+			<ethnicity>
+				<name>unspecified</name>
+				<percent>0.9</percent>
+			</ethnicity>
+			<ethnicity>
+				<name>non-Ivoirian</name>
+				<percent>24.2</percent>
+			</ethnicity>
+		</ethnics>
+		<language>
+			<official>French</official>
+			<dialects>over 60</dialects>
+			<dialect>Dioula</dialect>
+		</language>
+		<religions year="2014">
+			<religion>
+				<name>Muslim</name>
+				<percent>42.9</percent>
+			</religion>
+			<religion>
+				<name>Catholic</name>
+				<percent>17.2</percent>
+			</religion>
+			<religion>
+				<name>Evangelical</name>
+				<percent>11.8</percent>
+			</religion>
+			<religion>
+				<name>Methodist</name>
+				<percent>1.7</percent>
+			</religion>
+			<religion>
+				<name>other Christian</name>
+				<percent>3.2</percent>
+			</religion>
+			<religion>
+				<name>animist</name>
+				<percent>3.6</percent>
+			</religion>
+			<religion>
+				<name>other religion</name>
+				<percent>0.5</percent>
+			</religion>
+			<religion>
+				<name>none</name>
+				<percent>19.1</percent>
+			</religion>
+		</religions>
+		<urbanization>
+			<population unit="%" year="2020">51.7</population>
+			<rate unit="%" type="annual change" year="2015-2020">3.38</rate>
+		</urbanization>
+		<literacy unit="%" year="2018">47.2<literacy>
+	</society>
 </state>
