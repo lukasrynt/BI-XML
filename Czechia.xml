@@ -1,0 +1,572 @@
+<state name="Czechia">
+    <chapter name="Introduction">
+        <section name="Background">
+            At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia. During the interwar years, having rejected a federal system, the new country's predominantly Czech leaders were frequently preoccupied with meeting the increasingly strident demands of other ethnic minorities within the republic, most notably the Slovaks, the Sudeten Germans, and the Ruthenians (Ukrainians). On the eve of World War II, Nazi Germany occupied the territory that today comprises Czechia, and Slovakia became an independent state allied with Germany. After the war, a reunited but truncated Czechoslovakia (less Ruthenia) fell within the Soviet sphere of influence. In 1968, an invasion by Warsaw Pact troops ended the efforts of the country's leaders to liberalize communist rule and create "socialism with a human face," ushering in a period of repression known as "normalization." The peaceful "Velvet Revolution" swept the Communist Party from power at the end of 1989 and inaugurated a return to democratic rule and a market economy. On 1 January 1993, the country underwent a nonviolent "velvet divorce" into its two national components, the Czech Republic and Slovakia. The Czech Republic joined NATO in 1999 and the European Union in 2004. The country added the short-form name Czechia in 2016, while continuing to use the full form name, Czech Republic.
+        </section>
+    </chapter>
+    <chapter name="Geography">
+        <section name="Location">
+            Central Europe, between Germany, Poland, Slovakia, and Austria
+        </section>
+        <section name="Map references">Europe</section>
+        <section name="Area">
+            <subfield name="total" value="78,867" unit="sq km"/>
+            <subfield name="land" value="77,247" unit="sq km"/>
+            <subfield name="water" value="1,620" unit="sq km"/>
+            <subfield name="country comparison to the world" value="117"/>
+        </section>
+        <section name="Area - comparative">
+            about two-thirds the size of Pennsylvania; slightly smaller than South Carolina
+        </section>
+        <section name="Land boundaries">
+            <total value="2,143" unit="km"/>
+            <border country="Austria" length="402" unit="km"/>
+            <border country="Germany" length="704" unit="km"/>
+            <border country="Poland" length="796" unit="km"/>
+            <border country="Slovakia" length="241" unit="km"/>
+        </section>
+        <section name="Coastline">
+            <data value="0" unit="km" description="landlocked"/>
+        </section>
+        <section name="Maritime claims">
+            <data value="None" description="landlocked"/>
+        </section>
+        <section name="Climate">
+            <weather>temperate</weather>
+            <weather>cool summers</weather>
+            <weather>cold, cloudy, humid winters</weather>
+        </section>
+        <section name="Terrain">
+            <data>Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains</data>
+            <data>Moravia in the east consists of very hilly country</data>
+        </section>
+        <section name="Elevation">
+            <subfield name="mean elevation" value="433" unit="m"/>
+            <subfield name="lowest point" value="115" unit="m" description="Labe (Elbe) River"/>
+            <subfield name="highest point" value="1,602" unit="m" description="Snezka"/>
+        </section>
+        <section name="Natural resources">
+            <resource>hard coal</resource>
+            <resource>soft coal</resource>
+            <resource>kaolin</resource>
+            <resource>clay</resource>
+            <resource>graphite</resource>
+            <resource>timber</resource>
+            <resource>arable land</resource>
+        </section>
+        <section name="Land use">
+            <subfield name="agricultural land" value="54.8" unit="%" description="2011 est."/>
+            <subfield name="arable land" value="41" unit="%" description="2011 est.">
+                <land name="permanent crops" value="1" unit="%" description="2011 est."/>
+                <land name="permanent pasture" value="12.8" unit="%" description="2011 est."/>
+            </subfield>
+            <subfield name="forest" value="34.4" unit="%" description="2011 est."/>
+            <subfield name="other" value="10.8" description="2011 est."/>
+        </section>
+        <section name="Irrigated land">
+            <data value="320" unit="sq km" description="2012"/>
+        </section>
+        <section name="Population distribution">
+            a fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations
+        </section>
+        <section name="Natural hazards">
+            flooding
+        </section>
+        <section name="Environment - current issues">
+            <data>air and water pollution in areas of northwest Bohemia and in northern Moravia around Ostrava present health risks</data>
+            <data>acid rain damaging forests</data>
+            <data>land pollution caused by industry, mining, and agriculture</data>
+        </section>
+        <section name="Environment - international agreements">
+            <subfield name="party to">
+                <party>Air Pollution</party>
+                <party>Air Pollution-Nitrogen Oxides</party>
+                <party>Air Pollution-Persistent Organic Pollutants</party>
+                <party>Air Pollution-Sulfur 85</party>
+                <party>Air Pollution-Sulfur 94</party>
+                <party>Air Pollution-Volatile Organic Compounds</party>
+                <party>Antarctic-Environmental Protocol</party>
+                <party>Antarctic Treaty</party>
+                <party>Biodiversity</party>
+                <party>Climate Change</party>
+                <party>Climate Change-Kyoto Protocol</party>
+                <party>Desertification</party>
+                <party>Endangered Species</party>
+                <party>Environmental Modification</party>
+                <party>Hazardous Wastes</party>
+                <party>Law of the Sea</party>
+                <party>Ozone Layer Protection</party>
+                <party>Ship Pollution</party>
+                <party>Wetlands</party>
+                <party>Whaling</party>
+            </subfield>
+            <subfield name="singed, but not ratified">
+                none of the selected agreements
+            </subfield>
+        </section>
+        <section name="Geography - note">
+            <subfield name="note 1">
+                <data>landlocked</data>
+                <data>strategically located astride some of oldest and most significant land routes in Europe</data>
+                <data>Moravian Gate is a traditional military corridor between the North European Plain and the Danube in central Europe</data>
+            </subfield>
+            <subfield name="note 2">
+                <data>the Hranice Abyss in Czechia is the world's deepest surveyed underwater cave at 404 m (1,325 ft)</data>
+                <data>its survey is not complete and it could end up being some 800-1,200 m deep</data>
+            </subfield>
+        </section>
+    </chapter>
+    <chapter name="People and Society">
+        <section name="Population">
+            <data value="10,702,498" description="July 2020 est."/>
+            <subfield name="country comparison to the world" value="85"/>
+        </section>
+        <section name="Nationality">
+            <subfield name="noun">Czech(s)</subfield>
+            <subfield name="adjective">Czech</subfield>
+        </section>
+        <section name="Ethnic groups">
+            <ethnic name="Czech" value="64.3" unit="%"/>
+            <ethnic name="Moravian" value="5" unit="%"/>
+            <ethnic name="Slovak" value="1.4" unit="%"/>
+            <ethnic name="other" value="1.8" unit="%"/>
+            <ethnic name="unspecified" value="27.6" unit="%"/>
+            <description>2011 est.</description>
+        </section>
+        <section name="Languages">
+            <lang name="Czech" value="95.4" unit="%" description="official"/>
+            <lang name="Slovak" value="1.6" unit="%"/>
+            <lang name="other" value="3" unit="%"/>
+            <description>2011 census</description>
+        </section>
+        <section name="Religions">
+            <religion name="Roman Catholic" value="10.4" unit="%"/>
+            <religion name="Protestant" value="1.1" unit="%" description="includes Czech Brethren and Hussite"/>
+            <religion name="other and unspecified" value="54" unit="%"/>
+            <religion name="none" value="34.5" unit="%"/>
+            <description>2011 est.</description>
+        </section>
+        <section name="Age structure">
+            <subfield name="0-14 years" value="15.17" unit="%">
+                <data name="male" value="834,447" unit="%"/>
+                <data name="female" value="789,328" unit="%"/>
+            </subfield>
+            <subfield name="15-24 years" value="9.2" unit="%">
+                <data name="male" value="508,329" unit="%"/>
+                <data name="female" value="475,846" unit="%"/>
+            </subfield>
+            <subfield name="25-54 years" value="43.29" unit="%">
+                <data name="male" value="2,382,899" unit="%"/>
+                <data name="female" value="2,249,774" unit="%"/>
+            </subfield>
+            <subfield name="55-64 years" value="12.12" unit="%">
+                <data name="male" value="636,357" unit="%"/>
+                <data name="female" value="660,748" unit="%"/>
+            </subfield>
+            <subfield name="65 years and over" value="20.23" unit="%">
+                <data name="male" value="907,255" unit="%"/>
+                <data name="female" value="1,257,515" unit="%"/>
+            </subfield>
+            <description>2020 est.</description>
+            <subfield name="population pyramid">
+                <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/EZ_popgraph2020.JPG?1586200020s"/>
+            </subfield>
+        </section>
+        <section name="Dependency ratios">
+            <subfield name="total dependency ratio" value="56"/>
+            <subfield name="youth dependency ratio" value="24.6"/>
+            <subfield name="elderly dependency ratio" value="31.4"/>
+            <subfield name="potential support ratio" value="3.2"/>
+            <description>2020 est.</description>
+        </section>
+        <section name="Median age">
+            <subfield name="total" value="43.3" unit="years"/>
+            <subfield name="male" value="42" unit="years"/>
+            <subfield name="female" value="44.7" unit="years"/>
+            <subfield name="country comparison to the world" value="28"/>
+        </section>
+        <section name="Population growth rate">
+            <data value="0.06" unit="%" description="2020 est."/>
+            <subfield name="country comparison to the world" value="188"/>
+        </section>
+        <section name="Birth rate">
+            <data value="8.9" unit="births/1,000 population" description="2020 est."/>
+            <subfield name="country comparison to the world" value="205"/>
+        </section>
+        <section name="Death rate">
+            <data value="10.7" unit="deaths/1,000 population" description="2020 est."/>
+            <subfield name="country comparison to the world" value="26"/>
+        </section>
+        <section name="Net migration rate">
+            <data value="2.3" unit="migrant(s)/1,000 population" description="2020 est."/>
+            <subfield name="country comparison to the world" value="43"/>
+        </section>
+        <section name="Population distribution">
+            a fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations
+        </section>
+        <section name="Urbanization">
+            <subfield name="urban population" value="74.1" unit="% of total population" description="2020"/>
+            <subfield name="rate of urbanization" value="0.21" unit="% annual rate of change" description="2015-2020 est."/>
+            <subfield name="total population growth rate v. urban population growth rate, 2000-2030">
+                <pdf src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_EZ.pdf?1602789182"/>
+            </subfield>
+        </section>
+        <section name="Major urban areas - population">
+            <data name="Prague" value="1.306" description="capital" description2="2020"/>
+        </section>
+        <section name="Sex ratio">
+            <subfield name="at birth" value="1.05" unit="male(s)/female"/>
+            <subfield name="0-14 years" value="1.06" unit="male(s)/female"/>
+            <subfield name="15-24 years" value="1.07" unit="male(s)/female"/>
+            <subfield name="25-54 years" value="1.06" unit="male(s)/female"/>
+            <subfield name="55-64 years" value="0.96" unit="male(s)/female"/>
+            <subfield name="65 years and over" value="0.72" unit="male(s)/female"/>
+            <subfield name="total population" value="0.97" unit="male(s)/female"/>
+            <description>2020 est.</description>
+        </section>
+        <section name="Mother's mean age at first birth">
+            <data value="28.4" unit="years" description="2018 est."/>
+        </section>
+        <section name="Maternal mortality rate">
+            <data value="3" unit="deaths/100,000 live births" description="2017 est."/>
+            <subfield name="country comparison to the world" value="176"/>
+        </section>
+        <section name="Infant mortality rate">
+            <subfield name="total" value="2.6" unit="deaths/1,000 live births"/>
+            <subfield name="male" value="2.8" unit="deaths/1,000 live births"/>
+            <subfield name="female" value="2.5" unit="deaths/1,000 live births"/>
+            <subfield name="country comparison to the world" value="218"/>
+        </section>
+        <section name="Life expectancy at birth">
+            <subfield name="total population" value="79.3" unit="years"/>
+            <subfield name="male" value="76.3" unit="years"/>
+            <subfield name="female" value="82.4" unit="years"/>
+            <subfield name="country comparison to the world" value="56"/>
+        </section>
+        <section name="Total fertility rate">
+            <data value="1.48" unit="children born/woman" description="2020 est."/>
+            <subfield name="country comparison to the world" value="207"/>
+        </section>
+        <section name="Drinking water source">
+            <subfield name="improved">
+                <data name="urban" value="100" unit="% of population"/>
+                <data name="rural" value="100" unit="% of population"/>
+                <data name="total" value="100" unit="% of population"/>
+            </subfield>
+            <subfield name="unimproved">
+                <data name="urban" value="0" unit="% of population"/>
+                <data name="rural" value="0" unit="% of population"/>
+                <data name="total" value="0" unit="% of population"/>
+            </subfield>
+            <description>2017 est.</description>
+        </section>
+        <section name="Current Health Expenditure">
+            <data value="7.2" unit="%" description="2017"/>
+        </section>
+        <section name="Physicians density">
+            <data value="4.07" unit="physicians/1,000 population" description="2017"/>
+        </section>
+        <section name="Hospital bed density">
+            <data value="6.6" unit="beds/1,000 population" description="2017"/>
+        </section>
+        <section name="Sanitation facility access">
+            <subfield name="improved">
+                <data name="urban" value="100" unit="% of population"/>
+                <data name="rural" value="100" unit="% of population"/>
+                <data name="total" value="100" unit="% of population"/>
+            </subfield>
+            <subfield name="unimproved">
+                <data name="urban" value="0" unit="% of population"/>
+                <data name="rural" value="0" unit="% of population"/>
+                <data name="total" value="0" unit="% of population"/>
+            </subfield>
+            <description>2017 est.</description>
+        </section>
+        <section name="HIV/AIDS - adult prevalence rate">
+            <data value="<1" unit="%" description="2018 est."/>
+        </section>
+        <section name="HIV/AIDS - people living with HIV/AIDS">
+            <data value="4,400" description="2018 est."/>
+            <subfield name="country comparison to the world" value="122"/>
+        </section>
+        <section name="HIV/AIDS - deaths">
+            <data value="<100" description="2018 est."/>
+        </section>
+        <section name="Obesity - adult prevalence rate">
+            <data value="26" description="2016"/>
+            <subfield name="country comparison to the world" value="46"/>
+        </section>
+        <section name="Education expenditures">
+            <data value="5.6" unit="% of GDP" year="2016"/>
+            <subfield name="country comparison to the world" value="36"/>
+        </section>
+        <section name="Literacy">
+            <subfield name="definition" value="NA"/>
+            <subfield name="total population" value="99" unit="%"/>
+            <subfield name="male" value="99" unit="%"/>
+            <subfield name="female" value="99" unit="%"/>
+            <description>2011</description>
+        </section>
+        <section name="School life expectancy (primary to tertiary education)">
+            <subfield name="total" value="16" unit="years"/>
+            <subfield name="male" value="16" unit="years"/>
+            <subfield name="male" value="17" unit="years"/>
+            <description>2018</description>
+        </section>
+        <section name="Unemployment, youth ages 15-24">
+            <subfield name="total" value="6.7" unit="%"/>
+            <subfield name="male" value="6.4" unit="%"/>
+            <subfield name="female" value="7.2" unit="%"/>
+            <description>2018</description>
+            <subfield name="country comparison to the world" value="155"/>
+        </section>
+    </chapter>
+    <chapter name="Government">
+        <section name="Country name">
+            <subfield name="conventional long form" value="Czech Republic"/>
+            <subfield name="conventional short form" value="Czechia"/>
+            <subfield name="local long form" value="Ceska republika"/>
+            <subfield name="local short form" value="Cesko"/>
+            <subfield name="etymology">
+                name derives from the Czechs, a West Slavic tribe who rose to prominence in the late 9th century A.D.
+            </subfield>
+        </section>
+        <section name="Government type">
+            parliamentary republic
+        </section>
+        <section name="Capital">
+            <subfield name="name" value="Prague"/>
+            <subfield name="geographical coordinates">
+                <data value="50 05 N"/>
+                <data value="14 28 E"/>
+            </subfield>
+            <subfield name="time difference" value="UTC-1" description="6 hours ahead of Washington, DC, during Standard Time"/>
+            <subfield name="daylight saving time">
+                +1hr, begins last Sunday in March; ends last Sunday in October
+            </subfield>
+            <subfield name="etymology">
+                the name may derive from an old Slavic root "praga" or "prah", meaning "ford", and refer to the city's origin at a crossing point of the Vltava (Moldau) River
+            </subfield>
+        </section>
+        <section name="Administrative division">
+            <data>13 regions (kraje, singular - kraj) and 1 capital city (hlavni mesto)</data>
+            <region value="Jihocesky" description="South Bohemia"/>
+            <region value="Jihomoravsky" description="South Moravia"/>
+            <region value="Karlovarsky" description="Karlovy Vary"/>
+            <region value="Kralovehradecky" description="Hradec Kralove"/>
+            <region value="Liberecky" description="Liberec"/>
+            <region value="Moravskoslezsky" description="Moravia-Silesia"/>
+            <region value="Olomoucky" description="Olomouc"/>
+            <region value="Pardubicky" description="Pardubice"/>
+            <region value="Plzensky" description="Pilsen"/>
+            <region value="Praha" description="Prague" description2="capital city"/>
+            <region value="Stredocesky" description="Central Bohemia"/>
+            <region value="Ustecky" description="Usti"/>
+            <region value="Vysocina" description="Highlands"/>
+            <region value="Zlinsky" description="Zlin"/>
+        </section>
+        <section name="Independence">
+            1 January 1993 (Czechoslovakia split into the Czech Republic and Slovakia); note - although 1 January is the day the Czech Republic came into being, the Czechs commemorate 28 October 1918, the day the former Czechoslovakia declared its independence from the Austro-Hungarian Empire, as their independence day
+        </section>
+        <section name="National holiday">
+            <data value="Czechoslovak Founding Day" date="28 October (1918)"/>
+        </section>
+        <section name="Constitution">
+            <subfield name="history">
+                previous 1960; latest ratified 16 December 1992, effective 1 January 1993
+            </subfield>
+            <subfield name="amendments">
+                passage requires at least three-fifths concurrence of members present in both houses of Parliament; amended several times, last in 2013
+            </subfield>
+        </section>
+        <section name="Legal system">
+            new civil code enacted in 2014, replacing civil code of 1964 - based on former Austro-Hungarian civil codes and socialist theory - and reintroducing former Czech legal terminology
+        </section>
+        <section name="International law organization participation">
+            <data>has not submitted an ICJ jurisdiction declaration</data>
+            <data>accepts ICCt jurisdiction</data>
+        </section>
+        <section name="Citizenship">
+            <subfield name="citizenship by birth" value="no"/>
+            <subfield name="citizenship by descent only" value="at least one parent must be a citizen of Czechia"/>
+            <subfield name="dual citizenship recognized" value="no"/>
+            <subfield name="residency requirement for naturalization" value="5" unit="years"/>
+        </section>
+        <section name="Suffrage">
+            <data>18 years of age</data>
+            <data>universal</data>
+        </section>
+        <section name="Executive branch">
+            <subfield name="chief of state">
+                <data name="President" value="Milos ZEMAN" description="since 8 March 2013"/>
+            </subfield>
+            <subfield name="head of government">
+                <data name="Prime minister" value="Andrej BABIS" description="since 13 December 2017"/>
+                <data name="First Deputy Prime minister" value="Jan HAMACEK" description="since 27 June 2018"/>
+                <data name="Deputy Prime Minister" value="Alena SCHILLEROVA" description="since 30 April 2019"/>
+            </subfield>
+            <subfield name="cabinet">
+                Cabinet appointed by the president on the recommendation of the prime minister
+            </subfield>
+            <subfield name="elections/appointments">
+                <data>president directly elected by absolute majority popular vote in 2 rounds if needed for a 5-year term (limited to 2 consecutive terms)</data>
+                <data>elections last held on 12-13 January 2018 with a runoff on 26-27 January 2018 (next to be held in January 2023)</data>
+                <data>prime minister appointed by the president for a 4-year term</data>
+            </subfield>
+            <subfield name="election results">
+                <data>Milos ZEMAN reelected president in the second round</data>
+                <data>percent of vote - Milos ZEMAN (SPO) 51.4%, Jiri DRAHOS (independent) 48.6%</data>
+            </subfield>
+        </section>
+        <section name="Legislative branch">
+            <subfield name="description">
+                <data>bicameral Parliament or Parlament consists of:</data>
+                <data>Senate or Senat (81 seats; members directly elected in single-seat constituencies by absolute majority vote in 2 rounds if needed; members serve 6-year terms with one-third of the membership renewed every 2 years)</data>
+                <data>Chamber of Deputies or Poslanecka Snemovna (200 seats; members directly elected in 14 multi-seat constituencies by proportional representation vote with a 5% threshold required to fill a seat; members serve 4-year terms)</data>
+            </subfield>
+            <subfield name="elections">
+                <data>Senate - last held in 2 rounds on 2-3 and 9-10 October 2020 (next to be held in October 2022)</data>
+                <data>Chamber of Deputies - last held on 20-21 October 2017 (next to be held by October 2021)</data>
+            </subfield>
+            <subfield name="election results">
+                <data>
+                    Senate - percent of vote by party - NA; seats by party - STAN 19, ODS 18, KDU-CSL 12, ANO 5, TOP 09 5, CSSD 3, SEN 21 3, Pirates 2, SZ 1, minor parties with one seat each 9, independents 4
+                </data>
+                <data>
+                    Chamber of Deputies - percent of vote by party - ANO 29.6%, ODS 11.3%, Pirates 10.8%, SPD 10.6%, KSCM 7.8%, CSSD 7.3%, KDU-CSL 5.8%, TOP 09 5.3%, STAN 5.2%, other 6.3%; seats by party - ANO 78, ODS 25, Pirates 22, SPD 22, CSSD 15, KSCM 15, KDU-CSL 10, TOP 09 7, STAN 6; composition - men 155, women 45, percent of women 24%; note - total Parliament percent of women 20.6%
+                </data>
+            </subfield>
+        </section>
+        <section name="Judicial branch">
+            <subfield name="highest courts">
+                Supreme Court (organized into Civil Law and Commercial Division, and Criminal Division each with a court chief justice, vice justice, and several judges); Constitutional Court (consists of 15 justices); Supreme Administrative Court (consists of 36 judges, including the court president and vice president, and organized into 6-, 7-, and 9-member chambers)
+            </subfield>
+            <subfield name="judge selection and term of office">
+                <data>Supreme Court judges proposed by the Chamber of Deputies and appointed by the president</data>
+                <data>judges appointed for life</data>
+                <data>Constitutional Court judges appointed by the president and confirmed by the Senate</data>
+                <data>judges appointed for 10-year, renewable terms</data>
+                <data>Supreme Administrative Court judges selected by the president of the Court</data>
+                <data>unlimited terms
+            </subfield>
+            <subfield name="subordinate courts">
+                <data>High Court</data>
+                <data>regional and district courts</data>
+            </subfield>
+        </section>
+        <section name="Political parties and leaders">
+            <party name="Christian Democratic Union-Czechoslovak People's Party" short="KDU-CSL" representative="Pavel BELOBRADEK"/>
+            <party name="Civic Democratic Party" short="ODS" representative="Petr FIALA"/>
+            <party name="Communist Party of Bohemia and Moravia" short="KSCM" representative="Vojtech FILIP"/>
+            <party name="Czech Social Democratic Party" short="CSSD" representative="Jan HAMACEK"/>
+            <party name="Freedom and Direct Democracy" short="SPD" representative="Tomio OKAMURA"/>
+            <party name="Green Party" short="SZ" representative="Petr STEPANEK"/>
+            <party name="Mayors and Independents" short="STAN" representative="Petr GAZDIK"/>
+            <party name="Movement of Dissatisfied Citizens" short="ANO" representative="Andrej BABIS"/>
+            <party name="Party of Civic Rights" short="SPO" representative="Lubomir NECAS"/>
+            <party name="Pirate Party" short="Pirates" representative="Ivan BARTOS"/>
+            <party name="Tradition Responsibility Prosperity 09" short="TOP 09" representative="Jiri POSPISIL"/>
+        </section>
+        <section name="International organization participation">
+            <organization>Australia Group</organization>
+            <organization>BIS</organization>
+            <organization>BSEC</organization>
+            <organization description="observer">BSEC</organization>
+            <organization>CD</organization>
+            <organization>CE</organization>
+            <organization>CEI</organization>
+            <organization>CERN</organization>
+            <organization>EAPC</organization>
+            <organization>EBRD</organization>
+            <organization>ECB</organization>
+            <organization>EIB</organization>
+            <organization>ESA</organization>
+            <organization>EU</organization>
+            <organization>FAO</organization>
+            <organization>IAEA</organization>
+            <organization>IBRD</organization>
+            <organization>ICAO</organization>
+            <organization description="national committees">ICC</organization>
+            <organization>ICCt</organization>
+            <organization>ICRM</organization>
+            <organization>IDA</organization>
+            <organization>IEA</organization>
+            <organization>IFC</organization>
+            <organization>IFRCS</organization>
+            <organization>ILO</organization>
+            <organization>IMF</organization>
+            <organization>IMO</organization>
+            <organization>IMSO</organization>
+            <organization>Interpol</organization>
+            <organization>IOC</organization>
+            <organization>IOM</organization>
+            <organization>IPU</organization>
+            <organization>ISO</organization>
+            <organization>ITSO</organization>
+            <organization>ITU</organization>
+            <organization description="NGOs">ITUC</organization>
+            <organization>MIGA</organization>
+            <organization>MONUSCO</organization>
+            <organization>NATO</organization>
+            <organization>NEA</organization>
+            <organization>NSG</organization>
+            <organization description="observer">OAS</organization>
+            <organization>OECD</organization>
+            <organization description="observer">OIF</organization>
+            <organization>OPCW</organization>
+            <organization>OSCE</organization>
+            <organization>PCA</organization>
+            <organization>Schengen Convention</organization>
+            <organization>SELEC</organization>
+            <organization>UN</organization>
+            <organization>UNCTAD</organization>
+            <organization>UNESCO</organization>
+            <organization>UNHCR</organization>
+            <organization>UNIDO</organization>
+            <organization>UNWTO</organization>
+            <organization>UPU</organization>
+            <organization>WCO</organization>
+            <organization description="NGOs">WFTU</organization>
+            <organization>WHO</organization>
+            <organization>WIPO</organization>
+            <organization>WMO</organization>
+            <organization>WTO</organization>
+            <organization>ZC</organization>
+        </section>
+        <section name="Diplomatic representation in the US">
+            <subfield name="chief of mission">
+                <data name="Ambassador" value="Hynek KMONICEK" description="since 24 April 2017"/>
+            </subfield>
+            <subfield name="chancery" value="3900 Spring of Freedom Street NW, Washington, DC 20008"/>
+            <subfield name="telephone" value="[1] (202) 274-9100"/>
+            <subfield name="FAX" value="[1] (202) 966-8540"/>
+            <subfield name="consulate(s) general" value="Chicago, Los Angeles, New York"/>
+        </section>
+        <section name="Diplomatic representation from the US">
+            <subfield name="chief of mission">
+                <data name="Ambassador" value="Stephen B. KING" description="since 6 December 2017"/>
+            </subfield>
+            <subfield name="telephone" value="[420] 257 022 000"/>
+            <subfield name="embassy" value="Trziste 15, 118 01 Prague 1 - Mala Strana"/>
+            <subfield name="mailing address" value="use embassy street address"/>
+            <subfield name="FAX" value="[420] 257 022 809"/>
+        </section>
+        <section name="Flag description">
+            two equal horizontal bands of white (top) and red with a blue isosceles triangle based on the hoist side
+            <subfield name="note">
+                <data>combines the white and red colors of Bohemia with blue from the arms of Moravia</data>
+                <data>is identical to the flag of the former Czechoslovakia</data>
+            </subfield>
+        </section>
+        <section name="National symbol(s)">
+            silver (or white), double-tailed, rampant lion; national colors: white, red, blue
+        </section>
+        <section name="National anthem">
+            <subfield name="name" value="Kde domov muj?" description="Where is My Home?"/>
+            <subfield name="lyrics/music" value="Josef Kajetan TYL/Frantisek Jan SKROUP"/>
+            <subfield name="note">
+                adopted 1993; the anthem was originally written as incidental music to the play "Fidlovacka" (1834), it soon became very popular as an unofficial anthem of the Czech nation; its first verse served as the official Czechoslovak anthem beginning in 1918, while the second verse (Slovak) was dropped after the split of Czechoslovakia in 1993
+            </subfield>
+        </section>
+    </chapter>
+</state>
