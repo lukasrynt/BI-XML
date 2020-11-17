@@ -1,0 +1,90 @@
+@namespace a url(AAA);
+@namespace b url(BBB);
+@namespace c url(CCC);
+@namespace default url(DEFAULT);
+@namespace newdefault url(NEW-DEFAULT);
+@namespace xhtml url(http://www.w3.org/1999/xhtml);
+@namespace mathml url(http://www.w3.org/1998/Math/MathML);
+
+* {
+    color:Black;
+    background-color:White;
+    padding:10px;
+    margin:5px;
+}
+
+*|AAA, *|BBB, *|CCC {display:block;}
+
+*|AAA:before {content:"ELEMENT 'AAA' with ";}
+*|BBB:before {content:"ELEMENT 'BBB' with ";}
+*|CCC:before {content:"ELEMENT 'CCC' with ";}
+
+*[c="1"]:after {content:" + ATTRIBUTE 'c' with value '1' (NS = EMPTY)";}
+*[c="2"]:after {content:" + ATTRIBUTE 'c' with value '2' (NS = EMPTY)";}
+*[c="3"]:after {content:" + ATTRIBUTE 'c' with value '3' (NS = EMPTY)";}
+*[c="4"]:after {content:" + ATTRIBUTE 'c' with value '4' (NS = EMPTY)";}
+
+*[c|c="1"]:after {content:" + ATTRIBUTE 'c' with value '1' (NS = CCC)";}
+*[c|c="2"]:after {content:" + ATTRIBUTE 'c' with value '2' (NS = CCC)";}
+*[c|c="3"]:after {content:" + ATTRIBUTE 'c' with value '3' (NS = CCC)";}
+*[c|c="4"]:after {content:" + ATTRIBUTE 'c' with value '4' (NS = CCC)";}
+
+*[default|c="1"]:after {content:" + ATTRIBUTE 'c' with value '1' (NS = DEFAULT)";}
+*[default|c="2"]:after {content:" + ATTRIBUTE 'c' with value '2' (NS = DEFAULT)";}
+*[default|c="3"]:after {content:" + ATTRIBUTE 'c' with value '3' (NS = DEFAULT)";}
+*[default|c="4"]:after {content:" + ATTRIBUTE 'c' with value '4' (NS = DEFAULT)";}
+
+*[newdefault|c="1"]:after {content:" + ATTRIBUTE 'c' with value '1' (NS = NEW-DEFAULT)";}
+*[newdefault|c="2"]:after {content:" + ATTRIBUTE 'c' with value '2' (NS = NEW-DEFAULT)";}
+*[newdefault|c="3"]:after {content:" + ATTRIBUTE 'c' with value '3' (NS = NEW-DEFAULT)";}
+*[newdefault|c="4"]:after {content:" + ATTRIBUTE 'c' with value '4' (NS = NEW-DEFAULT)";}
+
+
+a|* {
+    border:3px solid LimeGreen;
+    color:ForestGreen;
+    background-color:PaleGreen;
+    font-size:300%;
+}
+
+b|* {
+    border:3px solid GoldenRod;
+    color:DarkGoldenRod;
+    background-color:LightGoldenRodYellow;
+    font-size:90%;
+}
+
+c|* {
+    border:3px solid RoyalBlue;
+    color:MidnightBlue;
+    background-color:LightSkyBlue;
+    font-size:80%;
+}
+
+default|* {
+    border:2px dashed Gray;
+    color:Black;
+    background-color:WhiteSmoke;
+    font-size:70%;
+}
+
+newdefault|* {
+    border:2px dotted SlateGray;
+    color:DimGray;
+    background-color:LightGray;
+    font-size:70%;
+}
+
+xhtml|* {
+    border:3px solid Green;
+    color:DarkGreen;
+    background-color:LightGreen;
+    font-size:125%;
+}
+
+mathml|* {
+    border:2px solid Blue;
+    color:DarkBlue;
+    background-color:LightBlue;
+    font-size:115%;
+}

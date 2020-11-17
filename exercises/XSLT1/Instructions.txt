@@ -1,0 +1,4 @@
+XSLT EXERCISE - INSTRUCTIONS
+
+1) Sestavte XSLT stylesheet pro soubor "Data-1.xml" a vygenerujte vystup
+do (X)HTML.

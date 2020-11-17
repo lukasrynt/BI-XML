@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="NS-Exercise.css"?>
+
+<a:AAA xmlns="DEFAULT" xmlns:a="AAA" xmlns:b="BBB" xmlns:c="CCC">
+    Text Node 0
+    <b:BBB>
+        Text Node 1.1
+        <c:CCC c="1">Text Node 1.2</c:CCC>
+    </b:BBB>
+    <BBB>
+        Text Node 2.1
+        <CCC c="2">Text Node 2.2</CCC>
+    </BBB>
+    <BBB xmlns="NEW-DEFAULT">
+        Text Node 3.1
+        <CCC c:c="3">Text Node 3.2</CCC>
+        <b:BBB>
+            Text Node 4.1
+            <c:CCC c="4">Text Node 4.2</c:CCC>
+            <default:CCC xmlns:default="DEFAULT" default:c="4">Text Node 4.3</default:CCC>
+            <CCC xmlns:newdefault="NEW-DEFAULT" newdefault:c="4">Text Node 4.4</CCC>
+        </b:BBB>
+    </BBB>
+</a:AAA>
