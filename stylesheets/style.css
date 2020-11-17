@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: lightblue;
+    color: #5995DA;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 1px;
+    background-color: aliceblue;
+    color: #5995DA;
+    text-align: left;
+    font-size: 1em;
+}
+
+.column_articles{
+    display: flex;
+    flex-direction: row;
+}
+.divider{flex:1}
+
+.chapter {
+    display: flex;
+    flex-direction: column;
+}
+
+section{flex: 8}
+
+.section{
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2px 2px;
+}
+
+.tab{
+    margin-left: 1em;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
