@@ -442,12 +442,7 @@
                 Supreme Court (organized into Civil Law and Commercial Division, and Criminal Division each with a court chief justice, vice justice, and several judges); Constitutional Court (consists of 15 justices); Supreme Administrative Court (consists of 36 judges, including the court president and vice president, and organized into 6-, 7-, and 9-member chambers)
             </subfield>
             <subfield name="judge selection and term of office">
-                <data>Supreme Court judges proposed by the Chamber of Deputies and appointed by the president</data>
-                <data>judges appointed for life</data>
-                <data>Constitutional Court judges appointed by the president and confirmed by the Senate</data>
-                <data>judges appointed for 10-year, renewable terms</data>
-                <data>Supreme Administrative Court judges selected by the president of the Court</data>
-                <data>unlimited terms
+                Supreme Court judges proposed by the Chamber of Deputies and appointed by the president; judges appointed for life; Constitutional Court judges appointed by the president and confirmed by the Senate; judges appointed for 10-year, renewable terms; Supreme Administrative Court judges selected by the president of the Court; unlimited terms
             </subfield>
             <subfield name="subordinate courts">
                 <data>High Court</data>
@@ -468,70 +463,70 @@
             <party name="Tradition Responsibility Prosperity 09" short="TOP 09" representative="Jiri POSPISIL"/>
         </section>
         <section name="International organization participation">
-            <organization>Australia Group</organization>
-            <organization>BIS</organization>
-            <organization>BSEC</organization>
+            <organization value="Australia Group"/>
+            <organization value="BIS"/>
+            <organization value="BSEC"/>
             <organization description="observer">BSEC</organization>
-            <organization>CD</organization>
-            <organization>CE</organization>
-            <organization>CEI</organization>
-            <organization>CERN</organization>
-            <organization>EAPC</organization>
-            <organization>EBRD</organization>
-            <organization>ECB</organization>
-            <organization>EIB</organization>
-            <organization>ESA</organization>
-            <organization>EU</organization>
-            <organization>FAO</organization>
-            <organization>IAEA</organization>
-            <organization>IBRD</organization>
-            <organization>ICAO</organization>
-            <organization description="national committees">ICC</organization>
-            <organization>ICCt</organization>
-            <organization>ICRM</organization>
-            <organization>IDA</organization>
-            <organization>IEA</organization>
-            <organization>IFC</organization>
-            <organization>IFRCS</organization>
-            <organization>ILO</organization>
-            <organization>IMF</organization>
-            <organization>IMO</organization>
-            <organization>IMSO</organization>
-            <organization>Interpol</organization>
-            <organization>IOC</organization>
-            <organization>IOM</organization>
-            <organization>IPU</organization>
-            <organization>ISO</organization>
-            <organization>ITSO</organization>
-            <organization>ITU</organization>
-            <organization description="NGOs">ITUC</organization>
-            <organization>MIGA</organization>
-            <organization>MONUSCO</organization>
-            <organization>NATO</organization>
-            <organization>NEA</organization>
-            <organization>NSG</organization>
-            <organization description="observer">OAS</organization>
-            <organization>OECD</organization>
-            <organization description="observer">OIF</organization>
-            <organization>OPCW</organization>
-            <organization>OSCE</organization>
-            <organization>PCA</organization>
-            <organization>Schengen Convention</organization>
-            <organization>SELEC</organization>
-            <organization>UN</organization>
-            <organization>UNCTAD</organization>
-            <organization>UNESCO</organization>
-            <organization>UNHCR</organization>
-            <organization>UNIDO</organization>
-            <organization>UNWTO</organization>
-            <organization>UPU</organization>
-            <organization>WCO</organization>
-            <organization description="NGOs">WFTU</organization>
-            <organization>WHO</organization>
-            <organization>WIPO</organization>
-            <organization>WMO</organization>
-            <organization>WTO</organization>
-            <organization>ZC</organization>
+            <organization value="CD"/>
+            <organization value="CE"/>
+            <organization value="CEI"/>
+            <organization value="CERN"/>
+            <organization value="EAPC"/>
+            <organization value="EBRD"/>
+            <organization value="ECB"/>
+            <organization value="EIB"/>
+            <organization value="ESA"/>
+            <organization value="EU"/>
+            <organization value="FAO"/>
+            <organization value="IAEA"/>
+            <organization value="IBRD"/>
+            <organization value="ICAO"/>
+            <organization description="national committees" value="ICC"/>
+            <organization value="ICCt"/>>
+            <organization value="ICRM"/>>
+            <organization value="IDA"/>>
+            <organization value="IEA"/>
+            <organization value="IFC"/>
+            <organization value="IFRCS"/>
+            <organization value="ILO"/>
+            <organization value="IMF"/>
+            <organization value="IMO"/>
+            <organization value="IMSO"/>
+            <organization value="Interpol"/>
+            <organization value="IOC"/>
+            <organization value="IOM"/>
+            <organization value="IPU"/>
+            <organization value="ISO"/>
+            <organization value="ITSO"/>
+            <organization value="ITU"/>
+            <organization description="NGOs" value="ITUC"/>
+            <organization value="MIGA"/>
+            <organization value="MONUSCO"/>
+            <organization value="NATO"/>
+            <organization value="NEA"/>
+            <organization value="NSG"/>
+            <organization description="observer" value="OAS"/>
+            <organization value="OECD"/>
+            <organization description="observer" value="OIF"/>
+            <organization value="OPCW"/>
+            <organization value="OSCE"/>
+            <organization value="PCA"/>
+            <organization value="Schengen Convention"/>
+            <organization value="SELEC"/>
+            <organization value="UN"/>
+            <organization value="UNCTAD"/>
+            <organization value="UNESCO"/>
+            <organization value="UNHCR"/>
+            <organization value="UNIDO"/>
+            <organization value="UNWTO"/>
+            <organization value="UPU"/>
+            <organization value="WCO"/>
+            <organization description="NGOs" value="WFTU"/>
+            <organization value="WHO"/>
+            <organization value="WIPO"/>
+            <organization value="WMO"/>
+            <organization value="WTO"/>
+            <organization value="ZC"/>
         </section>
         <section name="Diplomatic representation in the US">
             <subfield name="chief of mission">
@@ -567,6 +562,102 @@
             <subfield name="note">
                 adopted 1993; the anthem was originally written as incidental music to the play "Fidlovacka" (1834), it soon became very popular as an unofficial anthem of the Czech nation; its first verse served as the official Czechoslovak anthem beginning in 1918, while the second verse (Slovak) was dropped after the split of Czechoslovakia in 1993
             </subfield>
+        </section>
+    </chapter>
+    <chapter name="Economy">
+        <section name="Economy-overview">
+            <par>Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.</par>
+            <par>Since coming to power in 2014, the new government has undertaken some reforms to try to reduce corruption, attract investment, and improve social welfare programs, which could help increase the government’s revenues and improve living conditions for Czechs. The government introduced in December 2016 an online tax reporting system intended to reduce tax evasion and increase revenues. The government also plans to remove labor market rigidities to improve the business climate, bring procurement procedures in line with EU best practices, and boost wages. The country's low unemployment rate has led to steady increases in salaries, and the government is facing pressure from businesses to allow greater migration of qualified workers, at least from Ukraine and neighboring Central European countries.</par>
+            <par>Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.</par>
+        </section>
+        <section name="GDP (purchasing power parity)">
+            <data value="375.9" unit="billion $" description="2017 est."/>
+            <data value="360.5" unit="billion $" description="2016 est."/>
+            <data value="351.9" unit="billion $" description="2015 est."/>
+            <subfield name="note" value="data are in 2017 dollars"/>
+            <subfield name="country comparison to the world" value="49"/>
+        </section>
+        <section name="GDP (official exchange rate)">
+            <data value="215.8" unit="billion $" description="2017 est."/>
+        </section>
+        <section name="GDP - real growth rate">
+            <data value="4.3" unit="%" description="2017 est."/>
+            <data value="2.5" unit="%" description="2016 est."/>
+            <data value="5.3" unit="%" description="2015 est."/>
+            <subfield name="country comparison to the world" value="68"/>
+        </section>
+        <section name="GDP - per capita (PPP)">
+            <data value="35,500" unit="$" description="2017 est."/>
+            <data value="34,200" unit="$" description="2016 est."/>
+            <data value="33,400" unit="$" description="2015 est."/>
+            <subfield name="note" value="data are in 2017 dollars"/>
+            <subfield name="country comparison to the world" value="57"/>
+        </section>
+        <section name="Gross national saving">
+            <data value="26.9" unit="% of GDP" description="2017 est."/>
+            <data value="27.5" unit="% of GDP" description="2016 est."/>
+            <data value="28.2" unit="% of GDP" description="2015 est."/>
+            <subfield name="country comparison to the world" value="45"/>
+        </section>
+        <section name="GDP - composition, by end use">
+            <subfield name="household consumption" value="47.4" unit="%" description="2017 est."/>
+            <subfield name="government consumption" value="19.2" unit="%" description="2017 est."/>
+            <subfield name="investment in inventories" value="1.1" unit="%" description="2017 est."/>
+            <subfield name="exports of goods and services" value="79.9" unit="%" description="2017 est."/>
+            <subfield name="imports of goods and services" value="-72.3" unit="%" description="2017 est."/>
+        </section>
+        <section name="GDP - composition, by sector of origin">
+            <subfield name="agriculture" value="2.3" unit="%" description="2017 est."/>
+            <subfield name="industry" value="36.9" unit="%" description="2017 est."/>
+            <subfield name="services" value="60.8" unit="%" description="2017 est."/>
+        </section>
+        <section name="Agriculture - products">
+            <product value="wheat"/>
+            <product value="potatoes"/>
+            <product value="sugar beets"/>
+            <product value="hops"/>
+            <product value="fruit"/>
+            <product value="pigs"/>
+            <product value="poultry"/>
+        </section>
+        <section name="Industries">
+            <industry value="motor vehicles"/>
+            <industry value="metallurgy"/>
+            <industry value="machinery and equipment"/>
+            <industry value="glass"/>
+            <industry value="armaments"/>
+        </section>
+        <section name="Industrial production growth rate">
+            <data value="7.5" unit="%" description="2017 est."/>
+            <subfield name="country comparison to the world" value="27"/>
+        </section>
+        <section name="Labor force">
+            <data value="5.427" unit="million" description="2017 est."/>
+            <subfield name="country comparison to the world" value="76"/>
+        </section>
+        <section name="Labor force - by occupation">
+            <subfield name="agriculture" value="2.8" unit="%"/>
+            <subfield name="industry" value="38" unit="%"/>
+            <subfield name="services" value="59.2" unit="%" description="2015"/>
+        </section>
+        <section name="Unemployment rate">
+            <data value="2.9" unit="%" description="2017 est."/>
+            <data value="3.9" unit="%" description="2016 est."/>
+            <subfield name="country comparison to the world" value="33"/>
+        </section>
+        <section name="Population below poverty line">
+            <data value="9.7" unit="%" description="2015 est."/>
+        </section>
+        <section name="Household income or consumption by percentage share">
+            <subfield name="lowest 10%" value="4.1" unit="%"/>
+            <subfield name="highest 10%" value="21.7" unit="%" description="2015"/>
+        </section>
+        <section name="Budget">
+            <subfield name="revenues" value="87.37" unit="billion" description="2017 est."/>
+            <subfield name="expenditures" value="83.92" unit="billion" description="2017 est."/>
+        </section>
+        <section name="Taxes and other revenues">
+
         </section>
     </chapter>
 </state>
