@@ -1,12 +1,18 @@
-pages:
-  stage: deploy
+stages:
+  - build
+  - deploy
+
+build:
   script:
     - make czechia
-    - mkdir .public
-    - cp -r build/* .public
-    - mv .public public
-  artifacts:
-    paths:
-      - public
-  only:
-    - master
+
+#deploy:
+#  script:
+#    - mkdir .public
+#    - cp -r build/* .public
+#    - mv .public public
+#  artifacts:
+#    paths:
+#      - public
+#  only:
+#    - master
