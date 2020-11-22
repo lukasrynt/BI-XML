@@ -1,12 +1,13 @@
 body {
+    background: url('background.png');
     margin: 0;
     padding: 0;
 }
 
 h1{
-    background-color: lightblue;
-    color: #5995DA;
+    background-color: #00A4CCFF;
     text-align: center;
+    color: aliceblue;
     font-size: 2em;
     border-radius: 4px;
     border: 2px solid #ccc;
@@ -18,10 +19,13 @@ h1{
 h2{
     margin-top: 0;
     margin-bottom: 1px;
-    background-color: aliceblue;
-    color: #5995DA;
+    color: #F95700FF;
     text-align: left;
-    font-size: 1em;
+    font-size: 1.5em;
+}
+
+.info{
+    padding: 10px;
 }
 
 .column_articles{
@@ -52,4 +56,41 @@ section{flex: 8}
 p{
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.collapsible {
+    background-color: #b4e7ff;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+    background-color: aliceblue;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 5px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+ul {
+    margin: 0;
 }

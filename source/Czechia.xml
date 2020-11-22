@@ -23,11 +23,13 @@
             about two-thirds the size of Pennsylvania; slightly smaller than South Carolina
         </section>
         <section name="Land boundaries">
-            <total value="2,143" unit="km"/>
-            <border country="Austria" length="402" unit="km"/>
-            <border country="Germany" length="704" unit="km"/>
-            <border country="Poland" length="796" unit="km"/>
-            <border country="Slovakia" length="241" unit="km"/>
+            <subfield name="total" value="2,143" unit="km"/>
+            <list name="borders">
+                <item name="Austria" value="402" unit="km"/>
+                <item name="Germany" value="704" unit="km"/>
+                <item name="Poland" value="796" unit="km"/>
+                <item name="Slovakia" value="241" unit="km"/>
+            </list>
         </section>
         <section name="Coastline">
             <data value="0" unit="km" year="landlocked"/>
