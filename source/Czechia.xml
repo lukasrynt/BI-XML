@@ -1,4 +1,4 @@
-<state name="Czechia">
+<country name="Czechia">
     <chapter name="Introduction">
         <section name="Background">
             <paragraph>
@@ -8,22 +8,28 @@
     </chapter>
     <chapter name="Geography">
         <section name="Location">
-            <paragraph>
                 Central Europe, between Germany, Poland, Slovakia, and Austria
+        </section>
+        <section name="Geographic coordinates">
+            <paragraph>
+                49 45 N, 15 30 E
             </paragraph>
         </section>
         <section name="Map references">Europe</section>
         <section name="Area">
-            <subfield name="total" value="78,867" unit="sq km"/>
-            <subfield name="land" value="77,247" unit="sq km"/>
-            <subfield name="water" value="1,620" unit="sq km"/>
-            <subfield name="country comparison to the world" value="117"/>
+            <subfield oneline="yes" name="total" value="78,867" unit="sq km"/>
+            <subfield oneline="yes" name="land" value="77,247" unit="sq km"/>
+            <subfield oneline="yes" name="water" value="1,620" unit="sq km"/>
+            <subfield oneline="yes" name="country comparison to the world" value="117"/>
         </section>
         <section name="Area - comparative">
-            about two-thirds the size of Pennsylvania; slightly smaller than South Carolina
+            <paragraph>about two-thirds the size of Pennsylvania; slightly smaller than South Carolina</paragraph>
+            <subfield name="Area comparison map">
+                <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/EZ_area.jpg?1548684078"/>
+            </subfield>
         </section>
         <section name="Land boundaries">
-            <subfield name="total" value="2,143" unit="km"/>
+            <subfield oneline="yes" name="total" value="2,143" unit="km"/>
             <list name="borders">
                 <item name="Austria" value="402" unit="km"/>
                 <item name="Germany" value="704" unit="km"/>
@@ -38,36 +44,37 @@
             <data value="None" year="landlocked"/>
         </section>
         <section name="Climate">
-            <weather>temperate</weather>
-            <weather>cool summers</weather>
-            <weather>cold, cloudy, humid winters</weather>
+            <paragraph>temperate; cool summers; cold, cloudy, humid winters</paragraph>
         </section>
         <section name="Terrain">
-            <data>Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains</data>
-            <data>Moravia in the east consists of very hilly country</data>
+            <paragraph>Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country</paragraph>
         </section>
         <section name="Elevation">
-            <subfield name="mean elevation" value="433" unit="m"/>
-            <subfield name="lowest point" value="115" unit="m" year="Labe (Elbe) River"/>
-            <subfield name="highest point" value="1,602" unit="m" year="Snezka"/>
+            <subfield oneline="yes" name="mean elevation" value="433" unit="m"/>
+            <subfield oneline="yes" name="lowest point" value="115" unit="m" year="Labe (Elbe) River"/>
+            <subfield oneline="yes" name="highest point" value="1,602" unit="m" year="Snezka"/>
         </section>
         <section name="Natural resources">
-            <resource name="hard coal"/>
-            <resource name="soft coal"/>
-            <resource name="kaolin"/>
-            <resource name="clay"/>
-            <resource name="graphite"/>
-            <resource name="timber"/>
-            <resource name="arable land"/>
+            <list>
+                <item name="hard coal"/>
+                <item name="soft coal"/>
+                <item name="kaolin"/>
+                <item name="clay"/>
+                <item name="graphite"/>
+                <item name="timber"/>
+                <item name="arable land"/>
+            </list>
         </section>
         <section name="Land use">
-            <subfield name="agricultural land" value="54.8" unit="%" year="2011 est."/>
-            <subfield name="arable land" value="41" unit="%" year="2011 est.">
-                <land name="permanent crops" value="1" unit="%" year="2011 est."/>
-                <land name="permanent pasture" value="12.8" unit="%" year="2011 est."/>
+            <subfield oneline="yes" name="agricultural land" value="54.8" unit="%" year="2011 est."/>
+            <subfield oneline="yes" name="arable land" value="41" unit="%" year="2011 est.">
+                <list>
+                    <item name="permanent crops" value="1" unit="%" year="2011 est."/>
+                    <item name="permanent pasture" value="12.8" unit="%" year="2011 est."/>
+                </list>
             </subfield>
-            <subfield name="forest" value="34.4" unit="%" year="2011 est."/>
-            <subfield name="other" value="10.8" year="2011 est."/>
+            <subfield oneline="yes" name="forest" value="34.4" unit="%" year="2011 est."/>
+            <subfield oneline="yes" name="other" value="10.8" year="2011 est."/>
         </section>
         <section name="Irrigated land">
             <data value="320" unit="sq km" year="2012"/>
@@ -82,29 +89,29 @@
             air and water pollution in areas of northwest Bohemia and in northern Moravia around Ostrava present health risks; acid rain damaging forests; land pollution caused by industry, mining, and agriculture
         </section>
         <section name="Environment - international agreements">
-            <subfield name="party to">
-                <party name="Air Pollution"/>
-                <party name="Air Pollution-Nitrogen Oxides"/>
-                <party name="Air Pollution-Persistent Organic Pollutants"/>
-                <party name="Air Pollution-Sulfur 85"/>
-                <party name="Air Pollution-Sulfur 94"/>
-                <party name="Air Pollution-Volatile Organic Compounds"/>
-                <party name="Antarctic-Environmental Protocol"/>
-                <party name="Antarctic Treaty"/>
-                <party name="Biodiversity"/>
-                <party name="Climate Change"/>
-                <party name="Climate Change-Kyoto Protocol"/>
-                <party name="Desertification"/>
-                <party name="Endangered Species"/>
-                <party name="Environmental Modification"/>
-                <party name="Hazardous Wastes"/>
-                <party name="Law of the Sea"/>
-                <party name="Ozone Layer Protection"/>
-                <party name="Ship Pollution"/>
-                <party name="Wetlands"/>
-                <party name="Whaling"/>
-            </subfield>
-            <subfield name="singed, but not ratified" value="none of the selected agreements"/>
+            <list name="party to">
+                <item name="Air Pollution"/>
+                <item name="Air Pollution-Nitrogen Oxides"/>
+                <item name="Air Pollution-Persistent Organic Pollutants"/>
+                <item name="Air Pollution-Sulfur 85"/>
+                <item name="Air Pollution-Sulfur 94"/>
+                <item name="Air Pollution-Volatile Organic Compounds"/>
+                <item name="Antarctic-Environmental Protocol"/>
+                <item name="Antarctic Treaty"/>
+                <item name="Biodiversity"/>
+                <item name="Climate Change"/>
+                <item name="Climate Change-Kyoto Protocol"/>
+                <item name="Desertification"/>
+                <item name="Endangered Species"/>
+                <item name="Environmental Modification"/>
+                <item name="Hazardous Wastes"/>
+                <item name="Law of the Sea"/>
+                <item name="Ozone Layer Protection"/>
+                <item name="Ship Pollution"/>
+                <item name="Wetlands"/>
+                <item name="Whaling"/>
+            </list>
+            <subfield oneline="yes" name="singed, but not ratified" value="none of the selected agreements"/>
         </section>
         <section name="Geography - note">
             <subfield name="note 1">
@@ -118,82 +125,93 @@
     <chapter name="People and Society">
         <section name="Population">
             <data value="10,702,498" year="July 2020 est."/>
-            <subfield name="country comparison to the world" value="85"/>
+            <subfield oneline="yes" name="country comparison to the world" value="85"/>
         </section>
         <section name="Nationality">
-            <subfield name="noun">Czech(s)</subfield>
-            <subfield name="adjective">Czech</subfield>
+            <subfield oneline="yes" name="noun">Czech(s)</subfield>
+            <subfield oneline="yes" name="adjective">Czech</subfield>
         </section>
         <section name="Ethnic groups" year="2011 est.">
-            <ethnic name="Czech" value="64.3" unit="%"/>
-            <ethnic name="Moravian" value="5" unit="%"/>
-            <ethnic name="Slovak" value="1.4" unit="%"/>
-            <ethnic name="other" value="1.8" unit="%"/>
-            <ethnic name="unspecified" value="27.6" unit="%"/>
+            <list>
+                <item name="Czech" value="64.3" unit="%"/>
+                <item name="Moravian" value="5" unit="%"/>
+                <item name="Slovak" value="1.4" unit="%"/>
+                <item name="other" value="1.8" unit="%"/>
+                <item name="unspecified" value="27.6" unit="%"/>
+            </list>
         </section>
         <section name="Languages" year="2011 census">
-            <lang name="Czech" value="95.4" unit="%" year="official"/>
-            <lang name="Slovak" value="1.6" unit="%"/>
-            <lang name="other" value="3" unit="%"/>
+            <list>
+                <item name="Czech" value="95.4" unit="%" year="official"/>
+                <item name="Slovak" value="1.6" unit="%"/>
+                <item name="other" value="3" unit="%"/>
+            </list>
         </section>
         <section name="Religions" year="2011 est.">
-            <religion name="Roman Catholic" value="10.4" unit="%"/>
-            <religion name="Protestant" value="1.1" unit="%" year="includes Czech Brethren and Hussite"/>
-            <religion name="other and unspecified" value="54" unit="%"/>
-            <religion name="none" value="34.5" unit="%"/>
+            <list>
+                <item name="Roman Catholic" value="10.4" unit="%"/>
+                <item name="Protestant" value="1.1" unit="%" year="includes Czech Brethren and Hussite"/>
+                <item name="other and unspecified" value="54" unit="%"/>
+                <item name="none" value="34.5" unit="%"/>
+            </list>
         </section>
         <section name="Age structure" year="2020 est.">
-            <subfield name="0-14 years" value="15.17" unit="%">
-                <data name="male" value="834,447" unit="%"/>
-                <data name="female" value="789,328" unit="%"/>
-            </subfield>
-            <subfield name="15-24 years" value="9.2" unit="%">
-                <data name="male" value="508,329" unit="%"/>
-                <data name="female" value="475,846" unit="%"/>
-            </subfield>
-            <subfield name="25-54 years" value="43.29" unit="%">
-                <data name="male" value="2,382,899" unit="%"/>
-                <data name="female" value="2,249,774" unit="%"/>
-            </subfield>
-            <subfield name="55-64 years" value="12.12" unit="%">
+                <list name="0-14 years">
+                    <item name="total" value="15.17" unit="%"/>
+                    <item name="male" value="834,447" unit="%"/>
+                    <item name="female" value="789,328" unit="%"/>
+                </list>
+            <list name="15-24 years">
+                <item name="total" value="9.2" unit="%"/>
+                <item name="male" value="508,329" unit="%"/>
+                <item name="female" value="475,846" unit="%"/>
+            </list>
+            <list name="25-54 years">
+                <item name="total" value="43.29" unit="%"/>
+                <item name="male" value="2,382,899" unit="%"/>
+                <item name="female" value="2,249,774" unit="%"/>
+            </list>
+            <list name="55-64 years">
+                <item name="total" value="12.12" unit="%"/>
                 <data name="male" value="636,357" unit="%"/>
                 <data name="female" value="660,748" unit="%"/>
-            </subfield>
-            <subfield name="65 years and over" value="20.23" unit="%">
+            </list>
+            <list name="65 years and over">
+                <item name="total" value="20.23" unit="%"/>
                 <data name="male" value="907,255" unit="%"/>
                 <data name="female" value="1,257,515" unit="%"/>
-            </subfield>
+            </list>
             <subfield name="population pyramid">
                 <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/EZ_popgraph2020.JPG?1586200020s"/>
             </subfield>
         </section>
         <section name="Dependency ratios" year="2020 est.">
-            <subfield name="total dependency ratio" value="56"/>
-            <subfield name="youth dependency ratio" value="24.6"/>
-            <subfield name="elderly dependency ratio" value="31.4"/>
-            <subfield name="potential support ratio" value="3.2"/>
+            <subfield oneline="yes" name="total dependency ratio" value="56"/>
+            <subfield oneline="yes" name="youth dependency ratio" value="24.6"/>
+            <subfield oneline="yes" name="elderly dependency ratio" value="31.4"/>
+            <subfield oneline="yes" name="potential support ratio" value="3.2"/>
         </section>
         <section name="Median age">
-            <subfield name="total" value="43.3" unit="years"/>
-            <subfield name="male" value="42" unit="years"/>
-            <subfield name="female" value="44.7" unit="years"/>
-            <subfield name="country comparison to the world" value="28"/>
+            <subfield oneline="yes" name="total" value="43.3" unit="years"/>
+            <subfield oneline="yes" name="male" value="42" unit="years"/>
+            <subfield oneline="yes" name="female" value="44.7" unit="years"/>
+            <subfield oneline="yes" name="country comparison to the world" value="28"/>
         </section>
         <section name="Population growth rate">
             <data value="0.06" unit="%" year="2020 est."/>
-            <subfield name="country comparison to the world" value="188"/>
+            <subfield oneline="yes" name="country comparison to the world" value="188"/>
         </section>
         <section name="Birth rate">
             <data value="8.9" unit="births/1,000 population" year="2020 est."/>
-            <subfield name="country comparison to the world" value="205"/>
+            <subfield oneline="yes" name="country comparison to the world" value="205"/>
         </section>
         <section name="Death rate">
             <data value="10.7" unit="deaths/1,000 population" year="2020 est."/>
-            <subfield name="country comparison to the world" value="26"/>
+            <subfield oneline="yes" name="country comparison to the world" value="26"/>
         </section>
         <section name="Net migration rate">
             <data value="2.3" unit="migrant(s)/1,000 population" year="2020 est."/>
-            <subfield name="country comparison to the world" value="43"/>
+            <subfield oneline="yes" name="country comparison to the world" value="43"/>
         </section>
         <section name="Population distribution">
             a fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations
@@ -202,55 +220,55 @@
             <subfield name="urban population" value="74.1" unit="% of total population" year="2020"/>
             <subfield name="rate of urbanization" value="0.21" unit="% annual rate of change" year="2015-2020 est."/>
             <subfield name="total population growth rate v. urban population growth rate, 2000-2030">
-                <pdf src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_EZ.pdf?1602789182"/>
+                <pdf name="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_EZ.pdf?1602789182"/>
             </subfield>
         </section>
         <section name="Major urban areas - population">
             <data name="Prague" value="1.306" year="capital" year2="2020"/>
         </section>
         <section name="Sex ratio" year="2020 est.">
-            <subfield name="at birth" value="1.05" unit="male(s)/female"/>
-            <subfield name="0-14 years" value="1.06" unit="male(s)/female"/>
-            <subfield name="15-24 years" value="1.07" unit="male(s)/female"/>
-            <subfield name="25-54 years" value="1.06" unit="male(s)/female"/>
-            <subfield name="55-64 years" value="0.96" unit="male(s)/female"/>
-            <subfield name="65 years and over" value="0.72" unit="male(s)/female"/>
-            <subfield name="total population" value="0.97" unit="male(s)/female"/>
+            <subfield oneline="yes" name="at birth" value="1.05" unit="male(s)/female"/>
+            <subfield oneline="yes" name="0-14 years" value="1.06" unit="male(s)/female"/>
+            <subfield oneline="yes" name="15-24 years" value="1.07" unit="male(s)/female"/>
+            <subfield oneline="yes" name="25-54 years" value="1.06" unit="male(s)/female"/>
+            <subfield oneline="yes" name="55-64 years" value="0.96" unit="male(s)/female"/>
+            <subfield oneline="yes" name="65 years and over" value="0.72" unit="male(s)/female"/>
+            <subfield oneline="yes" name="total population" value="0.97" unit="male(s)/female"/>
         </section>
         <section name="Mother's mean age at first birth">
             <data value="28.4" unit="years" year="2018 est."/>
         </section>
         <section name="Maternal mortality rate">
             <data value="3" unit="deaths/100,000 live births" year="2017 est."/>
-            <subfield name="country comparison to the world" value="176"/>
+            <subfield oneline="yes" name="country comparison to the world" value="176"/>
         </section>
         <section name="Infant mortality rate">
-            <subfield name="total" value="2.6" unit="deaths/1,000 live births"/>
-            <subfield name="male" value="2.8" unit="deaths/1,000 live births"/>
-            <subfield name="female" value="2.5" unit="deaths/1,000 live births"/>
-            <subfield name="country comparison to the world" value="218"/>
+            <subfield oneline="yes" name="total" value="2.6" unit="deaths/1,000 live births"/>
+            <subfield oneline="yes" name="male" value="2.8" unit="deaths/1,000 live births"/>
+            <subfield oneline="yes" name="female" value="2.5" unit="deaths/1,000 live births"/>
+            <subfield oneline="yes" name="country comparison to the world" value="218"/>
         </section>
         <section name="Life expectancy at birth">
-            <subfield name="total population" value="79.3" unit="years"/>
-            <subfield name="male" value="76.3" unit="years"/>
-            <subfield name="female" value="82.4" unit="years"/>
-            <subfield name="country comparison to the world" value="56"/>
+            <subfield oneline="yes" name="total population" value="79.3" unit="years"/>
+            <subfield oneline="yes" name="male" value="76.3" unit="years"/>
+            <subfield oneline="yes" name="female" value="82.4" unit="years"/>
+            <subfield oneline="yes" name="country comparison to the world" value="56"/>
         </section>
         <section name="Total fertility rate">
             <data value="1.48" unit="children born/woman" year="2020 est."/>
-            <subfield name="country comparison to the world" value="207"/>
+            <subfield oneline="yes" name="country comparison to the world" value="207"/>
         </section>
         <section name="Drinking water source" year="2017 est.">
-            <subfield name="improved">
-                <data name="urban" value="100" unit="% of population"/>
-                <data name="rural" value="100" unit="% of population"/>
-                <data name="total" value="100" unit="% of population"/>
-            </subfield>
-            <subfield name="unimproved">
-                <data name="urban" value="0" unit="% of population"/>
-                <data name="rural" value="0" unit="% of population"/>
-                <data name="total" value="0" unit="% of population"/>
-            </subfield>
+            <list name="improved">
+                <item name="urban" value="100" unit="% of population"/>
+                <item name="rural" value="100" unit="% of population"/>
+                <item name="total" value="100" unit="% of population"/>
+            </list>
+            <list name="unimproved">
+                <item name="urban" value="0" unit="% of population"/>
+                <item name="rural" value="0" unit="% of population"/>
+                <item name="total" value="0" unit="% of population"/>
+            </list>
         </section>
         <section name="Current Health Expenditure">
             <data value="7.2" unit="%" year="2017"/>
@@ -262,60 +280,60 @@
             <data value="6.6" unit="beds/1,000 population" year="2017"/>
         </section>
         <section name="Sanitation facility access" year="2017">
-            <subfield name="improved">
-                <data name="urban" value="100" unit="% of population"/>
-                <data name="rural" value="100" unit="% of population"/>
-                <data name="total" value="100" unit="% of population"/>
-            </subfield>
-            <subfield name="unimproved">
-                <data name="urban" value="0" unit="% of population"/>
-                <data name="rural" value="0" unit="% of population"/>
-                <data name="total" value="0" unit="% of population"/>
-            </subfield>
+            <list name="improved">
+                <item name="urban" value="100" unit="% of population"/>
+                <item name="rural" value="100" unit="% of population"/>
+                <item name="total" value="100" unit="% of population"/>
+            </list>
+            <list name="unimproved">
+                <item name="urban" value="0" unit="% of population"/>
+                <item name="rural" value="0" unit="% of population"/>
+                <item name="total" value="0" unit="% of population"/>
+            </list>
         </section>
         <section name="HIV/AIDS - adult prevalence rate">
             <data value="&lt;1" unit="%" year="2018 est."/>
         </section>
         <section name="HIV/AIDS - people living with HIV/AIDS">
             <data value="4,400" year="2018 est."/>
-            <subfield name="country comparison to the world" value="122"/>
+            <subfield oneline="yes" name="country comparison to the world" value="122"/>
         </section>
         <section name="HIV/AIDS - deaths">
             <data value="&lt;100" year="2018 est."/>
         </section>
         <section name="Obesity - adult prevalence rate">
             <data value="26" year="2016"/>
-            <subfield name="country comparison to the world" value="46"/>
+            <subfield oneline="yes" name="country comparison to the world" value="46"/>
         </section>
         <section name="Education expenditures">
             <data value="5.6" unit="% of GDP" year="2016"/>
-            <subfield name="country comparison to the world" value="36"/>
+            <subfield oneline="yes" name="country comparison to the world" value="36"/>
         </section>
         <section name="Literacy" year="2011">
-            <subfield name="definition" value="NA"/>
-            <subfield name="total population" value="99" unit="%"/>
-            <subfield name="male" value="99" unit="%"/>
-            <subfield name="female" value="99" unit="%"/>
+            <subfield oneline="yes" name="definition" value="NA"/>
+            <subfield oneline="yes" name="total population" value="99" unit="%"/>
+            <subfield oneline="yes" name="male" value="99" unit="%"/>
+            <subfield oneline="yes" name="female" value="99" unit="%"/>
         </section>
         <section name="School life expectancy (primary to tertiary education)" year="2018">
-            <subfield name="total" value="16" unit="years"/>
-            <subfield name="male" value="16" unit="years"/>
-            <subfield name="male" value="17" unit="years"/>
+            <subfield oneline="yes" name="total" value="16" unit="years"/>
+            <subfield oneline="yes" name="male" value="16" unit="years"/>
+            <subfield oneline="yes" name="male" value="17" unit="years"/>
         </section>
         <section name="Unemployment, youth ages 15-24" year="2018">
-            <subfield name="total" value="6.7" unit="%"/>
-            <subfield name="male" value="6.4" unit="%"/>
-            <subfield name="female" value="7.2" unit="%"/>
-            <subfield name="country comparison to the world" value="155"/>
+            <subfield oneline="yes" name="total" value="6.7" unit="%"/>
+            <subfield oneline="yes" name="male" value="6.4" unit="%"/>
+            <subfield oneline="yes" name="female" value="7.2" unit="%"/>
+            <subfield oneline="yes" name="country comparison to the world" value="155"/>
         </section>
     </chapter>
     <chapter name="Government">
         <section name="Country name">
-            <subfield name="conventional long form" value="Czech Republic"/>
-            <subfield name="conventional short form" value="Czechia"/>
-            <subfield name="local long form" value="Ceska republika"/>
-            <subfield name="local short form" value="Cesko"/>
-            <subfield name="etymology">
+            <subfield oneline="yes" name="conventional long form" value="Czech Republic"/>
+            <subfield oneline="yes" name="conventional short form" value="Czechia"/>
+            <subfield oneline="yes" name="local long form" value="Ceska republika"/>
+            <subfield oneline="yes" name="local short form" value="Cesko"/>
+            <subfield oneline="yes" name="etymology">
                 name derives from the Czechs, a West Slavic tribe who rose to prominence in the late 9th century A.D.
             </subfield>
         </section>
@@ -323,7 +341,7 @@
             parliamentary republic
         </section>
         <section name="Capital">
-            <subfield name="name" value="Prague"/>
+            <subfield oneline="yes" name="name" value="Prague"/>
             <subfield name="geographical coordinates">
                 <data value="50 05 N"/>
                 <data value="14 28 E"/>
@@ -946,4 +964,4 @@
             transshipment point for Southwest Asian heroin and minor transit point for Latin American cocaine to Western Europe; producer of synthetic drugs for local and regional markets; susceptible to money laundering related to drug trafficking, organized crime; significant consumer of ecstasy
         </section>
     </chapter>
-</state>
+</country>

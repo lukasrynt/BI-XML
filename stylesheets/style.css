@@ -19,7 +19,7 @@ h1{
 h2{
     margin-top: 0;
     margin-bottom: 1px;
-    color: #F95700FF;
+    color: #0091ff;
     text-align: left;
     font-size: 1.5em;
 }
@@ -93,4 +93,8 @@ p{
 
 ul {
     margin: 0;
+}
+
+p {
+    padding-bottom: 2px;
 }
