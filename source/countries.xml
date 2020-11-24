@@ -424,21 +424,25 @@
             </section>
             <section name="Legislative branch">
                 <subfield name="year">
-                    <data>bicameral Parliament or Parlament consists of:</data>
-                    <data>Senate or Senat (81 seats; members directly elected in single-seat constituencies by absolute majority vote in 2 rounds if needed; members serve 6-year terms with one-third of the membership renewed every 2 years)</data>
-                    <data>Chamber of Deputies or Poslanecka Snemovna (200 seats; members directly elected in 14 multi-seat constituencies by proportional representation vote with a 5% threshold required to fill a seat; members serve 4-year terms)</data>
+                    <paragraph>
+                        bicameral Parliament or Parlament consists of:
+                        Senate or Senat (81 seats; members directly elected in single-seat constituencies by absolute majority vote in 2 rounds if needed; members serve 6-year terms with one-third of the membership renewed every 2 years)
+                        Chamber of Deputies or Poslanecka Snemovna (200 seats; members directly elected in 14 multi-seat constituencies by proportional representation vote with a 5% threshold required to fill a seat; members serve 4-year terms)
+                    </paragraph>
                 </subfield>
                 <subfield name="elections">
-                    <data>Senate - last held in 2 rounds on 2-3 and 9-10 October 2020 (next to be held in October 2022)</data>
-                    <data>Chamber of Deputies - last held on 20-21 October 2017 (next to be held by October 2021)</data>
+                    <paragraph>
+                        Senate - last held in 2 rounds on 2-3 and 9-10 October 2020 (next to be held in October 2022)
+                        Chamber of Deputies - last held on 20-21 October 2017 (next to be held by October 2021)
+                    </paragraph>
                 </subfield>
                 <subfield name="election results">
-                    <data>
+                    <paragraph>
                         Senate - percent of vote by party - NA; seats by party - STAN 19, ODS 18, KDU-CSL 12, ANO 5, TOP 09 5, CSSD 3, SEN 21 3, Pirates 2, SZ 1, minor parties with one seat each 9, independents 4
-                    </data>
-                    <data>
+                    </paragraph>
+                    <paragraph>
                         Chamber of Deputies - percent of vote by party - ANO 29.6%, ODS 11.3%, Pirates 10.8%, SPD 10.6%, KSCM 7.8%, CSSD 7.3%, KDU-CSL 5.8%, TOP 09 5.3%, STAN 5.2%, other 6.3%; seats by party - ANO 78, ODS 25, Pirates 22, SPD 22, CSSD 15, KSCM 15, KDU-CSL 10, TOP 09 7, STAN 6; composition - men 155, women 45, percent of women 24%; note - total Parliament percent of women 20.6%
-                    </data>
+                    </paragraph>
                 </subfield>
             </section>
             <section name="Judicial branch">
@@ -446,25 +450,26 @@
                     Supreme Court (organized into Civil Law and Commercial Division, and Criminal Division each with a court chief justice, vice justice, and several judges); Constitutional Court (consists of 15 justices); Supreme Administrative Court (consists of 36 judges, including the court president and vice president, and organized into 6-, 7-, and 9-member chambers)
                 </subfield>
                 <subfield name="judge selection and term of office">
-                    Supreme Court judges proposed by the Chamber of Deputies and appointed by the president; judges appointed for life; Constitutional Court judges appointed by the president and confirmed by the Senate; judges appointed for 10-year, renewable terms; Supreme Administrative Court judges selected by the president of the Court; unlimited terms
+                        Supreme Court judges proposed by the Chamber of Deputies and appointed by the president; judges appointed for life; Constitutional Court judges appointed by the president and confirmed by the Senate; judges appointed for 10-year, renewable terms; Supreme Administrative Court judges selected by the president of the Court; unlimited terms
                 </subfield>
                 <subfield name="subordinate courts">
-                    <data>High Court</data>
-                    <data>regional and district courts</data>
+                    High Court; regional and district courts
                 </subfield>
             </section>
             <section name="Political parties and leaders">
-                <party name="Christian Democratic Union-Czechoslovak People's Party" short="KDU-CSL" representative="Pavel BELOBRADEK"/>
-                <party name="Civic Democratic Party" short="ODS" representative="Petr FIALA"/>
-                <party name="Communist Party of Bohemia and Moravia" short="KSCM" representative="Vojtech FILIP"/>
-                <party name="Czech Social Democratic Party" short="CSSD" representative="Jan HAMACEK"/>
-                <party name="Freedom and Direct Democracy" short="SPD" representative="Tomio OKAMURA"/>
-                <party name="Green Party" short="SZ" representative="Petr STEPANEK"/>
-                <party name="Mayors and Independents" short="STAN" representative="Petr GAZDIK"/>
-                <party name="Movement of Dissatisfied Citizens" short="ANO" representative="Andrej BABIS"/>
-                <party name="Party of Civic Rights" short="SPO" representative="Lubomir NECAS"/>
-                <party name="Pirate Party" short="Pirates" representative="Ivan BARTOS"/>
-                <party name="Tradition Responsibility Prosperity 09" short="TOP 09" representative="Jiri POSPISIL"/>
+                <list>
+                    <item name="Christian Democratic Union-Czechoslovak People's Party" description="KDU-CSL" description2="Pavel BELOBRADEK"/>
+                    <item name="Civic Democratic Party" description="ODS" description2="Petr FIALA"/>
+                    <item name="Communist Party of Bohemia and Moravia" description="KSCM" description2="Vojtech FILIP"/>
+                    <item name="Czech Social Democratic Party" description="CSSD" description2="Jan HAMACEK"/>
+                    <item name="Freedom and Direct Democracy" description="SPD" description2="Tomio OKAMURA"/>
+                    <item name="Green Party" description="SZ" description2="Petr STEPANEK"/>
+                    <item name="Mayors and Independents" description="STAN" description2="Petr GAZDIK"/>
+                    <item name="Movement of Dissatisfied Citizens" description="ANO" description2="Andrej BABIS"/>
+                    <item name="Party of Civic Rights" description="SPO" description2="Lubomir NECAS"/>
+                    <item name="Pirate Party" description="Pirates" description2="Ivan BARTOS"/>
+                    <item name="Tradition Responsibility Prosperity 09" description="TOP 09" description2="Jiri POSPISIL"/>
+                </list>
             </section>
             <section name="International organization participation">
                 <organization value="Australia Group"/>

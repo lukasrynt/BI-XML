@@ -1,11 +1,21 @@
 BUILD_DIR := build
 SOURCE_DIR := source
 
-.PHONY: czechia
-czechia: Czechia.html
-Czechia.html: $(SOURCE_DIR)/Czechia.xml $(SOURCE_DIR)/Czechia.xslt
+.PHONY: all
+all: index.html
+index.html: $(SOURCE_DIR)/countries.xml $(SOURCE_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
 	java -jar saxon.jar $^ > $(BUILD_DIR)/$@;
+
+.PHONY: czechia
+czechia: $(SOURCE_DIR)/Czechia.xml $(SOURCE_DIR)/countries.xslt
+	@mkdir -p $(BUILD_DIR);
+	java -jar saxon.jar $^;
+
+.PHONY: cote
+cote: $(SOURCE_DIR)/countries.xml $(SOURCE_DIR)/countries.xslt
+	@mkdir -p $(BUILD_DIR);
+	java -jar saxon.jar $^;
 
 
 .PHONY: clean

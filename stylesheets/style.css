@@ -4,7 +4,39 @@ body {
     padding: 0;
 }
 
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-wrap {
+    flex: 1;
+    margin: 10px;
+}
+
+div > img {
+    max-width: 50%;
+}
+
+header{
+    background-color: #00A4CCFF;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+
 h1{
+    font-size: 4em;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2{
     background-color: #00A4CCFF;
     text-align: center;
     color: aliceblue;
@@ -16,7 +48,7 @@ h1{
     margin: 2px;
 }
 
-h2{
+h3{
     margin-top: 0;
     margin-bottom: 1px;
     color: #0091ff;
