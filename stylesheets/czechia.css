@@ -1,0 +1,37 @@
+.czechia{
+    background: url('blue.png');
+}
+
+.czechia header{
+    background-color: #00A4CCFF;
+}
+
+.czechia h2{
+    background-color: #00A4CCFF;
+    color: aliceblue;
+}
+
+.czechia h3{
+    color: #0091ff;
+}
+
+.czechia .nav_item{
+    background-color: #b4e7ff;
+    color: #0091ff;
+}
+
+.czechia .nav_item:hover{
+    background-color: aliceblue;
+}
+
+.czechia .collapsible {
+    background-color: #b4e7ff;
+}
+
+.czechia .collapsible:hover {
+    background-color: aliceblue;
+}
+
+.czechia .content {
+    background-color: aliceblue;
+}

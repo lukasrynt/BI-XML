@@ -3,43 +3,42 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:my="cz/cvut/fit/ryntluka/my">
     <xsl:output method="html" indent="yes"/>
 
-    <xsl:template match="/">
-        <xsl:for-each select="/country">
-            <xsl:result-document method="html" href="build/{@name}.html">
+    <xsl:function name="my:country_short">
+        <xsl:param name="name"/>
+        <xsl:value-of select="tokenize(lower-case($name), ' ')[1]"/>
+    </xsl:function>
+
+    <xsl:template match="/countries">
+        <xsl:for-each select="country">
+            <xsl:result-document method="html" indent="yes" href="build/{my:country_short(@name)}.html">
                 <xsl:apply-templates select="."/>
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
 
 
-    <xsl:template match="/country">
+    <xsl:template match="country">
         <html lang="en">
             <head>
                 <title><xsl:value-of select="@name"/></title>
-                <link rel="stylesheet" href="../stylesheets/style.css"/>
+                <link rel="stylesheet" href="../stylesheets/main.css"/>
+                <xsl:apply-templates mode="styles" select="//country"/>
                 <script src="../js/script.js"/>
             </head>
             <body>
-                <nav>
-                </nav>
+                <xsl:attribute name="class" select="my:country_short(@name)"/>
                 <div class="column_articles">
-                    <div class="divider"/>
+                    <div class="divider">
+                        <nav>
+                            <xsl:apply-templates mode="nav" select="//country"/>
+                        </nav>
+                    </div>
                     <section>
                         <header>
                             <h1><xsl:value-of select="@name"/></h1>
-                            <div class="intro">
-                                <xsl:for-each select="//intro/img">
-                                    <div class="img-wrap">
-                                        <xsl:apply-templates select="."/>
-                                    </div>
-                                </xsl:for-each>
-                            </div>
+                            <xsl:apply-templates select="intro"/>
                         </header>
-                        <xsl:for-each select="chapter">
-                            <article class="chapter">
-                                <xsl:apply-templates/>
-                            </article>
-                        </xsl:for-each>
+                        <xsl:apply-templates select="chapter"/>
                     </section>
                     <div class="divider"/>
                 </div>
@@ -48,27 +47,47 @@
         </html>
     </xsl:template>
 
-<!--    <xsl:template match="//intro">-->
-<!--        <div class="intro">-->
-<!--            <div class="img-wrap">-->
-<!--                <xsl:apply-templates select="img"/>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </xsl:template>-->
-
-    <xsl:template match="/country/chapter">
-        <h2><xsl:value-of select="@name"/></h2>
-        <xsl:apply-templates select="section"/>
+    <xsl:template mode="styles" match="//country">
+        <xsl:element name="link">
+            <xsl:attribute name="rel" select="'stylesheet'"/>
+            <xsl:attribute name="href" select="concat('../stylesheets/', my:country_short(@name),'.css')"/>
+        </xsl:element>
     </xsl:template>
 
-    <xsl:template match="/country/chapter/section">
+    <xsl:template mode="nav" match="//country">
+        <a class="nav_item">
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat(my:country_short(@name),'.html')"/>
+            </xsl:attribute>
+            <xsl:value-of select="@name"/>
+        </a>
+    </xsl:template>
+
+    <xsl:template match="intro">
+        <div class="intro">
+            <xsl:for-each select="img">
+                <div class="img-wrap">
+                    <xsl:apply-templates select="."/>
+                </div>
+            </xsl:for-each>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="country/chapter">
+        <article class="chapter">
+            <h2><xsl:value-of select="@name"/></h2>
+            <xsl:apply-templates select="section"/>
+        </article>
+    </xsl:template>
+
+    <xsl:template match="country/chapter/section">
         <article class="section">
             <div class="collapsible">
                 <h3><xsl:value-of select="@name"/></h3>
             </div>
             <div class="content">
-                <!-- Iterate over all children and then add attributes -->
-                <xsl:apply-templates/>
+                <xsl:value-of select="text()"/>
+                <xsl:apply-templates select="*"/>
                 <xsl:apply-templates select="@*[name() != 'name']"/>
             </div>
         </article>

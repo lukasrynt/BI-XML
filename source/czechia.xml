@@ -13,14 +13,12 @@
     </chapter>
     <chapter name="Geography">
         <section name="Location">
-                Central Europe, between Germany, Poland, Slovakia, and Austria
+            Central Europe, between Germany, Poland, Slovakia, and Austria
         </section>
         <section name="Geographic coordinates">
-            <paragraph>
-                49 45 N, 15 30 E
-            </paragraph>
+            49 45 N, 15 30 E
         </section>
-        <section name="Map references">Europe</section>
+        <section name="Map references" value="Europe"/>
         <section name="Area">
             <subfield oneline="yes" name="total" value="78,867" unit="sq km"/>
             <subfield oneline="yes" name="land" value="77,247" unit="sq km"/>
@@ -43,10 +41,10 @@
             </list>
         </section>
         <section name="Coastline">
-            <data value="0" unit="km" year="landlocked"/>
+            <data value="0" unit="km" description="landlocked"/>
         </section>
         <section name="Maritime claims">
-            <data value="None" year="landlocked"/>
+            <data value="None" description="landlocked"/>
         </section>
         <section name="Climate">
             <paragraph>temperate; cool summers; cold, cloudy, humid winters</paragraph>
@@ -147,7 +145,7 @@
         </section>
         <section name="Languages" year="2011 census">
             <list>
-                <item name="Czech" value="95.4" unit="%" year="official"/>
+                <item name="Czech" value="95.4" unit="%" description="official"/>
                 <item name="Slovak" value="1.6" unit="%"/>
                 <item name="other" value="3" unit="%"/>
             </list>
@@ -155,7 +153,7 @@
         <section name="Religions" year="2011 est.">
             <list>
                 <item name="Roman Catholic" value="10.4" unit="%"/>
-                <item name="Protestant" value="1.1" unit="%" year="includes Czech Brethren and Hussite"/>
+                <item name="Protestant" value="1.1" unit="%" description="includes Czech Brethren and Hussite"/>
                 <item name="other and unspecified" value="54" unit="%"/>
                 <item name="none" value="34.5" unit="%"/>
             </list>
@@ -229,7 +227,7 @@
             </subfield>
         </section>
         <section name="Major urban areas - population">
-            <data name="Prague" value="1.306" year="capital" year2="2020"/>
+            <data name="Prague" value="1.306" description="capital" year="2020"/>
         </section>
         <section name="Sex ratio" year="2020 est.">
             <subfield oneline="yes" name="at birth" value="1.05" unit="male(s)/female"/>
@@ -307,29 +305,29 @@
             <data value="&lt;100" year="2018 est."/>
         </section>
         <section name="Obesity - adult prevalence rate">
-            <data value="26" year="2016"/>
+            <data value="26" unit="%" year="2016"/>
             <subfield oneline="yes" name="country comparison to the world" value="46"/>
         </section>
         <section name="Education expenditures">
             <data value="5.6" unit="% of GDP" year="2016"/>
             <subfield oneline="yes" name="country comparison to the world" value="36"/>
         </section>
-        <section name="Literacy" year="2011">
-            <subfield oneline="yes" name="definition" value="NA"/>
-            <subfield oneline="yes" name="total population" value="99" unit="%"/>
-            <subfield oneline="yes" name="male" value="99" unit="%"/>
-            <subfield oneline="yes" name="female" value="99" unit="%"/>
+        <section name="Literacy" year="2018">
+            <subfield oneline="yes" name="definition" value="age 15 and over can read and write"/>
+            <subfield oneline="yes" name="total population" value="47.2" unit="%"/>
+            <subfield oneline="yes" name="male" value="53.7" unit="%"/>
+            <subfield oneline="yes" name="female" value="40.5" unit="%"/>
         </section>
         <section name="School life expectancy (primary to tertiary education)" year="2018">
-            <subfield oneline="yes" name="total" value="16" unit="years"/>
-            <subfield oneline="yes" name="male" value="16" unit="years"/>
-            <subfield oneline="yes" name="male" value="17" unit="years"/>
+            <subfield oneline="yes" name="total" value="11" unit="years"/>
+            <subfield oneline="yes" name="male" value="10" unit="years"/>
+            <subfield oneline="yes" name="male" value="9" unit="years"/>
         </section>
         <section name="Unemployment, youth ages 15-24" year="2018">
-            <subfield oneline="yes" name="total" value="6.7" unit="%"/>
-            <subfield oneline="yes" name="male" value="6.4" unit="%"/>
-            <subfield oneline="yes" name="female" value="7.2" unit="%"/>
-            <subfield oneline="yes" name="country comparison to the world" value="155"/>
+            <subfield oneline="yes" name="total" value="5.5" unit="%"/>
+            <subfield oneline="yes" name="male" value="4.7" unit="%"/>
+            <subfield oneline="yes" name="female" value="6.5" unit="%"/>
+            <subfield oneline="yes" name="country comparison to the world" value="163"/>
         </section>
     </chapter>
     <chapter name="Government">
@@ -382,7 +380,7 @@
             1 January 1993 (Czechoslovakia split into the Czech Republic and Slovakia); note - although 1 January is the day the Czech Republic came into being, the Czechs commemorate 28 October 1918, the day the former Czechoslovakia declared its independence from the Austro-Hungarian Empire, as their independence day
         </section>
         <section name="National holiday">
-            <data value="Czechoslovak Founding Day" date="28 October (1918)"/>
+            <data value="Czechoslovak Founding Day" description="28 October (1918)"/>
         </section>
         <section name="Constitution">
             <subfield name="history">
@@ -409,12 +407,12 @@
         </section>
         <section name="Executive branch">
             <subfield name="chief of state">
-                <data name="President" value="Milos ZEMAN" year="since 8 March 2013"/>
+                <data value="President Milos ZEMAN" year="since 8 March 2013"/>
             </subfield>
             <subfield name="head of government">
-                <data name="Prime minister" value="Andrej BABIS" year="since 13 December 2017"/>
-                <data name="First Deputy Prime minister" value="Jan HAMACEK" year="since 27 June 2018"/>
-                <data name="Deputy Prime Minister" value="Alena SCHILLEROVA" year="since 30 April 2019"/>
+                <data value="Prime minister Andrej BABIS" year="since 13 December 2017"/>
+                <data value="First Deputy Prime minister Jan HAMACEK" year="since 27 June 2018"/>
+                <data value="Deputy Prime Minister Alena SCHILLEROVA" year="since 30 April 2019"/>
             </subfield>
             <subfield name="cabinet">
                 Cabinet appointed by the president on the recommendation of the prime minister
@@ -466,17 +464,17 @@
         </section>
         <section name="Political parties and leaders">
             <list>
-                <item name="Christian Democratic Union-Czechoslovak People's Party" value="KDU-CSL" description2="Pavel BELOBRADEK"/>
-                <item name="Civic Democratic Party" value="ODS" description2="Petr FIALA"/>
-                <item name="Communist Party of Bohemia and Moravia" value="KSCM" description2="Vojtech FILIP"/>
-                <item name="Czech Social Democratic Party" value="CSSD" description2="Jan HAMACEK"/>
-                <item name="Freedom and Direct Democracy" value="SPD" description2="Tomio OKAMURA"/>
-                <item name="Green Party" value="SZ" description2="Petr STEPANEK"/>
-                <item name="Mayors and Independents" value="STAN" description2="Petr GAZDIK"/>
-                <item name="Movement of Dissatisfied Citizens" value="ANO" description2="Andrej BABIS"/>
-                <item name="Party of Civic Rights" value="SPO" description2="Lubomir NECAS"/>
-                <item name="Pirate Party" value="Pirates" description2="Ivan BARTOS"/>
-                <item name="Tradition Responsibility Prosperity 09" value="TOP 09" description2="Jiri POSPISIL"/>
+                <item name="Christian Democratic Union-Czechoslovak People's Party" value="KDU-CSL" description="Pavel BELOBRADEK"/>
+                <item name="Civic Democratic Party" value="ODS" description="Petr FIALA"/>
+                <item name="Communist Party of Bohemia and Moravia" value="KSCM" description="Vojtech FILIP"/>
+                <item name="Czech Social Democratic Party" value="CSSD" description="Jan HAMACEK"/>
+                <item name="Freedom and Direct Democracy" value="SPD" description="Tomio OKAMURA"/>
+                <item name="Green Party" value="SZ" description="Petr STEPANEK"/>
+                <item name="Mayors and Independents" value="STAN" description="Petr GAZDIK"/>
+                <item name="Movement of Dissatisfied Citizens" value="ANO" description="Andrej BABIS"/>
+                <item name="Party of Civic Rights" value="SPO" description="Lubomir NECAS"/>
+                <item name="Pirate Party" value="Pirates" description="Ivan BARTOS"/>
+                <item name="Tradition Responsibility Prosperity 09" value="TOP 09" description="Jiri POSPISIL"/>
             </list>
         </section>
         <section name="International organization participation">
@@ -500,9 +498,9 @@
                 <item value="IBRD"/>
                 <item value="ICAO"/>
                 <item description="national committees" value="ICC"/>
-                <item value="ICCt"/>>
-                <item value="ICRM"/>>
-                <item value="IDA"/>>
+                <item value="ICCt"/>
+                <item value="ICRM"/>
+                <item value="IDA"/>
                 <item value="IEA"/>
                 <item value="IFC"/>
                 <item value="IFRCS"/>
@@ -549,7 +547,7 @@
         </section>
         <section name="Diplomatic representation in the US">
             <subfield name="chief of mission">
-                <data name="Ambassador" value="Hynek KMONICEK" year="since 24 April 2017"/>
+                <data value="Ambassador Hynek KMONICEK" year="since 24 April 2017"/>
             </subfield>
             <subfield name="chancery" value="3900 Spring of Freedom Street NW, Washington, DC 20008"/>
             <subfield name="telephone" value="[1] (202) 274-9100"/>
@@ -558,14 +556,14 @@
         </section>
         <section name="Diplomatic representation from the US">
             <subfield name="chief of mission">
-                <data name="Ambassador" value="Stephen B. KING" year="since 6 December 2017"/>
+                <data value="Ambassador Stephen B. KING" year="since 6 December 2017"/>
             </subfield>
             <subfield name="telephone" value="[420] 257 022 000"/>
             <subfield name="embassy" value="Trziste 15, 118 01 Prague 1 - Mala Strana"/>
             <subfield name="mailing address" value="use embassy street address"/>
             <subfield name="FAX" value="[420] 257 022 809"/>
         </section>
-        <section name="Flag year">
+        <section name="Flag description">
             two equal horizontal bands of white (top) and red with a blue isosceles triangle based on the hoist side
             <subfield name="note">
                 combines the white and red colors of Bohemia with blue from the arms of Moravia; is identical to the flag of the former Czechoslovakia
@@ -575,7 +573,7 @@
             silver (or white), double-tailed, rampant lion; national colors: white, red, blue
         </section>
         <section name="National anthem">
-            <subfield name="name" value="Kde domov muj?" year="Where is My Home?"/>
+            <subfield name="name" value="Kde domov muj?" description="Where is My Home?"/>
             <subfield name="lyrics/music" value="Josef Kajetan TYL/Frantisek Jan SKROUP"/>
             <subfield name="note">
                 adopted 1993; the anthem was originally written as incidental music to the play "Fidlovacka" (1834), it soon became very popular as an unofficial anthem of the Czech nation; its first verse served as the official Czechoslovak anthem beginning in 1918, while the second verse (Slovak) was dropped after the split of Czechoslovakia in 1993
@@ -585,9 +583,9 @@
     </chapter>
     <chapter name="Economy">
         <section name="Economy-overview">
-            <par>Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.</par>
-            <par>Since coming to power in 2014, the new government has undertaken some reforms to try to reduce corruption, attract investment, and improve social welfare programs, which could help increase the government’s revenues and improve living conditions for Czechs. The government introduced in December 2016 an online tax reporting system intended to reduce tax evasion and increase revenues. The government also plans to remove labor market rigidities to improve the business climate, bring procurement procedures in line with EU best practices, and boost wages. The country's low unemployment rate has led to steady increases in salaries, and the government is facing pressure from businesses to allow greater migration of qualified workers, at least from Ukraine and neighboring Central European countries.</par>
-            <par>Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.</par>
+            <paragraph>Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.</paragraph>
+            <paragraph>Since coming to power in 2014, the new government has undertaken some reforms to try to reduce corruption, attract investment, and improve social welfare programs, which could help increase the government’s revenues and improve living conditions for Czechs. The government introduced in December 2016 an online tax reporting system intended to reduce tax evasion and increase revenues. The government also plans to remove labor market rigidities to improve the business climate, bring procurement procedures in line with EU best practices, and boost wages. The country's low unemployment rate has led to steady increases in salaries, and the government is facing pressure from businesses to allow greater migration of qualified workers, at least from Ukraine and neighboring Central European countries.</paragraph>
+            <paragraph>Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.</paragraph>
         </section>
         <section name="GDP (purchasing power parity)">
             <data value="375.9" unit="billion $" year="2017 est."/>

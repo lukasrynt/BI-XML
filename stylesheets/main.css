@@ -1,5 +1,4 @@
 body {
-    background: url('background.png');
     margin: 0;
     padding: 0;
 }
@@ -19,7 +18,6 @@ div > img {
 }
 
 header{
-    background-color: #00A4CCFF;
     border-radius: 4px;
     text-align: center;
     border: 2px solid #ccc;
@@ -37,9 +35,7 @@ h1{
 }
 
 h2{
-    background-color: #00A4CCFF;
     text-align: center;
-    color: aliceblue;
     font-size: 2em;
     border-radius: 4px;
     border: 2px solid #ccc;
@@ -51,7 +47,6 @@ h2{
 h3{
     margin-top: 0;
     margin-bottom: 1px;
-    color: #0091ff;
     text-align: left;
     font-size: 1.5em;
 }
@@ -64,7 +59,27 @@ h3{
     display: flex;
     flex-direction: row;
 }
-.divider{flex:1}
+.divider{
+    flex:1;
+}
+
+nav{
+    position: fixed;
+    flex-direction: column;
+    display: flex;
+    top: 50%;
+}
+
+nav > ul{
+    list-style: none;
+}
+
+.nav_item{
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .chapter {
     display: flex;
@@ -91,17 +106,12 @@ p{
 }
 
 .collapsible {
-    background-color: #b4e7ff;
     cursor: pointer;
     padding: 5px;
     margin: 0;
     border: none;
     text-align: left;
     font-size: 15px;
-}
-
-.collapsible:hover {
-    background-color: aliceblue;
 }
 
 .collapsible:after {
@@ -120,7 +130,6 @@ p{
     padding: 5px 18px;
     display: none;
     overflow: hidden;
-    background-color: aliceblue;
 }
 
 ul {

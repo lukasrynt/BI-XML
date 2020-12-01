@@ -1,0 +1,37 @@
+.cote{
+    background: url('green.png');
+}
+
+.cote header{
+    background-color: green;
+}
+
+.cote h2{
+    background-color: green;
+    color: palegreen;
+}
+
+.cote h3{
+    color: green;
+}
+
+.cote .nav_item{
+    background-color: #2dff3e;
+    color: green;
+}
+
+.cote .nav_item:hover{
+    background-color: palegreen;
+}
+
+.cote .collapsible {
+    background-color: #2dff3e;
+}
+
+.cote .collapsible:hover {
+    background-color: palegreen;
+}
+
+.cote .content {
+    background-color: palegreen;
+}

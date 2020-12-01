@@ -2,20 +2,33 @@ BUILD_DIR := build
 SOURCE_DIR := source
 
 .PHONY: all
-all: index.html
-index.html: $(SOURCE_DIR)/countries.xml $(SOURCE_DIR)/countries.xslt
+all: $(SOURCE_DIR)/countries.xml $(SOURCE_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
-	java -jar saxon.jar $^ > $(BUILD_DIR)/$@;
+	java -jar saxon.jar $^;
 
 .PHONY: czechia
-czechia: $(SOURCE_DIR)/Czechia.xml $(SOURCE_DIR)/countries.xslt
+czechia: $(BUILD_DIR)/czechia.html
+$(BUILD_DIR)/czechia.html: $(SOURCE_DIR)/czechia.xml $(SOURCE_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
-	java -jar saxon.jar $^;
+	java -jar saxon.jar $^ > $@;
 
 .PHONY: cote
-cote: $(SOURCE_DIR)/countries.xml $(SOURCE_DIR)/countries.xslt
+cote: $(BUILD_DIR)/cote.html
+$(BUILD_DIR)/cote.html: $(SOURCE_DIR)/cote.xml $(SOURCE_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
-	java -jar saxon.jar $^;
+	java -jar saxon.jar $^ > $@;
+
+.PHONY: uk
+uk: $(BUILD_DIR)/united.html
+$(BUILD_DIR)/united.html: $(SOURCE_DIR)/uk.xml $(SOURCE_DIR)/countries.xslt
+	@mkdir -p $(BUILD_DIR);
+	java -jar saxon.jar $^ > $@;
+
+.PHONY: spain
+spain: $(BUILD_DIR)/spain.html
+$(BUILD_DIR)/spain.html: $(SOURCE_DIR)/spain.xml $(SOURCE_DIR)/countries.xslt
+	@mkdir -p $(BUILD_DIR);
+	java -jar saxon.jar $^ > $@;
 
 
 .PHONY: clean

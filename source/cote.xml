@@ -1,0 +1,1018 @@
+<country name="Cote d'Ivoire">
+    <intro>
+        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/IV-flag.jpg"/>
+        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/locator-maps/IV-locator-map.jpg"/>
+        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/maps/IV-map.jpg"/>
+    </intro>
+    <chapter name="Introduction">
+        <section name="Background">
+            <paragraph>
+                Close ties to France following independence in 1960, the development of cocoa production for export, and foreign investment all made Cote d'Ivoire one of the most prosperous of the West African states but did not protect it from political turmoil. In December 1999, a military coup - the first ever in Cote d'Ivoire's history - overthrew the government. Junta leader Robert GUEI attempted to rig the elections held in late 2000 and declared himself the winner. Popular protest forced him to step aside and an election brought Laurent GBAGBO into power. Ivoirian dissidents and disaffected members of the military launched a failed coup attempt in September 2002 that developed into a rebellion and then a civil war. In 2003, a cease-fire resulted in the country being divided with the rebels holding the north, the government the south, and peacekeeping forces a buffer zone between the two. In March 2007, President GBAGBO and former New Forces rebel leader Guillaume SORO signed an agreement in which SORO joined GBAGBO's government as prime minister and the two agreed to reunite the country by dismantling the buffer zone, integrating rebel forces into the national armed forces, and holding elections. Difficulties in preparing electoral registers delayed balloting until 2010. In November 2010, Alassane Dramane OUATTARA won the presidential election over GBAGBO, but GBAGBO refused to hand over power, resulting in a five-month resumption of violent conflict. In April 2011, after widespread fighting, GBAGBO was formally forced from office by armed OUATTARA supporters with the help of UN and French forces. OUATTARA won a second term in 2015 and is focused on rebuilding the country's economy and infrastructure while reforming the security forces. The UN peacekeeping mission departed in June 2017. GBAGBO was in The Hague on trial for crimes against humanity, but was acquitted in January 2019. Côte d’Ivoire is scheduled to hold presidential elections in November 2020.
+            </paragraph>
+        </section>
+    </chapter>
+    <chapter name="Geography">
+        <section name="Location">
+            Western Africa, bordering the North Atlantic Ocean, between Ghana and Liberia
+        </section>
+        <section name="Geographic coordinates">
+            8 00 N, 5 00 W
+        </section>
+        <section name="Map references" value="Africa"/>
+        <section name="Area">
+            <subfield oneline="yes" name="total" value="322,463" unit="sq km"/>
+            <subfield oneline="yes" name="land" value="318,003" unit="sq km"/>
+            <subfield oneline="yes" name="water" value="4,460" unit="sq km"/>
+            <subfield oneline="yes" name="country comparison to the world" value="70"/>
+        </section>
+        <section name="Area - comparative">
+            slightly larger than New Mexico
+        </section>
+        <section name="Land boundaries">
+            <subfield oneline="yes" name="total" value="3,458" unit="km"/>
+            <list>
+                <border name="Burkina Faso" value="545" unit="km"/>
+                <border name="Ghana" value="720" unit="km"/>
+                <border name="Guinea" value="816" unit="km"/>
+                <border name="Liberia" value="778" unit="km"/>
+                <border name="Mali" value="599" unit="km"/>
+            </list>
+        </section>
+        <section name="Coastline">
+            <data value="515" unit="km"/>
+        </section>
+        <section name="Maritime claims">
+            <subfield name="territorial sea" value="12" unit="nm"/>
+            <subfield name="exclusive economic zone" value="200" unit="nm"/>
+            <subfield name="continental shelf" value="200" unit="nm"/>
+        </section>
+        <section name="Climate">
+            <paragraph>mostly flat to undulating plains; mountains in northwest</paragraph>
+        </section>
+        <section name="Terrain">
+            <paragraph>Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country</paragraph>
+        </section>
+        <section name="Elevation">
+            <subfield oneline="yes" name="mean elevation" value="250" unit="m"/>
+            <subfield oneline="yes" name="lowest point" value="0" unit="m" year="Gulf of Guinea"/>
+            <subfield oneline="yes" name="highest point" value="1,752" unit="m" year="Monts Nimba"/>
+        </section>
+        <section name="Natural resources">
+            <list>
+                <item name="petroleum"/>
+                <item name="natural gas"/>
+                <item name="diamonds"/>
+                <item name="manganese"/>
+                <item name="iron ore"/>
+                <item name="cobalt"/>
+                <item name="bauxite"/>
+                <item name="copper"/>
+                <item name="gold"/>
+                <item name="nickel"/>
+                <item name="tantalum"/>
+                <item name="silica sand"/>
+                <item name="clay"/>
+                <item name="cocoa beans"/>
+                <item name="coffee"/>
+                <item name="palm oil"/>
+                <item name="hydropower"/>
+            </list>
+        </section>
+        <section name="Land use">
+            <subfield oneline="yes" name="agricultural land" value="64.8" unit="%" year="2011 est."/>
+            <subfield oneline="yes" name="arable land" value="9.1" unit="%" year="2011 est.">
+                <list>
+                    <item name="permanent crops" value="14.2" unit="%" year="2011 est."/>
+                    <item name="permanent pasture" value="41.5" unit="%" year="2011 est."/>
+                </list>
+            </subfield>
+            <subfield oneline="yes" name="forest" value="32.7" unit="%" year="2011 est."/>
+            <subfield oneline="yes" name="other" value="2.5" year="2011 est."/>
+        </section>
+        <section name="Irrigated land">
+            <data value="730" unit="sq km" year="2012"/>
+        </section>
+        <section name="Natural hazards">
+            coast has heavy surf and no natural harbors; during the rainy season torrential flooding is possible
+        </section>
+        <section name="Environment - current issues">
+            deforestation (most of the country's forests - once the largest in West Africa - have been heavily logged); water pollution from sewage, and from industrial, mining, and agricultural effluents
+        </section>
+        <section name="Environment - international agreements">
+            <list name="party to">
+                <item name="Biodiversity"/>
+                <item name="Climate Change"/>
+                <item name="Climate Change-Kyoto Protocol"/>
+                <item name="Desertification"/>
+                <item name="Endangered Species"/>
+                <item name="Hazardous Wastes"/>
+                <item name="Law of the Sea"/>
+                <item name="Marine Dumping"/>
+                <item name="Ozone Layer Protection"/>
+                <item name="Ship Pollution"/>
+                <item name="Tropical Timber 83"/>
+                <item name="Tropical Timber 94"/>
+                <item name="Wetlands"/>
+            </list>
+            <subfield oneline="yes" name="singed, but not ratified" value="none of the selected agreements"/>
+        </section>
+        <section name="Geography - note">
+            <paragraph>most of the inhabitants live along the sandy coastal region; apart from the capital area, the forested interior is sparsely populated</paragraph>
+        </section>
+    </chapter>
+    <chapter name="People and Society">
+        <section name="Population">
+            <data value="27,481,086" year="July 2020 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="52"/>
+        </section>
+        <section name="Nationality">
+            <subfield oneline="yes" name="noun">Ivoirian(s)</subfield>
+            <subfield oneline="yes" name="adjective">Ivoirian</subfield>
+        </section>
+        <section name="Ethnic groups" year="2014 est.">
+            <list>
+                <item name="Akan" value="28.9" unit="%"/>
+                <item name="Voltaique or Gur" value="16.1" unit="%"/>
+                <item name="Northern Mande" value="14.5" unit="%"/>
+                <item name="Kru" value="8.5" unit="%"/>
+                <item name="Southern Mande" value="6.9" unit="%"/>
+                <item name="unspecified" value="0.9" unit="%"/>
+                <item name="non-Ivoirian" value="24.2" unit="%"/>
+            </list>
+        </section>
+        <section name="Languages" year="2011 census">
+            <list>
+                <item name="French" value="95.4" unit="%" description="official"/>
+                <item value="60 native dialects of which Dioula is the most widely spoken"/>
+            </list>
+        </section>
+        <section name="Religions" year="2014 est.">
+            <list>
+                <item name="Muslim" value="42.9" unit="%"/>
+                <item name="Catholic" value="17.2" unit="%"/>
+                <item name="Evangelical" value="11.8" unit="%"/>
+                <item name="Methodist" value="1.7" unit="%"/>
+                <item name="other Christian" value="3.2" unit="%"/>
+                <item name="animist" value="3.6" unit="%"/>
+                <item name="other religion" value="0.5" unit="%"/>
+                <item name="none" value="19.1" unit="%"/>
+            </list>
+        </section>
+        <section name="Demographic profile">
+            <paragraph>
+                Cote d’Ivoire’s population is likely to continue growing for the foreseeable future because almost 60% of the populace is younger than 25, the total fertility rate is holding steady at about 3.5 children per woman, and contraceptive use is under 20%. The country will need to improve education, health care, and gender equality in order to turn its large and growing youth cohort into human capital. Even prior to 2010 unrest that shuttered schools for months, access to education was poor, especially for women. As of 2015, only 53% of men and 33% of women were literate. The lack of educational attainment contributes to Cote d’Ivoire’s high rates of unskilled labor, adolescent pregnancy, and HIV/AIDS prevalence.
+            </paragraph>
+            <paragraph>
+                Following its independence in 1960, Cote d’Ivoire’s stability and the blossoming of its labor-intensive cocoa and coffee industries in the southwest made it an attractive destination for migrants from other parts of the country and its neighbors, particularly Burkina Faso. The HOUPHOUET-BOIGNY administration continued the French colonial policy of encouraging labor immigration by offering liberal land ownership laws. Foreigners from West Africa, Europe (mainly France), and Lebanon composed about 25% of the population by 1998.
+            </paragraph>
+            <paragraph>
+                Ongoing economic decline since the 1980s and the power struggle after HOUPHOUET-BOIGNY’s death in 1993 ushered in the politics of "Ivoirite," institutionalizing an Ivoirian identity that further marginalized northern Ivoirians and scapegoated immigrants. The hostile Muslim north-Christian south divide snowballed into a 2002 civil war, pushing tens of thousands of foreign migrants, Liberian refugees, and Ivoirians to flee to war-torn Liberia or other regional countries and more than a million people to be internally displaced. Subsequently, violence following the contested 2010 presidential election prompted some 250,000 people to seek refuge in Liberia and other neighboring countries and again internally displaced as many as a million people. By July 2012, the majority had returned home, but ongoing inter-communal tension and armed conflict continue to force people from their homes.
+            </paragraph>
+        </section>
+        <section name="Age structure" year="2020 est.">
+                <list name="0-14 years">
+                    <item name="total" value="38.53" unit="%"/>
+                    <item name="male" value="5,311,971"/>
+                    <item name="female" value="5,276,219"/>
+                </list>
+            <list name="15-24 years">
+                <item name="total" value="20.21" unit="%"/>
+                <item name="male" value="2,774,374"/>
+                <item name="female" value="2,779,012"/>
+            </list>
+            <list name="25-54 years">
+                <item name="total" value="34.88" unit="%"/>
+                <item name="male" value="4,866,957"/>
+                <item name="female" value="4,719,286"/>
+            </list>
+            <list name="55-64 years">
+                <item name="total" value="3.53" unit="%"/>
+                <data name="male" value="494,000"/>
+                <data name="female" value="476,060"/>
+            </list>
+            <list name="65 years and over">
+                <item name="total" value="2.85" unit="%"/>
+                <data name="male" value="349,822"/>
+                <data name="female" value="433,385"/>
+            </list>
+            <subfield name="population pyramid">
+                <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/IV_popgraph2020.JPG?1584386151"/>
+            </subfield>
+        </section>
+        <section name="Dependency ratios" year="2020 est.">
+            <subfield oneline="yes" name="total dependency ratio" value="79.8"/>
+            <subfield oneline="yes" name="youth dependency ratio" value="74.6"/>
+            <subfield oneline="yes" name="elderly dependency ratio" value="5.2"/>
+            <subfield oneline="yes" name="potential support ratio" value="19.3"/>
+        </section>
+        <section name="Median age">
+            <subfield oneline="yes" name="total" value="20.3" unit="years"/>
+            <subfield oneline="yes" name="male" value="20.3" unit="years"/>
+            <subfield oneline="yes" name="female" value="20.3" unit="years"/>
+            <subfield oneline="yes" name="country comparison to the world" value="191"/>
+        </section>
+        <section name="Population growth rate">
+            <data value="2.26" unit="%" year="2020 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="34"/>
+        </section>
+        <section name="Birth rate">
+            <data value="29.1" unit="births/1,000 population" year="2020 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="35"/>
+        </section>
+        <section name="Death rate">
+            <data value="7.9" unit="deaths/1,000 population" year="2020 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="93"/>
+        </section>
+        <section name="Net migration rate">
+            <data value="1.2" unit="migrant(s)/1,000 population" year="2020 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="57"/>
+        </section>
+        <section name="Population distribution">
+            the population is primarily located in the forested south, with the highest concentration of people residing in and around the cities on the Atlantic coast; most of the northern savanna remains sparsely populated with higher concentrations located along transportation corridors as shown in this population distribution map
+            <!--TODO link--><link text="population distribution map" href="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/original/COTE_DIVOIRE_Population_density.jpg?1554224313"/>
+        </section>
+        <section name="Urbanization">
+            <subfield name="urban population" value="51.7" unit="% of total population" year="2020"/>
+            <subfield name="rate of urbanization" value="3.38" unit="% annual rate of change" year="2015-2020 est."/>
+            <subfield name="total population growth rate v. urban population growth rate, 2000-2030">
+                <pdf name="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_IV.pdf?1602790686"/>
+            </subfield>
+        </section>
+        <section name="Major urban areas - population" year="2020">
+            <list>
+                <item name="YAMOUSSOUKRO" value="231,000" description="capital"/>
+                <item name="ABIDJAN" value="5.203" unit="million" description="seat of government"/>
+            </list>
+        </section>
+        <section name="Sex ratio" year="2020 est.">
+            <subfield oneline="yes" name="at birth" value="1.03" unit="male(s)/female"/>
+            <subfield oneline="yes" name="0-14 years" value="1.01" unit="male(s)/female"/>
+            <subfield oneline="yes" name="15-24 years" value="1" unit="male(s)/female"/>
+            <subfield oneline="yes" name="25-54 years" value="1.03" unit="male(s)/female"/>
+            <subfield oneline="yes" name="55-64 years" value="1.04" unit="male(s)/female"/>
+            <subfield oneline="yes" name="65 years and over" value="0.81" unit="male(s)/female"/>
+            <subfield oneline="yes" name="total population" value="1.01" unit="male(s)/female"/>
+        </section>
+        <section name="Mother's mean age at first birth">
+            <data value="19.8" unit="years" year="2011/12 est."/>
+            <subfield name="note" value="median age at first birth among women 25-29"/>
+        </section>
+        <section name="Maternal mortality rate">
+            <data value="617" unit="deaths/100,000 live births" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="12"/>
+        </section>
+        <section name="Infant mortality rate">
+            <subfield oneline="yes" name="total" value="59.1" unit="deaths/1,000 live births"/>
+            <subfield oneline="yes" name="male" value="66.7" unit="deaths/1,000 live births"/>
+            <subfield oneline="yes" name="female" value="51.2" unit="deaths/1,000 live births" year="2020 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="14"/>
+        </section>
+        <section name="Life expectancy at birth">
+            <subfield oneline="yes" name="total population" value="61.3" unit="years"/>
+            <subfield oneline="yes" name="male" value="59.2" unit="years"/>
+            <subfield oneline="yes" name="female" value="63.6" unit="years"/>
+            <subfield oneline="yes" name="country comparison to the world" value="215" year="2020 est."/>
+        </section>
+        <section name="Total fertility rate">
+            <data value="3.67" unit="children born/woman" year="2020 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="36"/>
+        </section>
+        <section name="Contraceptive prevalence rate">
+            <data value="23.3" unit="%" year="2018"/>
+        </section>
+        <section name="Drinking water source" year="2017 est.">
+            <list name="improved">
+                <item name="urban" value="90.4" unit="% of population"/>
+                <item name="rural" value="67.8" unit="% of population"/>
+                <item name="total" value="79.2" unit="% of population"/>
+            </list>
+            <list name="unimproved">
+                <item name="urban" value="9.6" unit="% of population"/>
+                <item name="rural" value="32.2" unit="% of population"/>
+                <item name="total" value="20.8" unit="% of population"/>
+            </list>
+        </section>
+        <section name="Current Health Expenditure">
+            <data value="4.5" unit="%" year="2017"/>
+        </section>
+        <section name="Physicians density">
+            <data value="0.23" unit="physicians/1,000 population" year="2014"/>
+        </section>
+        <section name="Sanitation facility access" year="2017">
+            <list name="improved">
+                <item name="urban" value="75.9" unit="% of population"/>
+                <item name="rural" value="32.7" unit="% of population"/>
+                <item name="total" value="54.5" unit="% of population"/>
+            </list>
+            <list name="unimproved">
+                <item name="urban" value="24.1" unit="% of population"/>
+                <item name="rural" value="67.3" unit="% of population"/>
+                <item name="total" value="45.5" unit="% of population"/>
+            </list>
+        </section>
+        <section name="HIV/AIDS - adult prevalence rate">
+            <data value="2.7" unit="%" year="2019 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="20"/>
+        </section>
+        <section name="HIV/AIDS - people living with HIV/AIDS">
+            <data value="430,000" year="2019 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="18"/>
+        </section>
+        <section name="HIV/AIDS - deaths">
+            <data value="13,000" year="2019 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="17"/>
+        </section>
+        <section name="Major infectious diseases">
+            <subfield name="degree of risk" value="very high" year="2020"/>
+            <subfield name="food or waterborne diseases" value="bacterial diarrhea, hepatitis A, and typhoid fever"/>
+            <subfield name="vectorborne diseases" value="malaria, dengue fever, and yellow fever"/>
+            <subfield name="water contact diseases" value="schistosomiasis"/>
+            <subfield name="animal contact diseases" value="rabies"/>
+            <subfield name="respiratory diseases" value="meningococcal meningitis"/>
+        </section>
+        <section name="Obesity - adult prevalence rate">
+            <data value="10.3" unit="%" year="2016"/>
+            <subfield oneline="yes" name="country comparison to the world" value="138"/>
+        </section>
+        <section name="Children under the age of 5 underweight">
+            <data value="12.8" unit="%" year="2016"/>
+            <subfield oneline="yes" name="country comparison to the world" value="48"/>
+        </section>
+        <section name="Education expenditures">
+            <data value="5.1" unit="% of GDP" year="2017"/>
+            <subfield oneline="yes" name="country comparison to the world" value="58"/>
+        </section>
+        <section name="Literacy" year="2011">
+            <subfield oneline="yes" name="definition" value="NA"/>
+            <subfield oneline="yes" name="total population" value="99" unit="%"/>
+            <subfield oneline="yes" name="male" value="99" unit="%"/>
+            <subfield oneline="yes" name="female" value="99" unit="%"/>
+        </section>
+        <section name="School life expectancy (primary to tertiary education)" year="2018">
+            <subfield oneline="yes" name="total" value="16" unit="years"/>
+            <subfield oneline="yes" name="male" value="16" unit="years"/>
+            <subfield oneline="yes" name="male" value="17" unit="years"/>
+        </section>
+        <section name="Unemployment, youth ages 15-24" year="2018">
+            <subfield oneline="yes" name="total" value="6.7" unit="%"/>
+            <subfield oneline="yes" name="male" value="6.4" unit="%"/>
+            <subfield oneline="yes" name="female" value="7.2" unit="%"/>
+            <subfield oneline="yes" name="country comparison to the world" value="155"/>
+        </section>
+    </chapter>
+    <chapter name="Government">
+        <section name="Country name">
+            <subfield oneline="yes" name="conventional long form" value="Republic of Cote d'Ivoire"/>
+            <subfield oneline="yes" name="conventional short form" value="Cote d'Ivoire"/>
+            <subfield oneline="yes" name="local long form" value="Republique de Cote d'Ivoire"/>
+            <subfield oneline="yes" name="local short form" value="Cote d'Ivoire"/>
+            <subfield oneline="yes" name="former" value="Ivory Coast"/>
+            <subfield oneline="yes" name="etymology">
+                name reflects the intense ivory trade that took place in the region from the 15th to 17th centuries
+            </subfield>
+            <subfield oneline="yes" name="note" value="pronounced coat-div-whar"/>
+        </section>
+        <section name="Government type">
+            presidential republic
+        </section>
+        <section name="Capital">
+            <subfield oneline="yes" name="name">
+                Yamoussoukro (legislative capital), Abidjan (administrative capital); note - although Yamoussoukro has been the official capital since 1983, Abidjan remains the administrative capital as well as the officially designated economic capital; the US, like other countries, maintains its Embassy in Abidjan
+            </subfield>
+            <subfield name="geographical coordinates">
+                <data value="6 49 N"/>
+                <data value="5 16 W"/>
+            </subfield>
+            <subfield name="time difference" value="UTC-1" year="6 hours ahead of Washington, DC, during Standard Time"/>
+            <subfield name="daylight saving time">
+                UTC 0 (5 hours ahead of Washington, DC, during Standard Time)
+            </subfield>
+            <subfield name="etymology">
+                Yamoussoukro is named after Queen YAMOUSSOU, who ruled in the village of N'Gokro in 1929 at the time of French colonization; the village was renamed Yamoussoukro, the suffix "-kro" meaning "town" in the native Baoule language; Abidjan's name supposedly comes from a misunderstanding; tradition states that an old man carrying branches met a European explorer who asked for the name of the nearest village; the man, not understanding and terrified by this unexpected encounter, fled shouting "min-chan m’bidjan," which in the Ebrie language means: "I return from cutting leaves"; the explorer, thinking that his question had been answered, recorded the name of the locale as Abidjan; a different version has the first colonists asking native women the name of the place and getting a similar response
+            </subfield>
+        </section>
+        <section name="Administrative division">
+            12 districts and 2 autonomous districts*
+            <list>
+                <item value="Abidjan*"/>
+                <item value="Bas-Sassandra"/>
+                <item value="Comoe"/>
+                <item value="Denguele"/>
+                <item value="Goh-Djiboua"/>
+                <item value="Lacs"/>
+                <item value="Lagunes"/>
+                <item value="Montagnes"/>
+                <item value="Sassandra-Marahoue"/>
+                <item value="Savanes"/>
+                <item value="Vallee du Bandama"/>
+                <item value="Woroba"/>
+                <item value="Yamoussoukro*"/>
+                <item value="Zanzan"/>
+            </list>
+        </section>
+        <section name="Independence">
+            7 August 1960 (from France)
+        </section>
+        <section name="National holiday">
+            <data value="Independence Day" description="7 August (1960)"/>
+        </section>
+        <section name="Constitution">
+            <subfield name="history">
+                previous 1960, 2000; latest draft completed 24 September 2016, approved by the National Assembly 11 October 2016, approved by referendum 30 October 2016, promulgated 8 November 2016
+            </subfield>
+            <subfield name="amendments">
+                proposed by the president of the republic or by Parliament; consideration of drafts or proposals requires an absolute majority vote by the parliamentary membership; passage of amendments affecting presidential elections, presidential term of office and vacancies, and amendment procedures requires approval by absolute majority in a referendum; passage of other proposals by the president requires at least four-fifths majority vote by Parliament; constitutional articles on the sovereignty of the state and its republican and secular form of government cannot be amended
+            </subfield>
+        </section>
+        <section name="Legal system">
+            civil law system based on the French civil code; judicial review of legislation held in the Constitutional Chamber of the Supreme Court
+        </section>
+        <section name="International law organization participation">
+            accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction
+        </section>
+        <section name="Citizenship">
+            <subfield oneline="yes" name="citizenship by birth" value="no"/>
+            <subfield oneline="yes" name="citizenship by descent only" value="at least one parent must be a citizen of Cote d'Ivoire"/>
+            <subfield oneline="yes" name="dual citizenship recognized" value="no"/>
+            <subfield oneline="yes" name="residency requirement for naturalization" value="5" unit="years"/>
+        </section>
+        <section name="Suffrage">
+            18 years of age; universal
+        </section>
+        <section name="Executive branch">
+            <subfield name="chief of state">
+                <data value="President Alassane Dramane OUATTARA" year="since 4 December 2010"/>
+                <data value="Vice President" description="vacant"/>
+                <data value="note - Vice President Daniel Kablan DUNCAN resigned 8 July 2020"/>
+                <data value="note - the 2016 constitution calls for the establishment of the position of vice-president"/>
+            </subfield>
+            <subfield name="head of government">
+                <data value="Prime Minister Hamed BAKAYOKO" year="since 30 July 2020"/>
+                <data value="note - Prime Minister Amadou Gon COULIBALY died on 8 July 2020 after a Council of Ministers meeting"/>
+            </subfield>
+            <subfield name="cabinet">
+                Council of Ministers appointed by the president
+            </subfield>
+            <subfield name="elections/appointments">
+                president directly elected by absolute majority popular vote in 2 rounds if needed for a single renewable 5-year term ; election last held on 31 October 2020 (next to be held in October 2025); vice president elected on same ballot as president; prime minister appointed by the president; note – because President OUATTARA promulgated the new constitution during his second term, he has claimed that the clock is reset on term limits, allowing him to run for up to two additional terms
+            </subfield>
+            <subfield name="election results">
+                <paragraph>Alassane OUATTARA reelected president; percent of vote - Alassane OUATTARA (RDR) 94.3%, Kouadio Konan BERTIN (PDCI-RDA) 2.0%, other 3.7%</paragraph>
+            </subfield>
+        </section>
+        <section name="Legislative branch">
+            <subfield name="year">
+                <paragraph>
+                    bicameral Parliament consists of:
+                    Senate or Senat (99 seats; 66 members indirectly elected by the National Assembly and members of municipal, autonomous districts, and regional councils, and 33 members appointed by the president; members serve 5-year terms)
+                    National Assembly (255 seats; members directly elected in single- and multi-seat constituencies by simple majority vote to serve 5-year terms)
+                </paragraph>
+            </subfield>
+            <subfield name="elections">
+                <paragraph>
+                    Senate - first ever held on 25 March 2018 (next to be held in 2023)
+                </paragraph>
+                <paragraph>
+                    National Assembly - last held on 18 December 2016 (next to be held in 2021)
+                </paragraph>
+            </subfield>
+            <subfield name="election results">
+                <paragraph>
+                    Senate - percent by party NA; seats by party - RHDP 50, independent 16; composition - men 80, women 19, percent of women 19.2%
+                </paragraph>
+                <paragraph>
+                    National Assembly - percent of vote by party - RHDP 50.3%, FPI 5.8%, UDPCI 1%, other 1.4%, independent 38.5%; seats by party - RHDP, 167, UDPCI 6, FPI 3, UPCI 3, independent 76; composition - men 228, women 27, percent of women 10.6%; note - total Parliament percent of women 13%
+                </paragraph>
+            </subfield>
+        </section>
+        <section name="Judicial branch">
+            <subfield name="highest courts">
+                Supreme Court or Cour Supreme (organized into Judicial, Audit, Constitutional, and Administrative Chambers; consists of the court president, 3 vice presidents for the Judicial, Audit, and Administrative chambers, and 9 associate justices or magistrates)
+            </subfield>
+            <subfield name="judge selection and term of office">
+                judges nominated by the Superior Council of the Magistrature, a 7-member body consisting of the national president (chairman), 3 "bench" judges, and 3 public prosecutors; judges appointed for life
+            </subfield>
+            <list name="subordinate courts">
+                Courts of Appeal (organized into civil, criminal, and social chambers); first instance courts; peace courts
+            </list>
+        </section>
+        <section name="Political parties and leaders">
+            <list>
+                <item name="Democratic Party of Cote d'Ivoire" value="PDCI" description="Henri Konan BEDIE"/>
+                <item name="Ivorian Popular Front" value="FPI" description="ormer pres. Laurent GBAGBO"/>
+                <item name="Liberty and Democracy for the Republic" value="LIDER" description="Mamadou KOULIBALY"/>
+                <item name="Movement of the Future Forces" value="MFA" description="Innocent Augustin ANAKY KOBENA"/>
+                <item name="Rally of Houphouetists for Democracy and Peace" value="RHDP" description="Alassane OUATTARA" description2="alliance includes MFA, PDCI, RDR, UDPCI, UPCI"/>
+                <item name="Rally of the Republicans" value="RDR" description="Henriette DIABATE"/>
+                <item name="Union for Cote d'Ivoire" value="UPCI" description="Gnamien KONAN"/>
+                <item name="Union for Democracy and Peace in Cote d'Ivoire" value="UDPCI" description="Albert Toikeusse MABRI"/>
+            </list>
+        </section>
+        <section name="International organization participation">
+            <list>
+                <item value="ACP"/>
+                <item value="AfDB"/>
+                <item value="AU"/>
+                <item value="ECOWAS"/>
+                <item value="EITI" description="compliant country"/>
+                <item value="Entente"/>
+                <item value="FAO"/>
+                <item value="FZ"/>
+                <item value="G-24"/>
+                <item value="G-77"/>
+                <item value="IAEA"/>
+                <item value="IBRD"/>
+                <item value="ICAO"/>
+                <item value="ICC"/>
+                <item value="ICCt"/>
+                <item value="ICRM"/>
+                <item value="IDA"/>
+                <item value="IDB"/>
+                <item value="IFAD"/>
+                <item value="IFC"/>
+                <item value="IFRCS"/>
+                <item value="ILO"/>
+                <item value="IMF"/>
+                <item value="IMO"/>
+                <item value="Interpol"/>
+                <item value="IOC"/>
+                <item value="IOM"/>
+                <item value="IPU"/>
+                <item value="ISO"/>
+                <item value="ITSO"/>
+                <item value="ITU"/>
+                <item description="NGOs" value="ITUC"/>
+                <item value="MIGA"/>
+                <item value="MINUSMA"/>
+                <item value="MONUSCO"/>
+                <item value="NAM"/>
+                <item value="OIC"/>
+                <item value="OIF"/>
+                <item value="OPCW"/>
+                <item value="UN"/>
+                <item value="UNCTAD"/>
+                <item value="UNESCO"/>
+                <item value="UNHCR"/>
+                <item value="UNIDO"/>
+                <item value="Union Latina"/>
+                <item value="UN Security Council" description="temporary"/>
+                <item value="UNWTO"/>
+                <item value="UPU"/>
+                <item value="WADB" description="regional"/>
+                <item value="WAEMU"/>
+                <item value="WCO"/>
+                <item description="NGOs" value="WFTU"/>
+                <item value="WHO"/>
+                <item value="WIPO"/>
+                <item value="WMO"/>
+                <item value="WTO"/>
+            </list>
+        </section>
+        <section name="Diplomatic representation in the US">
+            <subfield name="chief of mission">
+                <data value="Ambassador Mamadou HAIDARA" year="since 28 March 2018"/>
+            </subfield>
+            <subfield name="chancery" value="2424 Massachusetts Avenue NW, Washington, DC 20008"/>
+            <subfield name="telephone" value="[1] (202) 797-0300"/>
+            <subfield name="FAX" value="[1] (202) 462-9444"/>
+        </section>
+        <section name="Diplomatic representation from the US">
+            <subfield name="chief of mission">
+                <data value="Ambassador Richard K. BELL" year="since 3 September 2019"/>
+            </subfield>
+            <subfield name="telephone" value="[225] 22 49 40 00"/>
+            <subfield name="embassy" value="Cocody Riviéra Golf, 01 BP 1712 Abidjan 01, Abidjan"/>
+            <subfield name="mailing address" value="B. P. 1712, Abidjan 01"/>
+            <subfield name="FAX" value="[225] 22 49 43 23"/>
+        </section>
+        <section name="Flag description">
+            three equal vertical bands of orange (hoist side), white, and green; orange symbolizes the land (savannah) of the north and fertility, white stands for peace and unity, green represents the forests of the south and the hope for a bright future
+            <subfield name="note">
+                similar to the flag of Ireland, which is longer and has the colors reversed - green (hoist side), white, and orange; also similar to the flag of Italy, which is green (hoist side), white, and red; design was based on the flag of France
+            </subfield>
+        </section>
+        <section name="National symbol(s)">
+            elephant; national colors: orange, white, green
+        </section>
+        <section name="National anthem">
+            <subfield name="name" value="&apos;L'Abidjanaise&apos;" description="Song of Abidjan"/>
+            <subfield name="lyrics/music" value="JMathieu EKRA, Joachim BONY, and Pierre Marie COTY/Pierre Marie COTY and Pierre Michel PANGO"/>
+            <subfield name="note">
+                adopted 1960; although the nation's capital city moved from Abidjan to Yamoussoukro in 1983, the anthem still owes its name to the former capital
+            </subfield>
+            <audio type="audio/mp3" controls="controls" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/IV.mp3?1538604752" alt="National anthem audio file for Cote d'Ivoire"/>
+        </section>
+    </chapter>
+    <chapter name="Economy">
+        <section name="Economy-overview">
+            <paragraph>For the last 5 years Cote d'Ivoire's growth rate has been among the highest in the world. Cote d'Ivoire is heavily dependent on agriculture and related activities, which engage roughly two-thirds of the population. Cote d'Ivoire is the world's largest producer and exporter of cocoa beans and a significant producer and exporter of coffee and palm oil. Consequently, the economy is highly sensitive to fluctuations in international prices for these products and to climatic conditions. Cocoa, oil, and coffee are the country's top export revenue earners, but the country has targeted agricultural processing of cocoa, cashews, mangoes, and other commodities as a high priority. Mining gold and exporting electricity are growing industries outside agriculture.</paragraph>
+            <paragraph>Following the end of more than a decade of civil conflict in 2011, Cote d’Ivoire has experienced a boom in foreign investment and economic growth. In June 2012, the IMF and the World Bank announced $4.4 billion in debt relief for Cote d'Ivoire under the Highly Indebted Poor Countries Initiative.</paragraph>
+        </section>
+        <section name="GDP (purchasing power parity)">
+            <data value="97.16" unit="billion $" year="2017 est."/>
+            <data value="90.12" unit="billion $" year="2016 est."/>
+            <data value="83.19" unit="billion $" year="2015 est."/>
+            <subfield name="note" value="data are in 2017 dollars"/>
+            <subfield oneline="yes" name="country comparison to the world" value="86"/>
+        </section>
+        <section name="GDP (official exchange rate)">
+            <data value="40.47" unit="billion $" year="2017 est."/>
+        </section>
+        <section name="GDP - real growth rate">
+            <data value="4.3" unit="%" year="2017 est."/>
+            <data value="2.5" unit="%" year="2016 est."/>
+            <data value="5.3" unit="%" year="2015 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="68"/>
+        </section>
+        <section name="GDP - per capita (PPP)">
+            <data value="35,500" unit="$" year="2017 est."/>
+            <data value="34,200" unit="$" year="2016 est."/>
+            <data value="33,400" unit="$" year="2015 est."/>
+            <subfield oneline="yes" name="note" value="data are in 2017 dollars"/>
+            <subfield oneline="yes" name="country comparison to the world" value="57"/>
+        </section>
+        <section name="Gross national saving">
+            <data value="26.9" unit="% of GDP" year="2017 est."/>
+            <data value="27.5" unit="% of GDP" year="2016 est."/>
+            <data value="28.2" unit="% of GDP" year="2015 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="45"/>
+        </section>
+        <section name="GDP - composition, by end use">
+            <subfield name="household consumption" value="47.4" unit="%" year="2017 est."/>
+            <subfield name="government consumption" value="19.2" unit="%" year="2017 est."/>
+            <subfield name="investment in inventories" value="1.1" unit="%" year="2017 est."/>
+            <subfield name="exports of goods and services" value="79.9" unit="%" year="2017 est."/>
+            <subfield name="imports of goods and services" value="-72.3" unit="%" year="2017 est."/>
+        </section>
+        <section name="GDP - composition, by sector of origin">
+            <subfield oneline="yes" name="agriculture" value="2.3" unit="%" year="2017 est."/>
+            <subfield oneline="yes" name="industry" value="36.9" unit="%" year="2017 est."/>
+            <subfield oneline="yes" name="services" value="60.8" unit="%" year="2017 est."/>
+        </section>
+        <section name="Agriculture - products">
+            <list>
+                <item name="wheat"/>
+                <item name="potatoes"/>
+                <item name="sugar beets"/>
+                <item name="hops"/>
+                <item name="fruit"/>
+                <item name="pigs"/>
+                <item name="poultry"/>
+            </list>
+        </section>
+        <section name="Industries">
+            <list>
+                <item name="motor vehicles"/>
+                <item name="metallurgy"/>
+                <item name="machinery and equipment"/>
+                <item name="glass"/>
+                <item name="armaments"/>
+            </list>
+        </section>
+        <section name="Industrial production growth rate">
+            <data value="7.5" unit="%" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="27"/>
+        </section>
+        <section name="Labor force">
+            <data value="5.427" unit="million" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="76"/>
+        </section>
+        <section name="Labor force - by occupation">
+            <subfield oneline="yes" name="agriculture" value="2.8" unit="%"/>
+            <subfield oneline="yes" name="industry" value="38" unit="%"/>
+            <subfield oneline="yes" name="services" value="59.2" unit="%" year="2015"/>
+        </section>
+        <section name="Unemployment rate">
+            <data value="2.9" unit="%" year="2017 est."/>
+            <data value="3.9" unit="%" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="33"/>
+        </section>
+        <section name="Population below poverty line">
+            <data value="9.7" unit="%" year="2015 est."/>
+        </section>
+        <section name="Household income or consumption by percentage share">
+            <subfield oneline="yes" name="lowest 10%" value="4.1" unit="%"/>
+            <subfield oneline="yes" name="highest 10%" value="21.7" unit="%" year="2015"/>
+        </section>
+        <section name="Budget">
+            <subfield oneline="yes" name="revenues" value="87.37" unit="billion" year="2017 est."/>
+            <subfield oneline="yes" name="expenditures" value="83.92" unit="billion" year="2017 est."/>
+        </section>
+        <section name="Taxes and other revenues">
+            <data value="40.5" unit="% of GDP" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="37"/>
+        </section>
+        <section name="Budget surplus (+) or deficit (-)">
+            <data value="1.6" unit="% of GDP" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="19"/>
+        </section>
+        <section name="Public debt">
+            <data value="34.7" unit="% of GDP" year="2017 est."/>
+            <data value="36.8" unit="% of GDP" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="153"/>
+        </section>
+        <section name="Fiscal year" value="calendar year"/>
+        <section name="Inflation rate (consumer prices)">
+            <data value="2.4" unit="%" year="2017 est."/>
+            <data value="0.7" unit="%" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="118"/>
+        </section>
+        <section name="Current account balance">
+            <data value="2.317" unit="billion $" year="2017 est."/>
+            <data value="3.037" unit="billion $" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="38"/>
+        </section>
+        <section name="Exports">
+            <data value="144.8" unit="billion $" year="2017 est."/>
+            <data value="131.1" unit="billion $" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="33"/>
+        </section>
+        <section name="Exports - partners">
+            <list>
+                <item name="Germany" value="32.8" unit="%"/>
+                <item name="Slovakia" value="7.8" unit="%"/>
+                <item name="Poland" value="6.1" unit="%"/>
+                <item name="France" value="5.1" unit="%"/>
+                <item name="UK" value="4.9" unit="%"/>
+                <item name="Austria" value="4.4" unit="%"/>
+                <item name="Italy" value="4.1" unit="%" year="2017"/>
+            </list>
+        </section>
+        <section name="Exports - commodities">
+            <list>
+                <item name="machinery and transport equipment"/>
+                <item name="raw materials"/>
+                <item name="fuel"/>
+                <item name="chemicals"/>
+            </list>
+        </section>
+        <section name="Imports">
+            <data value="134.7" unit="billion $" year="2017 est."/>
+            <data value="120.5" unit="billion $" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="32"/>
+        </section>
+        <section name="Imports - commodities">
+            <list>
+                <item name="machinery and transport equipment"/>
+                <item name="raw materials and fuels"/>
+                <item name="chemicals"/>
+            </list>
+        </section>
+        <section name="Imports - partners">
+            <list>
+                <item name="Germany" value="29.8" unit="%"/>
+                <item name="Poland" value="9.1" unit="%"/>
+                <item name="China" value="7.4" unit="%"/>
+                <item name="Slovakia" value="5.8" unit="%"/>
+                <item name="Netherlands" value="5.3" unit="%"/>
+                <item name="Italy" value="4" unit="%" year="2017"/>
+            </list>
+        </section>
+        <section name="Reserves of foreign exchange and gold">
+            <data value="148" unit="billion $" year="31 December 2017 est."/>
+            <data value="85.73" unit="billion $" year="31 December 2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="18"/>
+        </section>
+        <section name="Debt - external">
+            <data value="205.2" unit="billion $" year="31 December 2017 est."/>
+            <data value="138" unit="billion $" year="31 December 2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="35"/>
+        </section>
+        <section name="Exchange rates">
+            <list name="koruny (CZK) per US dollar">
+                <item value="23.34" year="2017 est."/>
+                <item value="24.44" year="2016 est."/>
+                <item value="24.44" year="2015 est."/>
+                <item value="24.599" year="2014 est."/>
+                <item value="20.758" year="2013 est."/>
+            </list>
+        </section>
+    </chapter>
+    <chapter name="Energy">
+        <section name="Electricity access">
+            <subfield name="electrification - total population" value="100" unit="%" year="2016"/>
+        </section>
+        <section name="Electricity - production">
+            <data value="77.39" unit="billion kWh" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="38"/>
+        </section>
+        <section name="Electricity - consumption">
+            <data value="62.34" unit="billion kWh" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="42"/>
+        </section>
+        <section name="Electricity - exports">
+            <data value="24.79" unit="billion kWh" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="7"/>
+        </section>
+        <section name="Electricity - imports">
+            <data value="13.82" unit="billion kWh" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="18"/>
+        </section>
+        <section name="Electricity - installed generating capacity">
+            <data value="21.63" unit="billion kWh" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="40"/>
+        </section>
+        <section name="Electricity - from fossil fuels">
+            <data value="60" unit="% of total installed capacity" year="2016 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="131"/>
+        </section>
+        <section name="Electricity - from nuclear fuels">
+            <data value="19" unit="% of total installed capacity" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="10"/>
+        </section>
+        <section name="Electricity - from hydroelectric plants">
+            <data value="5" unit="% of total installed capacity" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="130"/>
+        </section>
+        <section name="Electricity - from hydroelectric plants">
+            <data value="16" unit="% of total installed capacity" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="51"/>
+        </section>
+        <section name="Crude oil - production">
+            <data value="2,000" unit="bbl/day" year="2018 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="86"/>
+        </section>
+        <section name="Crude oil - exports">
+            <data value="446" unit="bbl/day" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="78"/>
+        </section>
+        <section name="Crude oil - imports">
+            <data value="155,900" unit="bbl/day" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="36"/>
+        </section>
+        <section name="Crude oil - Crude oil - proved reserves">
+            <data value="15" unit="million bbl" year="1 January 2018 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="85"/>
+        </section>
+        <section name="Refined petroleum products - production">
+            <data value="177,500" unit="bbl/day" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="56"/>
+        </section>
+        <section name="Refined petroleum products - consumption">
+            <data value="213,700" unit="bbl/day" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="56"/>
+        </section>
+        <section name="Refined petroleum products - exports">
+            <data value="52,200" unit="bbl/day" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="54"/>
+        </section>
+        <section name="Refined petroleum products - imports">
+            <data value="83,860" unit="bbl/day" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="60"/>
+        </section>
+        <section name="Natural gas - production">
+            <data value="229.4" unit="million cu m" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="78"/>
+        </section>
+        <section name="Natural gas - consumption">
+            <data value="8.721" unit="million cu m" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="51"/>
+        </section>
+        <section name="Natural gas - exports">
+            <data value="0" unit="million cu m" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="93"/>
+        </section>
+        <section name="Natural gas - imports">
+            <data value="8.891" unit="million cu m" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="28"/>
+        </section>
+        <section name="Natural gas - proved reserves">
+            <data value="3.964" unit="million cu m" year="1 January 2018 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="93"/>
+        </section>
+        <section name="Carbon dioxide emissions from consumption of energy">
+            <data value="115.8" unit="million Mt" year="2017 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="39"/>
+        </section>
+    </chapter>
+    <chapter name="Communications">
+        <section name="Telephones - fixed lines">
+            <subfield name="total subscriptions" value="1,473,846"/>
+            <subfield name="subscriptions per 100 inhabitants" value="13.78" year="2019 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="65"/>
+        </section>
+        <section name="Telephones - mobile cellular">
+            <subfield name="total subscriptions" value="13,213,279"/>
+            <subfield name="subscriptions per 100 inhabitants" value="123.54" year="2019 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="71"/>
+        </section>
+        <section name="Telecommunication systems">
+            <subfield name="general assessment" year="2020">
+                good telephone and Internet service; the Czech Republic has a sophisticated telecom market; mobile sector showing steady growth, but perhaps without enough competition, regulator makes progress for 5G services; the govt. trying to stimulate competition, improve end-users pricing and step up quality; strong growth in cable and fiber sectors; fixed wireless broadband remains strong, with penetration among the highest in the EU
+            </subfield>
+            <subfield name="domestic" year="2018">
+                14 per 100 fixed-line and mobile telephone usage increased to 119 per 100 mobile-cellular, the number of cellular telephone subscriptions now greatly exceeds the population
+            </subfield>
+            <subfield name="international" year="2019">
+                country code - 420; satellite earth stations - 6 (2 Intersputnik - Atlantic and Indian Ocean regions, 1 Intelsat, 1 Eutelsat, 1 Inmarsat, 1 Globalstar)
+            </subfield>
+            <subfield name="note">
+                the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated
+            </subfield>
+        </section>
+        <section name="Broadcast media">
+            <paragraph year="2019">
+                22 TV stations operate nationally, with 17 of them in private hands; publicly operated Czech Television has 5 national channels; throughout the country, there are some 350 TV channels in operation, many through cable, satellite, and IPTV subscription services; 63 radio broadcasters are registered, operating over 80 radio stations, including 7 multiregional radio stations or networks; publicly operated broadcaster Czech Radio operates 4 national, 14 regional, and 4 Internet stations; both Czech Radio and Czech Television are partially financed through a license fee
+            </paragraph>
+        </section>
+        <section name="Internet country code" value=".cz"/>
+        <section name="Internet users">
+            <subfield name="total" value="8,622,750"/>
+            <subfield name="percent of population" value="80.69" unit="%" year="July 2018 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="58"/>
+        </section>
+        <section name="Broadband - fixed subscriptions">
+            <subfield name="total" value="3,222,835"/>
+            <subfield name="subscriptions per 100 inhabitants" value="30" year="2018 est."/>
+            <subfield oneline="yes" name="country comparison to the world" value="40"/>
+        </section>
+    </chapter>
+    <chapter name="Transportation">
+        <section name="National air transport system">
+            <subfield name="number of registered air carriers" value="4" year="2020"/>
+            <subfield name="inventory of registered aircraft operated by air carriers" value="48"/>
+            <subfield name="annual passenger traffic on registered air carriers" value="5,727,200" year="2018"/>
+            <subfield name="annual freight traffic on registered air carriers" value="25.23" unit="million mt-km" year="2018"/>
+        </section>
+        <section name="Civil aircraft registration country code prefix" value="OK" year="2016"/>
+        <section name="Airports">
+            <data value="128" year="2018"/>
+            <subfield oneline="yes" name="country comparison to the world" value="45"/>
+        </section>
+        <section name="Airports - with paved runways">
+            <subfield oneline="yes" name="total" value="41" year="2017"/>
+            <subfield oneline="yes" name="over 3,047 m" value="2" year="2017"/>
+            <subfield oneline="yes" name="2,438 to 3,047 m" value="9" year="2017"/>
+            <subfield oneline="yes" name="1,524 to 2,437 m" value="12" year="2017"/>
+            <subfield oneline="yes" name="914 to 1,523 m" value="2" year="2017"/>
+            <subfield oneline="yes" name="under 914 m" value="16" year="2017"/>
+        </section>
+        <section name="Airports - with unpaved runways">
+            <subfield oneline="yes" name="total" value="87" year="2013"/>
+            <subfield oneline="yes" name="1,524 to 2,437 m" value="1" year="2013"/>
+            <subfield oneline="yes" name="914 to 1,523 m" value="25" year="2013"/>
+            <subfield oneline="yes" name="under 914 m" value="61" year="2013"/>
+        </section>
+        <section name="Heliports" value="1" year="2013"/>
+        <section name="Pipelines">
+            <list>
+                <item name="gas" value="7.160" unit="km"/>
+                <item name="oil" value="675" unit="km"/>
+                <item name="refined products" value="94" unit="km" year="2016"/>
+            </list>
+        </section>
+        <section name="Railways">
+            <subfield name="total" value="9,408" unit="km" year="2017"/>
+            <subfield name="standard gauge" value="9,385" unit="km 1.435-m gauge" note="3,218 km electrified" year="2017"/>
+            <subfield name="standard gauge" value="23" unit="km 0.760-m gauge" year="2017"/>
+            <subfield oneline="yes" name="country comparison to the world" value="24"/>
+        </section>
+        <section name="Roadways">
+            <subfield name="total" value="55,744" unit="km" note="includes urban and category I, II, III roads" year="2017"/>
+            <subfield name="paved" value="55,744" unit="km" note="includes 1,252 km of expressways" year="2017"/>
+            <subfield oneline="yes" name="country comparison to the world" value="82"/>
+        </section>
+        <section name="Waterways">
+            <data value="664" unit="km" note="principally on Elbe, Vltava, Oder, and other navigable rivers, lakes, and canals" year="2010"/>
+            <subfield oneline="yes" name="country comparison to the world" value="76"/>
+        </section>
+        <section name="Ports and terminals">
+            <subfield name="river port(s)">
+                <port value="Prague" note="Vltava"/>
+                <port value="Decin" note="Elbe"/>
+                <port value="Usti nad Labem" note="Elbe"/>
+            </subfield>
+        </section>
+    </chapter>
+    <chapter name="Military and Security">
+        <section name="Military and security forces" year="2020">
+            Ministry of Defense and Armed Forces: Land Forces; Air Forces; Cyber Forces; Special Forces Directorate
+        </section>
+        <section name="Military expenditures">
+            <data value="1.19" unit="% of GDP" year="2019 est."/>
+            <data value="1.13" unit="% of GDP" year="2018"/>
+            <data value="1.04" unit="% of GDP" year="2017"/>
+            <data value="0.96" unit="% of GDP" year="2016"/>
+            <data value="1.03" unit="% of GDP" year="2015"/>
+            <subfield oneline="yes" name="country comparison to the world" value="109"/>
+        </section>
+        <section name="Military and security service personnel strengths" year="2019 est.">
+            the Czech military has approximately 25,000 active personnel (20,000 Army; 5,000 Air Force)
+        </section>
+        <section name="Military equipment inventories and acquisitions" year="2019">
+            the Czech military has a mix of Soviet-era and more modern equipment, mostly of European origin; since 2010, the leading suppliers of military equipment to Czechia are Austria and Spain
+        </section>
+        <section name="Military service age and obligation" year="2012">
+            18-28 years of age for male and female voluntary military service; no conscription
+        </section>
+    </chapter>
+    <chapter name="Transnational Issues">
+        <section name="Disputes - international" value="none"/>
+        <section name="Refugees and internally displaced persons">
+            <subfield oneline="yes" name="stateless persons" value="1,502" year="2018"/>
+        </section>
+        <section name="Illicit drugs">
+            transshipment point for Southwest Asian heroin and minor transit point for Latin American cocaine to Western Europe; producer of synthetic drugs for local and regional markets; susceptible to money laundering related to drug trafficking, organized crime; significant consumer of ecstasy
+        </section>
+    </chapter>
+</country>
