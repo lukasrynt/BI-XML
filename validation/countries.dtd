@@ -1,0 +1,29 @@
+<!ELEMENT countries (country*)>
+
+<!ELEMENT country (intro, chapter)>
+<!ATTLIST country name #PCDATA>
+
+<!ELEMENT intro (img+)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED>
+
+<!ELEMENT chapter (section*)>
+<!ATTLIST chapter name CDATA #REQUIRED>
+
+<!ELEMENT section (paragraph*|(#PCDATA)|subfield*|list*)>
+<!ATTLIST section
+        name CDATA #REQUIRED
+        value CDATA #IMPLIED>
+
+<!ELEMENT paragraph (#PCDATA)>
+
+<!ELEMENT subfield (#PCDATA)>
+<!ATTLIST subfield
+        oneline (yes|no) "no"
+        name CDATA #REQUIRED
+        value CDATA #IMPLIED
+        unit CDATA #IMPLIED>
+
+<!ELEMENT list (item+)>
+
+<!ELEMENT item (#PCDATA)>

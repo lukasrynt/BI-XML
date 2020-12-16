@@ -1,0 +1,37 @@
+.united{
+    background: url('red.png');
+}
+
+.united header{
+    background-color: orangered;
+}
+
+.united h2{
+    background-color: orangered;
+    color: #ffd7d7;
+}
+
+.united h3{
+    color: red;
+}
+
+.united .nav_item{
+    background-color: #ff9089;
+    color: red;
+}
+
+.united .nav_item:hover{
+    background-color: #ffd7d7;
+}
+
+.united .collapsible {
+    background-color: #ff9089;
+}
+
+.united .collapsible:hover {
+    background-color: #ffd7d7;
+}
+
+.united .content {
+    background-color: #ffd7d7;
+}

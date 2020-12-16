@@ -104,9 +104,9 @@
                 <xsl:text>: </xsl:text>
             </xsl:if>
             <xsl:value-of select="$node/@value|$node/@unit" separator=" "/>
-            <xsl:apply-templates select="$node/@year"/>
-            <xsl:apply-templates select="$node/@*[contains(name(), 'description')]"/>
         </xsl:if>
+        <xsl:apply-templates select="$node/@year"/>
+        <xsl:apply-templates select="$node/@*[contains(name(), 'description')]"/>
     </xsl:function>
 
     <xsl:template match="@year | @*[contains(name(), 'description')]">

@@ -1,105 +1,121 @@
-<country name="Czechia">
+<country name="United Kingdom">
     <intro>
-        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/EZ-flag.jpg"/>
-        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/locator-maps/EZ-locator-map.jpg"/>
-        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/maps/EZ-map.jpg"/>
+        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/UK-flag.jpg"/>
+        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/locator-maps/UK-locator-map.jpg"/>
+        <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/maps/UK-map.jpg"/>
     </intro>
     <chapter name="Introduction">
         <section name="Background">
             <paragraph>
-                At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia. During the interwar years, having rejected a federal system, the new country's predominantly Czech leaders were frequently preoccupied with meeting the increasingly strident demands of other ethnic minorities within the republic, most notably the Slovaks, the Sudeten Germans, and the Ruthenians (Ukrainians). On the eve of World War II, Nazi Germany occupied the territory that today comprises Czechia, and Slovakia became an independent state allied with Germany. After the war, a reunited but truncated Czechoslovakia (less Ruthenia) fell within the Soviet sphere of influence. In 1968, an invasion by Warsaw Pact troops ended the efforts of the country's leaders to liberalize communist rule and create "socialism with a human face," ushering in a period of repression known as "normalization." The peaceful "Velvet Revolution" swept the Communist Party from power at the end of 1989 and inaugurated a return to democratic rule and a market economy. On 1 January 1993, the country underwent a nonviolent "velvet divorce" into its two national components, the Czech Republic and Slovakia. The Czech Republic joined NATO in 1999 and the European Union in 2004. The country added the short-form name Czechia in 2016, while continuing to use the full form name, Czech Republic.
+                The United Kingdom has historically played a leading role in developing parliamentary democracy and in advancing literature and science. At its zenith in the 19th century, the British Empire stretched over one-fourth of the earth's surface. The first half of the 20th century saw the UK's strength seriously depleted in two world wars and the Irish Republic's withdrawal from the union. The second half witnessed the dismantling of the Empire and the UK rebuilding itself into a modern and prosperous European nation. As one of five permanent members of the UN Security Council and a founding member of NATO and the Commonwealth, the UK pursues a global approach to foreign policy. The Scottish Parliament, the National Assembly for Wales, and the Northern Ireland Assembly were established in 1998.
+            </paragraph>
+            <paragraph>
+                The UK has been an active member of the EU since its accession in 1973, although it chose to remain outside the Economic and Monetary Union. However, motivated in part by frustration at a remote bureaucracy in Brussels and massive migration into the country, UK citizens on 23 June 2016 narrowly voted to leave the EU. The UK is scheduled to depart the EU on 31 January 2020, but negotiations on the future EU-UK economic and security relationship will continue throughout 2020 and potentially beyond.
             </paragraph>
         </section>
     </chapter>
     <chapter name="Geography">
         <section name="Location">
-            Central Europe, between Germany, Poland, Slovakia, and Austria
+            Western Europe, islands - including the northern one-sixth of the island of Ireland - between the North Atlantic Ocean and the North Sea; northwest of France
         </section>
         <section name="Geographic coordinates">
-            49 45 N, 15 30 E
+            54 00 N, 2 00 W
         </section>
         <section name="Map references" value="Europe"/>
         <section name="Area">
-            <subfield oneline="yes" name="total" value="78,867" unit="sq km"/>
-            <subfield oneline="yes" name="land" value="77,247" unit="sq km"/>
-            <subfield oneline="yes" name="water" value="1,620" unit="sq km"/>
-            <subfield oneline="yes" name="country comparison to the world" value="117"/>
+            <subfield oneline="yes" name="total" value="243,610" unit="sq km"/>
+            <subfield oneline="yes" name="land" value="241,930" unit="sq km"/>
+            <subfield oneline="yes" name="water" value="1,680" unit="sq km"/>
+            <subfield name="note 1" oneline="yes" value="the percentage area breakdown of the four UK countries is: England 53%, Scotland 32%, Wales 9%, and Northern Ireland 6%"/>
+            <subfield name="note 2" oneline="yes" value="includes Rockall and the Shetland Islands, which are part of Scotland"/>
+            <subfield oneline="yes" name="country comparison to the world" value="81"/>
         </section>
         <section name="Area - comparative">
-            <paragraph>about two-thirds the size of Pennsylvania; slightly smaller than South Carolina</paragraph>
+            <paragraph>twice the size of Pennsylvania; slightly smaller than Oregon</paragraph>
             <subfield name="Area comparison map">
-                <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/EZ_area.jpg?1548684078"/>
+                <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/UK_area.jpg?1538604837"/>
             </subfield>
         </section>
         <section name="Land boundaries">
-            <subfield oneline="yes" name="total" value="2,143" unit="km"/>
-            <list>
-                <border name="Austria" value="402" unit="km"/>
-                <border name="Germany" value="704" unit="km"/>
-                <border name="Poland" value="796" unit="km"/>
-                <border name="Slovakia" value="241" unit="km"/>
+            <subfield oneline="yes" name="total" value="499" unit="km"/>
+            <list name="border countries (1)">
+                <border name="Ireland" value="499" unit="km"/>
             </list>
         </section>
         <section name="Coastline">
-            <data value="0" unit="km" description="landlocked"/>
+            <data value="12,429" unit="km"/>
         </section>
         <section name="Maritime claims">
-            <data value="None" description="landlocked"/>
+            <subfield name="territorial sea" value="12" unit="nm"/>
+            <subfield name="continental shelf" value="as defined in continental shelf orders or in accordance with agreed upon boundaries"/>
+            <subfield name="exclusive fishing zone" value="200" unit="nm"/>
         </section>
         <section name="Climate">
-            <paragraph>temperate; cool summers; cold, cloudy, humid winters</paragraph>
+            <paragraph>temperate; moderated by prevailing southwest winds over the North Atlantic Current; more than one-half of the days are overcast</paragraph>
         </section>
         <section name="Terrain">
-            <paragraph>Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country</paragraph>
+            <paragraph>mostly rugged hills and low mountains; level to rolling plains in east and southeast</paragraph>
         </section>
         <section name="Elevation">
-            <subfield oneline="yes" name="mean elevation" value="433" unit="m"/>
-            <subfield oneline="yes" name="lowest point" value="115" unit="m" year="Labe (Elbe) River"/>
-            <subfield oneline="yes" name="highest point" value="1,602" unit="m" year="Snezka"/>
+            <subfield oneline="yes" name="mean elevation" value="162" unit="m"/>
+            <subfield oneline="yes" name="lowest point" value="-4" unit="m" description="The Fens"/>
+            <subfield oneline="yes" name="highest point" value="1,345" unit="m" description="Ben Nevis"/>
         </section>
         <section name="Natural resources">
             <list>
-                <item name="hard coal"/>
-                <item name="soft coal"/>
-                <item name="kaolin"/>
+                <item name="coal"/>
+                <item name="petroleum"/>
+                <item name="petroleum"/>
+                <item name="natural gas"/>
+                <item name="iron ore"/>
+                <item name="lead"/>
+                <item name="zinc"/>
+                <item name="gold"/>
+                <item name="tin"/>
+                <item name="limestone"/>
+                <item name="salt"/>
                 <item name="clay"/>
-                <item name="graphite"/>
-                <item name="timber"/>
+                <item name="chalk"/>
+                <item name="gypsum"/>
+                <item name="potash"/>
+                <item name="silica sand"/>
+                <item name="slate"/>
                 <item name="arable land"/>
             </list>
         </section>
         <section name="Land use">
-            <subfield oneline="yes" name="agricultural land" value="54.8" unit="%" year="2011 est."/>
-            <subfield oneline="yes" name="arable land" value="41" unit="%" year="2011 est.">
+            <subfield oneline="yes" name="agricultural land" value="71" unit="%" year="2011 est."/>
+            <subfield oneline="yes" name="arable land" value="25.11" unit="%" year="2011 est.">
                 <list>
-                    <item name="permanent crops" value="1" unit="%" year="2011 est."/>
-                    <item name="permanent pasture" value="12.8" unit="%" year="2011 est."/>
+                    <item name="permanent crops" value="0.2" unit="%" year="2011 est."/>
+                    <item name="permanent pasture" value="45.7" unit="%" year="2011 est."/>
                 </list>
             </subfield>
-            <subfield oneline="yes" name="forest" value="34.4" unit="%" year="2011 est."/>
-            <subfield oneline="yes" name="other" value="10.8" year="2011 est."/>
+            <subfield oneline="yes" name="forest" value="11.9" unit="%" year="2011 est."/>
+            <subfield oneline="yes" name="other" value="17.1" year="2011 est."/>
         </section>
         <section name="Irrigated land">
-            <data value="320" unit="sq km" year="2012"/>
+            <data value="950" unit="sq km" year="2012"/>
         </section>
         <section name="Population distribution">
-            a fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations
+            the core of the population lies in and around London, with significant clusters found in central Britain around Manchester and Liverpool, in the Scotish lowlands between Endinburgh and Glasgow, southern Wales in and around Cardiff, and far eastern Northern Ireland centered on Belfast
         </section>
         <section name="Natural hazards">
-            flooding
+            winter windstorms; floods
         </section>
         <section name="Environment - current issues">
-            air and water pollution in areas of northwest Bohemia and in northern Moravia around Ostrava present health risks; acid rain damaging forests; land pollution caused by industry, mining, and agriculture
+            air pollution improved but remains a concern, particularly in the London region; soil pollution from pesticides and heavy metals; decline in marine and coastal habitats brought on by pressures from housing, tourism, and industry
         </section>
         <section name="Environment - international agreements">
             <list name="party to">
                 <item name="Air Pollution"/>
                 <item name="Air Pollution-Nitrogen Oxides"/>
                 <item name="Air Pollution-Persistent Organic Pollutants"/>
-                <item name="Air Pollution-Sulfur 85"/>
                 <item name="Air Pollution-Sulfur 94"/>
                 <item name="Air Pollution-Volatile Organic Compounds"/>
                 <item name="Antarctic-Environmental Protocol"/>
+                <item name="Antarctic-Marine Living Resources"/>
+                <item name="Antarctic Seals"/>
                 <item name="Antarctic Treaty"/>
                 <item name="Biodiversity"/>
                 <item name="Climate Change"/>
@@ -109,20 +125,19 @@
                 <item name="Environmental Modification"/>
                 <item name="Hazardous Wastes"/>
                 <item name="Law of the Sea"/>
+                <item name="Marine Dumping"/>
+                <item name="Marine Life Conservation"/>
                 <item name="Ozone Layer Protection"/>
                 <item name="Ship Pollution"/>
+                <item name="Tropical Timber 83"/>
+                <item name="Tropical Timber 94"/>
                 <item name="Wetlands"/>
                 <item name="Whaling"/>
             </list>
             <subfield oneline="yes" name="singed, but not ratified" value="none of the selected agreements"/>
         </section>
         <section name="Geography - note">
-            <subfield name="note 1">
-                <paragraph>landlocked; strategically located astride some of oldest and most significant land routes in Europe; Moravian Gate is a traditional military corridor between the North European Plain and the Danube in central Europe</paragraph>
-            </subfield>
-            <subfield name="note 2">
-                <paragraph>the Hranice Abyss in Czechia is the world's deepest surveyed underwater cave at 404 m (1,325 ft); its survey is not complete and it could end up being some 800-1,200 m deep</paragraph>
-            </subfield>
+            <paragraph>lies near vital North Atlantic sea lanes; only 35 km from France and linked by tunnel under the English Channel (the Channel Tunnel or Chunnel); because of heavily indented coastline, no location is more than 125 km from tidal waters</paragraph>
         </section>
     </chapter>
     <chapter name="People and Society">

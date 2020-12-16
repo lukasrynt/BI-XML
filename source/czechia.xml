@@ -54,8 +54,8 @@
         </section>
         <section name="Elevation">
             <subfield oneline="yes" name="mean elevation" value="433" unit="m"/>
-            <subfield oneline="yes" name="lowest point" value="115" unit="m" year="Labe (Elbe) River"/>
-            <subfield oneline="yes" name="highest point" value="1,602" unit="m" year="Snezka"/>
+            <subfield oneline="yes" name="lowest point" value="115" unit="m" description="Labe (Elbe) River"/>
+            <subfield oneline="yes" name="highest point" value="1,602" unit="m" description="Snezka"/>
         </section>
         <section name="Natural resources">
             <list>
@@ -803,7 +803,7 @@
             <data value="5" unit="% of total installed capacity" year="2017 est."/>
             <subfield oneline="yes" name="country comparison to the world" value="130"/>
         </section>
-        <section name="Electricity - from hydroelectric plants">
+        <section name="Electricity - from other renewable sources">
             <data value="16" unit="% of total installed capacity" year="2017 est."/>
             <subfield oneline="yes" name="country comparison to the world" value="51"/>
         </section>
@@ -819,7 +819,7 @@
             <data value="155,900" unit="bbl/day" year="2017 est."/>
             <subfield oneline="yes" name="country comparison to the world" value="36"/>
         </section>
-        <section name="Crude oil - Crude oil - proved reserves">
+        <section name="Crude oil - proved reserves">
             <data value="15" unit="million bbl" year="1 January 2018 est."/>
             <subfield oneline="yes" name="country comparison to the world" value="85"/>
         </section>
@@ -952,15 +952,15 @@
             <subfield oneline="yes" name="country comparison to the world" value="82"/>
         </section>
         <section name="Waterways">
-            <data value="664" unit="km" note="principally on Elbe, Vltava, Oder, and other navigable rivers, lakes, and canals" year="2010"/>
+            <data value="664" unit="km" description="principally on Elbe, Vltava, Oder, and other navigable rivers, lakes, and canals" year="2010"/>
             <subfield oneline="yes" name="country comparison to the world" value="76"/>
         </section>
         <section name="Ports and terminals">
-            <subfield name="river port(s)">
-                <port value="Prague" note="Vltava"/>
-                <port value="Decin" note="Elbe"/>
-                <port value="Usti nad Labem" note="Elbe"/>
-            </subfield>
+            <list name="river port(s)">
+                <port value="Prague" description="Vltava"/>
+                <port value="Decin" description="Elbe"/>
+                <port value="Usti nad Labem" description="Elbe"/>
+            </list>
         </section>
     </chapter>
     <chapter name="Military and Security">

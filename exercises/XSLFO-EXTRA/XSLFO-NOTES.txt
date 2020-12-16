@@ -1,0 +1,19 @@
+XSLFO (XSL-FO, EXTENSIBLE STYLESHEET LANGUAGE - FORMATTING OBJECTS)
+
+- FOP Quick Start Guide: http://xmlgraphics.apache.org/fop/quickstartguide.html
+
+- FOP Compliance: http://xmlgraphics.apache.org/fop/compliance.html
+
+- XSLFO Some More Tutorials: http://www.renderx.com/tutorial.html
+                             https://www.webucator.com/tutorial/learn-xsl-fo/index.cfm
+
+- XSLFO Alternatives:
+  - Generating XHTML with CSS from XML using XSLT or using XHTML with CSS
+    directly: https://oreillymedia.github.io/HTMLBook/
+              https://www.w3.org/TR/css3-page/
+  - Generating LaTeX source from XML using XSLT
+
+- FOP -> XML Transformation (XSLFO 1.1):
+  fop -xml 'f.xml' -xsl 'f.xsl' -pdf 'f.pdf'
+  xsltproc --output 'f.fo' 'f.xsl' 'f.xml' && fop -fo 'f.fo' -pdf 'f.pdf'
+  saxon -s:'f.xml' -xsl:'f.xsl' -o:'f.fo' && fop -fo 'f.fo' -pdf 'f.pdf'
