@@ -1,4 +1,4 @@
-<!DOCTYPE countries SYSTEM "countries.dtd">
+<!DOCTYPE countries SYSTEM "../validation/countries.dtd">
 <countries>
     <country name="Cote d&apos;Ivoire">
         <intro>
@@ -22,8 +22,7 @@
             </section>
             <section name="Map references" value="Africa"/>
             <section name="Area">
-                <subfield oneline="yes" name="total"/>
-                <data></data>
+                <subfield oneline="yes" name="total" value="322,463" unit="sq km"/>
                 <subfield oneline="yes" name="land" value="318,003" unit="sq km"/>
                 <subfield oneline="yes" name="water" value="4,460" unit="sq km"/>
                 <subfield oneline="yes" name="country comparison to the world" value="70"/>
@@ -57,28 +56,28 @@
             </section>
             <section name="Elevation">
                 <subfield oneline="yes" name="mean elevation" value="250" unit="m"/>
-                <subfield oneline="yes" name="lowest point" value="0" unit="m" year="Gulf of Guinea"/>
-                <subfield oneline="yes" name="highest point" value="1,752" unit="m" year="Monts Nimba"/>
+                <subfield oneline="yes" name="lowest point" value="0" unit="m" description="Gulf of Guinea"/>
+                <subfield oneline="yes" name="highest point" value="1,752" unit="m" description="Monts Nimba"/>
             </section>
             <section name="Natural resources">
                 <list>
-                    <item name="petroleum"/>
-                    <item name="natural gas"/>
-                    <item name="diamonds"/>
-                    <item name="manganese"/>
-                    <item name="iron ore"/>
-                    <item name="cobalt"/>
-                    <item name="bauxite"/>
-                    <item name="copper"/>
-                    <item name="gold"/>
-                    <item name="nickel"/>
-                    <item name="tantalum"/>
-                    <item name="silica sand"/>
-                    <item name="clay"/>
-                    <item name="cocoa beans"/>
-                    <item name="coffee"/>
-                    <item name="palm oil"/>
-                    <item name="hydropower"/>
+                    <item value="petroleum"/>
+                    <item value="natural gas"/>
+                    <item value="diamonds"/>
+                    <item value="manganese"/>
+                    <item value="iron ore"/>
+                    <item value="cobalt"/>
+                    <item value="bauxite"/>
+                    <item value="copper"/>
+                    <item value="gold"/>
+                    <item value="nickel"/>
+                    <item value="tantalum"/>
+                    <item value="silica sand"/>
+                    <item value="clay"/>
+                    <item value="cocoa beans"/>
+                    <item value="coffee"/>
+                    <item value="palm oil"/>
+                    <item value="hydropower"/>
                 </list>
             </section>
             <section name="Land use">
@@ -103,19 +102,19 @@
             </section>
             <section name="Environment - international agreements">
                 <list name="party to">
-                    <item name="Biodiversity"/>
-                    <item name="Climate Change"/>
-                    <item name="Climate Change-Kyoto Protocol"/>
-                    <item name="Desertification"/>
-                    <item name="Endangered Species"/>
-                    <item name="Hazardous Wastes"/>
-                    <item name="Law of the Sea"/>
-                    <item name="Marine Dumping"/>
-                    <item name="Ozone Layer Protection"/>
-                    <item name="Ship Pollution"/>
-                    <item name="Tropical Timber 83"/>
-                    <item name="Tropical Timber 94"/>
-                    <item name="Wetlands"/>
+                    <item value="Biodiversity"/>
+                    <item value="Climate Change"/>
+                    <item value="Climate Change-Kyoto Protocol"/>
+                    <item value="Desertification"/>
+                    <item value="Endangered Species"/>
+                    <item value="Hazardous Wastes"/>
+                    <item value="Law of the Sea"/>
+                    <item value="Marine Dumping"/>
+                    <item value="Ozone Layer Protection"/>
+                    <item value="Ship Pollution"/>
+                    <item value="Tropical Timber 83"/>
+                    <item value="Tropical Timber 94"/>
+                    <item value="Wetlands"/>
                 </list>
                 <subfield oneline="yes" name="singed, but not ratified" value="none of the selected agreements"/>
             </section>
@@ -132,7 +131,7 @@
                 <subfield oneline="yes" name="noun">Ivoirian(s)</subfield>
                 <subfield oneline="yes" name="adjective">Ivoirian</subfield>
             </section>
-            <section name="Ethnic groups" year="2014 est.">
+            <section name="Ethnic groups">
                 <list>
                     <item name="Akan" value="28.9" unit="%"/>
                     <item name="Voltaique or Gur" value="16.1" unit="%"/>
@@ -140,7 +139,7 @@
                     <item name="Kru" value="8.5" unit="%"/>
                     <item name="Southern Mande" value="6.9" unit="%"/>
                     <item name="unspecified" value="0.9" unit="%"/>
-                    <item name="non-Ivoirian" value="24.2" unit="%"/>
+                    <item name="non-Ivoirian" value="24.2" unit="%" year="2014 est."/>
                 </list>
             </section>
             <section name="Languages" year="2011 census">
@@ -190,13 +189,13 @@
                 </list>
                 <list name="55-64 years">
                     <item name="total" value="3.53" unit="%"/>
-                    <data name="male" value="494,000"/>
-                    <data name="female" value="476,060"/>
+                    <item name="male" value="494,000"/>
+                    <item name="female" value="476,060"/>
                 </list>
                 <list name="65 years and over">
                     <item name="total" value="2.85" unit="%"/>
-                    <data name="male" value="349,822"/>
-                    <data name="female" value="433,385"/>
+                    <item name="male" value="349,822"/>
+                    <item name="female" value="433,385"/>
                 </list>
                 <subfield name="population pyramid">
                     <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/IV_popgraph2020.JPG?1584386151"/>
@@ -232,13 +231,13 @@
             </section>
             <section name="Population distribution">
                 the population is primarily located in the forested south, with the highest concentration of people residing in and around the cities on the Atlantic coast; most of the northern savanna remains sparsely populated with higher concentrations located along transportation corridors as shown in this population distribution map
-                <!--TODO link--><link text="population distribution map" href="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/original/COTE_DIVOIRE_Population_density.jpg?1554224313"/>
+                <link value="population distribution map" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/original/COTE_DIVOIRE_Population_density.jpg?1554224313"/>
             </section>
             <section name="Urbanization">
                 <subfield name="urban population" value="51.7" unit="% of total population" year="2020"/>
                 <subfield name="rate of urbanization" value="3.38" unit="% annual rate of change" year="2015-2020 est."/>
                 <subfield name="total population growth rate v. urban population growth rate, 2000-2030">
-                    <pdf name="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_IV.pdf?1602790686"/>
+                    <link value="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_IV.pdf?1602790686"/>
                 </subfield>
             </section>
             <section name="Major urban areas - population" year="2020">
@@ -495,9 +494,9 @@
                 <subfield name="judge selection and term of office">
                     judges nominated by the Superior Council of the Magistrature, a 7-member body consisting of the national president (chairman), 3 "bench" judges, and 3 public prosecutors; judges appointed for life
                 </subfield>
-                <list name="subordinate courts">
+                <subfield name="subordinate courts">
                     Courts of Appeal (organized into civil, criminal, and social chambers); first instance courts; peace courts
-                </list>
+                </subfield>
             </section>
             <section name="Political parties and leaders">
                 <list>
@@ -671,16 +670,16 @@
             </section>
             <section name="Industries">
                 <list>
-                    <item name="foodstuffs"/>
-                    <item name="beverages"/>
-                    <item name="wood products"/>
-                    <item name="oil refining"/>
-                    <item name="gold mining"/>
-                    <item name="truck and bus assembly"/>
-                    <item name="textiles"/>
-                    <item name="fertilizer"/>
-                    <item name="building materials"/>
-                    <item name="electricity"/>
+                    <item value="foodstuffs"/>
+                    <item value="beverages"/>
+                    <item value="wood products"/>
+                    <item value="oil refining"/>
+                    <item value="gold mining"/>
+                    <item value="truck and bus assembly"/>
+                    <item value="textiles"/>
+                    <item value="fertilizer"/>
+                    <item value="building materials"/>
+                    <item value="electricity"/>
                 </list>
             </section>
             <section name="Industrial production growth rate">
@@ -752,15 +751,15 @@
             </section>
             <section name="Exports - commodities">
                 <list>
-                    <item name="cocoa"/>
-                    <item name="coffee"/>
-                    <item name="timber"/>
-                    <item name="petroleum"/>
-                    <item name="cotton"/>
-                    <item name="bananas"/>
-                    <item name="pineapples"/>
-                    <item name="palm oil"/>
-                    <item name="fish"/>
+                    <item value="cocoa"/>
+                    <item value="coffee"/>
+                    <item value="timber"/>
+                    <item value="petroleum"/>
+                    <item value="cotton"/>
+                    <item value="bananas"/>
+                    <item value="pineapples"/>
+                    <item value="palm oil"/>
+                    <item value="fish"/>
                 </list>
             </section>
             <section name="Imports">
@@ -770,9 +769,9 @@
             </section>
             <section name="Imports - commodities">
                 <list>
-                    <item name="fuel"/>
-                    <item name="capital equipment"/>
-                    <item name="foodstuffs"/>
+                    <item value="fuel"/>
+                    <item value="capital equipment"/>
+                    <item value="foodstuffs"/>
                 </list>
             </section>
             <section name="Imports - partners">
@@ -929,8 +928,8 @@
                 </subfield>
             </section>
             <section name="Broadcast media">
-                <paragraph year="2019">
-                    state-controlled Radiodiffusion Television Ivoirieinne (RTI) is made up of 2 radios stations (Radio Cote d'Ivoire and Frequence2) and 2 television stations (RTI1 and RTI2), with nationwide coverage, broadcasts mainly in French; after 2011 post-electoral crisis, President OUATTARA's administration reopened RTI Bouake', the broadcaster's office in Cote d'Ivoire's 2nd largest city, where facilities were destroyed during the 2002 rebellion; Cote d'Ivoire is also home to 178 proximity radios stations, 16 religious radios stations, 5 commercial radios stations, and 5 international radios stations, according to the Haute Autorite' de la Communication Audiovisuelle (HACA); govt now runs radio UNOCIFM, a radio station previously owned by the UN Operation in Cote d'Ivoire; in Dec 2016, the govt announced 4 companies had been granted licenses to operate -Live TV, Optimum Media Cote d'Ivoire, the Audiovisual Company of Cote d'Ivoire (Sedaci), and Sorano-CI, out of the 4 companies only one has started operating
+                <paragraph>
+                    state-controlled Radiodiffusion Television Ivoirieinne (RTI) is made up of 2 radios stations (Radio Cote d'Ivoire and Frequence2) and 2 television stations (RTI1 and RTI2), with nationwide coverage, broadcasts mainly in French; after 2011 post-electoral crisis, President OUATTARA's administration reopened RTI Bouake', the broadcaster's office in Cote d'Ivoire's 2nd largest city, where facilities were destroyed during the 2002 rebellion; Cote d'Ivoire is also home to 178 proximity radios stations, 16 religious radios stations, 5 commercial radios stations, and 5 international radios stations, according to the Haute Autorite' de la Communication Audiovisuelle (HACA); govt now runs radio UNOCIFM, a radio station previously owned by the UN Operation in Cote d'Ivoire; in Dec 2016, the govt announced 4 companies had been granted licenses to operate -Live TV, Optimum Media Cote d'Ivoire, the Audiovisual Company of Cote d'Ivoire (Sedaci), and Sorano-CI, out of the 4 companies only one has started operating (2019)
                 </paragraph>
             </section>
             <section name="Internet country code" value=".ci"/>
@@ -981,7 +980,7 @@
             </section>
             <section name="Railways">
                 <subfield name="total" value="660" unit="km" year="2008"/>
-                <subfield name="standard gauge" value="660" unit="km 1.435-m gauge" note="3,218 km electrified" year="2008"/>
+                <subfield name="standard gauge" value="660" unit="km 1.435-m gauge" description="3,218 km electrified" year="2008"/>
                 <subfield name="note">
                     an additional 622 km of this railroad extends into Burkina Faso
                 </subfield>
@@ -1007,8 +1006,8 @@
             </section>
             <section name="Ports and terminals">
                 <list name="major seaport(s)">
-                    <port value="Abidjan"/>
-                    <port value="San-Pedro"/>
+                    <item value="Abidjan"/>
+                    <item value="San-Pedro"/>
                 </list>
                 <subfield name="oil terminal(s)" value="Espoir Offshore Terminal"/>
             </section>

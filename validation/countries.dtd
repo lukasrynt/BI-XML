@@ -1,29 +1,60 @@
 <!ELEMENT countries (country*)>
 
-<!ELEMENT country (intro, chapter)>
-<!ATTLIST country name #PCDATA>
+<!ELEMENT country (intro, chapter+)>
+<!ATTLIST country name CDATA #REQUIRED>
 
 <!ELEMENT intro (img+)>
 <!ELEMENT img EMPTY>
 <!ATTLIST img src CDATA #REQUIRED>
 
-<!ELEMENT chapter (section*)>
+<!ELEMENT chapter (section+)>
 <!ATTLIST chapter name CDATA #REQUIRED>
 
-<!ELEMENT section (paragraph*|(#PCDATA)|subfield*|list*)>
+<!ELEMENT section (#PCDATA|paragraph|subfield|list|data|link|audio)*>
 <!ATTLIST section
         name CDATA #REQUIRED
-        value CDATA #IMPLIED>
+        value CDATA #IMPLIED
+        year CDATA #IMPLIED>
 
 <!ELEMENT paragraph (#PCDATA)>
 
-<!ELEMENT subfield (#PCDATA)>
+<!ELEMENT subfield (#PCDATA|list|img|link|data|paragraph)*>
 <!ATTLIST subfield
         oneline (yes|no) "no"
         name CDATA #REQUIRED
         value CDATA #IMPLIED
-        unit CDATA #IMPLIED>
+        unit CDATA #IMPLIED
+        description CDATA #IMPLIED
+        year CDATA #IMPLIED>
 
 <!ELEMENT list (item+)>
+<!ATTLIST list name CDATA #IMPLIED>
 
 <!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+        name CDATA #IMPLIED
+        value CDATA #REQUIRED
+        unit CDATA #IMPLIED
+        year CDATA #IMPLIED
+        description CDATA #IMPLIED
+        description2 CDATA #IMPLIED>
+
+<!ELEMENT data EMPTY>
+<!ATTLIST data
+        name CDATA #IMPLIED
+        value CDATA #REQUIRED
+        unit CDATA #IMPLIED
+        year CDATA #IMPLIED
+        description CDATA #IMPLIED
+        description2 CDATA #IMPLIED>
+
+<!ELEMENT link EMPTY>
+<!ATTLIST link value CDATA #REQUIRED
+        src CDATA #REQUIRED>
+
+<!ELEMENT audio EMPTY>
+<!ATTLIST audio
+        type CDATA #REQUIRED
+        controls CDATA #REQUIRED
+        src CDATA #REQUIRED
+        alt CDATA #IMPLIED>

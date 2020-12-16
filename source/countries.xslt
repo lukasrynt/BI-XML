@@ -173,12 +173,12 @@
         <xsl:copy-of select="."/>
     </xsl:template>
 
-    <xsl:template match="pdf">
+    <xsl:template match="link">
         <a>
             <xsl:attribute name="href">
                 <xsl:value-of select="@src"/>
             </xsl:attribute>
-            <xsl:value-of select="@name"/>
+            <xsl:value-of select="@value"/>
         </a>
     </xsl:template>
 </xsl:stylesheet>
