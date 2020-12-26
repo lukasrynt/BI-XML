@@ -1,0 +1,196 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="countries">
+            <element name="author">
+                <ref name="authorContent"/>
+            </element>
+            <oneOrMore>
+                <element name="country">
+                    <ref name="countryContent"/>
+                </element>
+            </oneOrMore>
+        </element>
+    </start>
+
+    <define name="authorContent">
+        <empty/>
+        <attribute name="name"/>
+        <attribute name="surname"/>
+        <attribute name="email">
+            <data type="string">
+                <param name="pattern">.*@.*</param>
+            </data>
+        </attribute>
+    </define>
+
+    <define name="countryContent">
+        <attribute name="name"/>
+        <element name="intro">
+            <zeroOrMore>
+                <element name="img">
+                    <ref name="image"/>
+                </element>
+            </zeroOrMore>
+        </element>
+        <oneOrMore>
+            <element name="chapter">
+                <attribute name="name"/>
+                <oneOrMore>
+                    <element name="section">
+                        <ref name="sectionContent"/>
+                    </element>
+                </oneOrMore>
+            </element>
+        </oneOrMore>
+    </define>
+
+    <define name="sectionContent">
+        <attribute name="name"/>
+        <optional>
+            <ref name="year"/>
+        </optional>
+        <choice>
+            <group>
+                <empty/>
+                <attribute name="value"/>
+            </group>
+            <ref name="possibleElements"/>
+        </choice>
+    </define>
+
+    <define name="possibleElements">
+        <interleave>
+            <zeroOrMore>
+                <element name="subfield">
+                    <ref name="basicContent"/>
+                    <ref name="basicAttr"/>
+                </element>
+            </zeroOrMore>
+            <ref name="basicContent"/>
+        </interleave>
+    </define>
+
+    <define name="basicContent">
+        <text/>
+        <zeroOrMore>
+            <element name="paragraph">
+                <text/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="list">
+                <ref name="listContent"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="data">
+                <ref name="dataContent"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="link">
+                <ref name="linkContent"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="audio">
+                <ref name="audioContent"/>
+            </element>
+        </zeroOrMore>
+        <zeroOrMore>
+            <element name="img">
+                <ref name="image"/>
+            </element>
+        </zeroOrMore>
+    </define>
+
+    <define name="basicAttr">
+        <optional>
+            <attribute name="name"/>
+        </optional>
+        <optional>
+            <attribute name="oneline">
+                <choice>
+                    <value>yes</value>
+                    <value>no</value>
+                </choice>
+            </attribute>
+        </optional>
+        <optional>
+            <attribute name="value"/>
+        </optional>
+        <optional>
+            <attribute name="unit"/>
+        </optional>
+        <optional>
+            <attribute name="description"/>
+        </optional>
+        <optional>
+            <attribute name="description2"/>
+        </optional>
+        <optional>
+            <ref name="year"/>
+        </optional>
+    </define>
+
+    <define name="dataContent">
+        <choice>
+            <group>
+                <empty/>
+                <ref name="basicAttr"/>
+            </group>
+            <text/>
+        </choice>
+    </define>
+
+    <define name="image">
+        <empty/>
+        <attribute name="src"/>
+    </define>
+
+    <define name="linkContent">
+        <attribute name="value"/>
+        <attribute name="src"/>
+    </define>
+
+    <define name="listContent">
+        <optional>
+            <attribute name="name"/>
+        </optional>
+        <oneOrMore>
+            <element name="item">
+                <ref name="basicAttr"/>
+            </element>
+        </oneOrMore>
+    </define>
+
+    <define name="audioContent">
+        <attribute name="type">
+            <choice>
+                <value>audio/mp3</value>
+                <value>audio/mpeg</value>
+                <value>audio/ogg</value>
+                <value>audio/wav</value>
+            </choice>
+        </attribute>
+        <optional>
+            <attribute name="controls">
+                <data type="string">
+                    <param name="pattern">controls</param>
+                </data>
+            </attribute>
+        </optional>
+        <optional>
+            <attribute name="alt"/>
+        </optional>
+        <attribute name="src"/>
+    </define>
+
+    <define name="year">
+        <attribute name="year">
+            <data type="string">
+                <param name="pattern">.*\d{4}.*</param>
+            </data>
+        </attribute>
+    </define>
+</grammar>

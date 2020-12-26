@@ -1,4 +1,10 @@
-<!ELEMENT countries (country*)>
+<!ELEMENT countries (author, country+)>
+
+<!ELEMENT author EMPTY>
+<!ATTLIST author
+        name CDATA #REQUIRED
+        surname CDATA #REQUIRED
+        email CDATA #REQUIRED>
 
 <!ELEMENT country (intro, chapter+)>
 <!ATTLIST country name CDATA #REQUIRED>

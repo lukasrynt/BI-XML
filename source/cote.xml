@@ -1,5 +1,6 @@
 <!DOCTYPE countries SYSTEM "../validation/countries.dtd">
 <countries>
+    <author name="Lukas" surname="Rynt" email="ryntluka@fit.cvut.cz"/>
     <country name="Cote d&apos;Ivoire">
         <intro>
             <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/IV-flag.jpg"/>
@@ -128,8 +129,8 @@
                 <subfield oneline="yes" name="country comparison to the world" value="52"/>
             </section>
             <section name="Nationality">
-                <subfield oneline="yes" name="noun">Ivoirian(s)</subfield>
-                <subfield oneline="yes" name="adjective">Ivoirian</subfield>
+                <subfield oneline="yes" name="noun" value="Ivoirian(s)"/>
+                <subfield oneline="yes" name="adjective" value="Ivoirian"/>
             </section>
             <section name="Ethnic groups">
                 <list>
@@ -385,7 +386,7 @@
                     <data value="6 49 N"/>
                     <data value="5 16 W"/>
                 </subfield>
-                <subfield name="time difference" value="UTC-1" year="6 hours ahead of Washington, DC, during Standard Time"/>
+                <subfield name="time difference" value="UTC-1" description="6 hours ahead of Washington, DC, during Standard Time"/>
                 <subfield name="daylight saving time">
                     UTC 0 (5 hours ahead of Washington, DC, during Standard Time)
                 </subfield>

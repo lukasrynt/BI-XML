@@ -1,5 +1,6 @@
 <!DOCTYPE countries SYSTEM "../validation/countries.dtd">
 <countries>
+    <author name="Lukas" surname="Rynt" email="ryntluka@fit.cvut.cz"/>
     <country name="Czechia">
         <intro>
             <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/EZ-flag.jpg"/>
@@ -351,7 +352,7 @@
                     <data value="50 05 N"/>
                     <data value="14 28 E"/>
                 </subfield>
-                <subfield name="time difference" value="UTC-1" year="6 hours ahead of Washington, DC, during Standard Time"/>
+                <subfield name="time difference" value="UTC-1" description="6 hours ahead of Washington, DC, during Standard Time"/>
                 <subfield name="daylight saving time">
                     +1hr, begins last Sunday in March; ends last Sunday in October
                 </subfield>

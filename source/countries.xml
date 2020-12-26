@@ -1,4 +1,6 @@
+<!DOCTYPE countries SYSTEM "../validation/countries.dtd">
 <countries>
+    <author name="Lukas" surname="Rynt" email="ryntluka@fit.cvut.cz"/>
     <country name="Czechia">
         <intro>
             <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/EZ-flag.jpg"/>
@@ -35,10 +37,10 @@
             <section name="Land boundaries">
                 <subfield oneline="yes" name="total" value="2,143" unit="km"/>
                 <list>
-                    <border name="Austria" value="402" unit="km"/>
-                    <border name="Germany" value="704" unit="km"/>
-                    <border name="Poland" value="796" unit="km"/>
-                    <border name="Slovakia" value="241" unit="km"/>
+                    <item name="Austria" value="402" unit="km"/>
+                    <item name="Germany" value="704" unit="km"/>
+                    <item name="Poland" value="796" unit="km"/>
+                    <item name="Slovakia" value="241" unit="km"/>
                 </list>
             </section>
             <section name="Coastline">
@@ -60,13 +62,13 @@
             </section>
             <section name="Natural resources">
                 <list>
-                    <item name="hard coal"/>
-                    <item name="soft coal"/>
-                    <item name="kaolin"/>
-                    <item name="clay"/>
-                    <item name="graphite"/>
-                    <item name="timber"/>
-                    <item name="arable land"/>
+                    <item value="hard coal"/>
+                    <item value="soft coal"/>
+                    <item value="kaolin"/>
+                    <item value="clay"/>
+                    <item value="graphite"/>
+                    <item value="timber"/>
+                    <item value="arable land"/>
                 </list>
             </section>
             <section name="Land use">
@@ -94,26 +96,26 @@
             </section>
             <section name="Environment - international agreements">
                 <list name="party to">
-                    <item name="Air Pollution"/>
-                    <item name="Air Pollution-Nitrogen Oxides"/>
-                    <item name="Air Pollution-Persistent Organic Pollutants"/>
-                    <item name="Air Pollution-Sulfur 85"/>
-                    <item name="Air Pollution-Sulfur 94"/>
-                    <item name="Air Pollution-Volatile Organic Compounds"/>
-                    <item name="Antarctic-Environmental Protocol"/>
-                    <item name="Antarctic Treaty"/>
-                    <item name="Biodiversity"/>
-                    <item name="Climate Change"/>
-                    <item name="Climate Change-Kyoto Protocol"/>
-                    <item name="Desertification"/>
-                    <item name="Endangered Species"/>
-                    <item name="Environmental Modification"/>
-                    <item name="Hazardous Wastes"/>
-                    <item name="Law of the Sea"/>
-                    <item name="Ozone Layer Protection"/>
-                    <item name="Ship Pollution"/>
-                    <item name="Wetlands"/>
-                    <item name="Whaling"/>
+                    <item value="Air Pollution"/>
+                    <item value="Air Pollution-Nitrogen Oxides"/>
+                    <item value="Air Pollution-Persistent Organic Pollutants"/>
+                    <item value="Air Pollution-Sulfur 85"/>
+                    <item value="Air Pollution-Sulfur 94"/>
+                    <item value="Air Pollution-Volatile Organic Compounds"/>
+                    <item value="Antarctic-Environmental Protocol"/>
+                    <item value="Antarctic Treaty"/>
+                    <item value="Biodiversity"/>
+                    <item value="Climate Change"/>
+                    <item value="Climate Change-Kyoto Protocol"/>
+                    <item value="Desertification"/>
+                    <item value="Endangered Species"/>
+                    <item value="Environmental Modification"/>
+                    <item value="Hazardous Wastes"/>
+                    <item value="Law of the Sea"/>
+                    <item value="Ozone Layer Protection"/>
+                    <item value="Ship Pollution"/>
+                    <item value="Wetlands"/>
+                    <item value="Whaling"/>
                 </list>
                 <subfield oneline="yes" name="singed, but not ratified" value="none of the selected agreements"/>
             </section>
@@ -177,13 +179,13 @@
                 </list>
                 <list name="55-64 years">
                     <item name="total" value="12.12" unit="%"/>
-                    <data name="male" value="636,357" unit="%"/>
-                    <data name="female" value="660,748" unit="%"/>
+                    <item name="male" value="636,357" unit="%"/>
+                    <item name="female" value="660,748" unit="%"/>
                 </list>
                 <list name="65 years and over">
                     <item name="total" value="20.23" unit="%"/>
-                    <data name="male" value="907,255" unit="%"/>
-                    <data name="female" value="1,257,515" unit="%"/>
+                    <item name="male" value="907,255" unit="%"/>
+                    <item name="female" value="1,257,515" unit="%"/>
                 </list>
                 <subfield name="population pyramid">
                     <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/EZ_popgraph2020.JPG?1586200020s"/>
@@ -224,7 +226,7 @@
                 <subfield name="urban population" value="74.1" unit="% of total population" year="2020"/>
                 <subfield name="rate of urbanization" value="0.21" unit="% annual rate of change" year="2015-2020 est."/>
                 <subfield name="total population growth rate v. urban population growth rate, 2000-2030">
-                    <pdf name="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_EZ.pdf?1602789182"/>
+                    <link value="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_EZ.pdf?1602789182"/>
                 </subfield>
             </section>
             <section name="Major urban areas - population">
@@ -631,22 +633,22 @@
             </section>
             <section name="Agriculture - products">
                 <list>
-                    <item name="wheat"/>
-                    <item name="potatoes"/>
-                    <item name="sugar beets"/>
-                    <item name="hops"/>
-                    <item name="fruit"/>
-                    <item name="pigs"/>
-                    <item name="poultry"/>
+                    <item value="wheat"/>
+                    <item value="potatoes"/>
+                    <item value="sugar beets"/>
+                    <item value="hops"/>
+                    <item value="fruit"/>
+                    <item value="pigs"/>
+                    <item value="poultry"/>
                 </list>
             </section>
             <section name="Industries">
                 <list>
-                    <item name="motor vehicles"/>
-                    <item name="metallurgy"/>
-                    <item name="machinery and equipment"/>
-                    <item name="glass"/>
-                    <item name="armaments"/>
+                    <item value="motor vehicles"/>
+                    <item value="metallurgy"/>
+                    <item value="machinery and equipment"/>
+                    <item value="glass"/>
+                    <item value="armaments"/>
                 </list>
             </section>
             <section name="Industrial production growth rate">
@@ -720,10 +722,10 @@
             </section>
             <section name="Exports - commodities">
                 <list>
-                    <item name="machinery and transport equipment"/>
-                    <item name="raw materials"/>
-                    <item name="fuel"/>
-                    <item name="chemicals"/>
+                    <item value="machinery and transport equipment"/>
+                    <item value="raw materials"/>
+                    <item value="fuel"/>
+                    <item value="chemicals"/>
                 </list>
             </section>
             <section name="Imports">
@@ -733,9 +735,9 @@
             </section>
             <section name="Imports - commodities">
                 <list>
-                    <item name="machinery and transport equipment"/>
-                    <item name="raw materials and fuels"/>
-                    <item name="chemicals"/>
+                    <item value="machinery and transport equipment"/>
+                    <item value="raw materials and fuels"/>
+                    <item value="chemicals"/>
                 </list>
             </section>
             <section name="Imports - partners">
@@ -891,8 +893,8 @@
                 </subfield>
             </section>
             <section name="Broadcast media">
-                <paragraph year="2019">
-                    22 TV stations operate nationally, with 17 of them in private hands; publicly operated Czech Television has 5 national channels; throughout the country, there are some 350 TV channels in operation, many through cable, satellite, and IPTV subscription services; 63 radio broadcasters are registered, operating over 80 radio stations, including 7 multiregional radio stations or networks; publicly operated broadcaster Czech Radio operates 4 national, 14 regional, and 4 Internet stations; both Czech Radio and Czech Television are partially financed through a license fee
+                <paragraph>
+                    22 TV stations operate nationally, with 17 of them in private hands; publicly operated Czech Television has 5 national channels; throughout the country, there are some 350 TV channels in operation, many through cable, satellite, and IPTV subscription services; 63 radio broadcasters are registered, operating over 80 radio stations, including 7 multiregional radio stations or networks; publicly operated broadcaster Czech Radio operates 4 national, 14 regional, and 4 Internet stations; both Czech Radio and Czech Television are partially financed through a license fee (2019)
                 </paragraph>
             </section>
             <section name="Internet country code" value=".cz"/>
@@ -943,13 +945,13 @@
             </section>
             <section name="Railways">
                 <subfield name="total" value="9,408" unit="km" year="2017"/>
-                <subfield name="standard gauge" value="9,385" unit="km 1.435-m gauge" note="3,218 km electrified" year="2017"/>
+                <subfield name="standard gauge" value="9,385" unit="km 1.435-m gauge" description="3,218 km electrified" year="2017"/>
                 <subfield name="standard gauge" value="23" unit="km 0.760-m gauge" year="2017"/>
                 <subfield oneline="yes" name="country comparison to the world" value="24"/>
             </section>
             <section name="Roadways">
-                <subfield name="total" value="55,744" unit="km" note="includes urban and category I, II, III roads" year="2017"/>
-                <subfield name="paved" value="55,744" unit="km" note="includes 1,252 km of expressways" year="2017"/>
+                <subfield name="total" value="55,744" unit="km" description="includes urban and category I, II, III roads" year="2017"/>
+                <subfield name="paved" value="55,744" unit="km" description="includes 1,252 km of expressways" year="2017"/>
                 <subfield oneline="yes" name="country comparison to the world" value="82"/>
             </section>
             <section name="Waterways">
@@ -958,9 +960,9 @@
             </section>
             <section name="Ports and terminals">
                 <list name="river port(s)">
-                    <port value="Prague" description="Vltava"/>
-                    <port value="Decin" description="Elbe"/>
-                    <port value="Usti nad Labem" description="Elbe"/>
+                    <item value="Prague" description="Vltava"/>
+                    <item value="Decin" description="Elbe"/>
+                    <item value="Usti nad Labem" description="Elbe"/>
                 </list>
             </section>
         </chapter>
@@ -996,7 +998,7 @@
             </section>
         </chapter>
     </country>
-    <country name="Cote d'Ivoire">
+    <country name="Cote d&apos;Ivoire">
         <intro>
             <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/IV-flag.jpg"/>
             <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/locator-maps/IV-locator-map.jpg"/>
@@ -1028,12 +1030,12 @@
             </section>
             <section name="Land boundaries">
                 <subfield oneline="yes" name="total" value="3,458" unit="km"/>
-                <list>
-                    <border name="Burkina Faso" value="545" unit="km"/>
-                    <border name="Ghana" value="720" unit="km"/>
-                    <border name="Guinea" value="816" unit="km"/>
-                    <border name="Liberia" value="778" unit="km"/>
-                    <border name="Mali" value="599" unit="km"/>
+                <list name="border">
+                    <item name="Burkina Faso" value="545" unit="km"/>
+                    <item name="Ghana" value="720" unit="km"/>
+                    <item name="Guinea" value="816" unit="km"/>
+                    <item name="Liberia" value="778" unit="km"/>
+                    <item name="Mali" value="599" unit="km"/>
                 </list>
             </section>
             <section name="Coastline">
@@ -1052,28 +1054,28 @@
             </section>
             <section name="Elevation">
                 <subfield oneline="yes" name="mean elevation" value="250" unit="m"/>
-                <subfield oneline="yes" name="lowest point" value="0" unit="m" year="Gulf of Guinea"/>
-                <subfield oneline="yes" name="highest point" value="1,752" unit="m" year="Monts Nimba"/>
+                <subfield oneline="yes" name="lowest point" value="0" unit="m" description="Gulf of Guinea"/>
+                <subfield oneline="yes" name="highest point" value="1,752" unit="m" description="Monts Nimba"/>
             </section>
             <section name="Natural resources">
                 <list>
-                    <item name="petroleum"/>
-                    <item name="natural gas"/>
-                    <item name="diamonds"/>
-                    <item name="manganese"/>
-                    <item name="iron ore"/>
-                    <item name="cobalt"/>
-                    <item name="bauxite"/>
-                    <item name="copper"/>
-                    <item name="gold"/>
-                    <item name="nickel"/>
-                    <item name="tantalum"/>
-                    <item name="silica sand"/>
-                    <item name="clay"/>
-                    <item name="cocoa beans"/>
-                    <item name="coffee"/>
-                    <item name="palm oil"/>
-                    <item name="hydropower"/>
+                    <item value="petroleum"/>
+                    <item value="natural gas"/>
+                    <item value="diamonds"/>
+                    <item value="manganese"/>
+                    <item value="iron ore"/>
+                    <item value="cobalt"/>
+                    <item value="bauxite"/>
+                    <item value="copper"/>
+                    <item value="gold"/>
+                    <item value="nickel"/>
+                    <item value="tantalum"/>
+                    <item value="silica sand"/>
+                    <item value="clay"/>
+                    <item value="cocoa beans"/>
+                    <item value="coffee"/>
+                    <item value="palm oil"/>
+                    <item value="hydropower"/>
                 </list>
             </section>
             <section name="Land use">
@@ -1098,19 +1100,19 @@
             </section>
             <section name="Environment - international agreements">
                 <list name="party to">
-                    <item name="Biodiversity"/>
-                    <item name="Climate Change"/>
-                    <item name="Climate Change-Kyoto Protocol"/>
-                    <item name="Desertification"/>
-                    <item name="Endangered Species"/>
-                    <item name="Hazardous Wastes"/>
-                    <item name="Law of the Sea"/>
-                    <item name="Marine Dumping"/>
-                    <item name="Ozone Layer Protection"/>
-                    <item name="Ship Pollution"/>
-                    <item name="Tropical Timber 83"/>
-                    <item name="Tropical Timber 94"/>
-                    <item name="Wetlands"/>
+                    <item value="Biodiversity"/>
+                    <item value="Climate Change"/>
+                    <item value="Climate Change-Kyoto Protocol"/>
+                    <item value="Desertification"/>
+                    <item value="Endangered Species"/>
+                    <item value="Hazardous Wastes"/>
+                    <item value="Law of the Sea"/>
+                    <item value="Marine Dumping"/>
+                    <item value="Ozone Layer Protection"/>
+                    <item value="Ship Pollution"/>
+                    <item value="Tropical Timber 83"/>
+                    <item value="Tropical Timber 94"/>
+                    <item value="Wetlands"/>
                 </list>
                 <subfield oneline="yes" name="singed, but not ratified" value="none of the selected agreements"/>
             </section>
@@ -1127,7 +1129,7 @@
                 <subfield oneline="yes" name="noun">Ivoirian(s)</subfield>
                 <subfield oneline="yes" name="adjective">Ivoirian</subfield>
             </section>
-            <section name="Ethnic groups" year="2014 est.">
+            <section name="Ethnic groups">
                 <list>
                     <item name="Akan" value="28.9" unit="%"/>
                     <item name="Voltaique or Gur" value="16.1" unit="%"/>
@@ -1135,7 +1137,7 @@
                     <item name="Kru" value="8.5" unit="%"/>
                     <item name="Southern Mande" value="6.9" unit="%"/>
                     <item name="unspecified" value="0.9" unit="%"/>
-                    <item name="non-Ivoirian" value="24.2" unit="%"/>
+                    <item name="non-Ivoirian" value="24.2" unit="%" year="2014 est."/>
                 </list>
             </section>
             <section name="Languages" year="2011 census">
@@ -1185,13 +1187,13 @@
                 </list>
                 <list name="55-64 years">
                     <item name="total" value="3.53" unit="%"/>
-                    <data name="male" value="494,000"/>
-                    <data name="female" value="476,060"/>
+                    <item name="male" value="494,000"/>
+                    <item name="female" value="476,060"/>
                 </list>
                 <list name="65 years and over">
                     <item name="total" value="2.85" unit="%"/>
-                    <data name="male" value="349,822"/>
-                    <data name="female" value="433,385"/>
+                    <item name="male" value="349,822"/>
+                    <item name="female" value="433,385"/>
                 </list>
                 <subfield name="population pyramid">
                     <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/IV_popgraph2020.JPG?1584386151"/>
@@ -1227,13 +1229,13 @@
             </section>
             <section name="Population distribution">
                 the population is primarily located in the forested south, with the highest concentration of people residing in and around the cities on the Atlantic coast; most of the northern savanna remains sparsely populated with higher concentrations located along transportation corridors as shown in this population distribution map
-                <!--TODO link--><link text="population distribution map" href="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/original/COTE_DIVOIRE_Population_density.jpg?1554224313"/>
+                <link value="population distribution map" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/original/COTE_DIVOIRE_Population_density.jpg?1554224313"/>
             </section>
             <section name="Urbanization">
                 <subfield name="urban population" value="51.7" unit="% of total population" year="2020"/>
                 <subfield name="rate of urbanization" value="3.38" unit="% annual rate of change" year="2015-2020 est."/>
                 <subfield name="total population growth rate v. urban population growth rate, 2000-2030">
-                    <pdf name="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_IV.pdf?1602790686"/>
+                    <link value="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_IV.pdf?1602790686"/>
                 </subfield>
             </section>
             <section name="Major urban areas - population" year="2020">
@@ -1490,9 +1492,9 @@
                 <subfield name="judge selection and term of office">
                     judges nominated by the Superior Council of the Magistrature, a 7-member body consisting of the national president (chairman), 3 "bench" judges, and 3 public prosecutors; judges appointed for life
                 </subfield>
-                <list name="subordinate courts">
+                <subfield name="subordinate courts">
                     Courts of Appeal (organized into civil, criminal, and social chambers); first instance courts; peace courts
-                </list>
+                </subfield>
             </section>
             <section name="Political parties and leaders">
                 <list>
@@ -1666,16 +1668,16 @@
             </section>
             <section name="Industries">
                 <list>
-                    <item name="foodstuffs"/>
-                    <item name="beverages"/>
-                    <item name="wood products"/>
-                    <item name="oil refining"/>
-                    <item name="gold mining"/>
-                    <item name="truck and bus assembly"/>
-                    <item name="textiles"/>
-                    <item name="fertilizer"/>
-                    <item name="building materials"/>
-                    <item name="electricity"/>
+                    <item value="foodstuffs"/>
+                    <item value="beverages"/>
+                    <item value="wood products"/>
+                    <item value="oil refining"/>
+                    <item value="gold mining"/>
+                    <item value="truck and bus assembly"/>
+                    <item value="textiles"/>
+                    <item value="fertilizer"/>
+                    <item value="building materials"/>
+                    <item value="electricity"/>
                 </list>
             </section>
             <section name="Industrial production growth rate">
@@ -1747,15 +1749,15 @@
             </section>
             <section name="Exports - commodities">
                 <list>
-                    <item name="cocoa"/>
-                    <item name="coffee"/>
-                    <item name="timber"/>
-                    <item name="petroleum"/>
-                    <item name="cotton"/>
-                    <item name="bananas"/>
-                    <item name="pineapples"/>
-                    <item name="palm oil"/>
-                    <item name="fish"/>
+                    <item value="cocoa"/>
+                    <item value="coffee"/>
+                    <item value="timber"/>
+                    <item value="petroleum"/>
+                    <item value="cotton"/>
+                    <item value="bananas"/>
+                    <item value="pineapples"/>
+                    <item value="palm oil"/>
+                    <item value="fish"/>
                 </list>
             </section>
             <section name="Imports">
@@ -1765,9 +1767,9 @@
             </section>
             <section name="Imports - commodities">
                 <list>
-                    <item name="fuel"/>
-                    <item name="capital equipment"/>
-                    <item name="foodstuffs"/>
+                    <item value="fuel"/>
+                    <item value="capital equipment"/>
+                    <item value="foodstuffs"/>
                 </list>
             </section>
             <section name="Imports - partners">
@@ -1924,8 +1926,8 @@
                 </subfield>
             </section>
             <section name="Broadcast media">
-                <paragraph year="2019">
-                    state-controlled Radiodiffusion Television Ivoirieinne (RTI) is made up of 2 radios stations (Radio Cote d'Ivoire and Frequence2) and 2 television stations (RTI1 and RTI2), with nationwide coverage, broadcasts mainly in French; after 2011 post-electoral crisis, President OUATTARA's administration reopened RTI Bouake', the broadcaster's office in Cote d'Ivoire's 2nd largest city, where facilities were destroyed during the 2002 rebellion; Cote d'Ivoire is also home to 178 proximity radios stations, 16 religious radios stations, 5 commercial radios stations, and 5 international radios stations, according to the Haute Autorite' de la Communication Audiovisuelle (HACA); govt now runs radio UNOCIFM, a radio station previously owned by the UN Operation in Cote d'Ivoire; in Dec 2016, the govt announced 4 companies had been granted licenses to operate -Live TV, Optimum Media Cote d'Ivoire, the Audiovisual Company of Cote d'Ivoire (Sedaci), and Sorano-CI, out of the 4 companies only one has started operating
+                <paragraph>
+                    state-controlled Radiodiffusion Television Ivoirieinne (RTI) is made up of 2 radios stations (Radio Cote d'Ivoire and Frequence2) and 2 television stations (RTI1 and RTI2), with nationwide coverage, broadcasts mainly in French; after 2011 post-electoral crisis, President OUATTARA's administration reopened RTI Bouake', the broadcaster's office in Cote d'Ivoire's 2nd largest city, where facilities were destroyed during the 2002 rebellion; Cote d'Ivoire is also home to 178 proximity radios stations, 16 religious radios stations, 5 commercial radios stations, and 5 international radios stations, according to the Haute Autorite' de la Communication Audiovisuelle (HACA); govt now runs radio UNOCIFM, a radio station previously owned by the UN Operation in Cote d'Ivoire; in Dec 2016, the govt announced 4 companies had been granted licenses to operate -Live TV, Optimum Media Cote d'Ivoire, the Audiovisual Company of Cote d'Ivoire (Sedaci), and Sorano-CI, out of the 4 companies only one has started operating (2019)
                 </paragraph>
             </section>
             <section name="Internet country code" value=".ci"/>
@@ -1976,7 +1978,7 @@
             </section>
             <section name="Railways">
                 <subfield name="total" value="660" unit="km" year="2008"/>
-                <subfield name="standard gauge" value="660" unit="km 1.435-m gauge" note="3,218 km electrified" year="2008"/>
+                <subfield name="standard gauge" value="660" unit="km 1.435-m gauge" description="3,218 km electrified" year="2008"/>
                 <subfield name="note">
                     an additional 622 km of this railroad extends into Burkina Faso
                 </subfield>
@@ -2002,8 +2004,8 @@
             </section>
             <section name="Ports and terminals">
                 <list name="major seaport(s)">
-                    <port value="Abidjan"/>
-                    <port value="San-Pedro"/>
+                    <item value="Abidjan"/>
+                    <item value="San-Pedro"/>
                 </list>
                 <subfield name="oil terminal(s)" value="Espoir Offshore Terminal"/>
             </section>

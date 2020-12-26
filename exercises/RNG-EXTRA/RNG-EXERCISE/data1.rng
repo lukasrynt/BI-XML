@@ -1,0 +1,44 @@
+<element name="shoppingCart" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <oneOrMore>
+        <element name="item">
+            <attribute name="id">
+                <data type="string">
+                    <param name="pattern">.*\d+</param>
+                </data>
+            </attribute>
+            <element name="title">
+                <text/>
+            </element>
+            <optional>
+                <element name="description">
+                    <text/>
+                </element>
+            </optional>
+            <element name="producer">
+                <text/>
+            </element>
+            <element name="price">
+                <attribute name="currency">
+                    <choice>
+                        <value>CZK</value>
+                        <value>EUR</value>
+                        <value>USD</value>
+                    </choice>
+                </attribute>
+                <data type="int">
+                    <param name="minInclusive">0</param>
+                </data>
+            </element>
+            <element name="type">
+                <empty/>
+                <attribute name="category">
+                    <choice>
+                        <value>compact</value>
+                        <value>EVF</value>
+                        <value>SLR</value>
+                    </choice>
+                </attribute>
+            </element>
+        </element>
+    </oneOrMore>
+</element>

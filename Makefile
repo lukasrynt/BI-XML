@@ -10,24 +10,30 @@ all: $(SOURCE_DIR)/countries.xml $(SOURCE_DIR)/countries.xslt
 czechia: $(BUILD_DIR)/czechia.html
 $(BUILD_DIR)/czechia.html: $(SOURCE_DIR)/czechia.xml $(SOURCE_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $(SOURCE_DIR)/czechia.xml;
+	xmllint --noout --relaxng 'validation/countries.rng' '$(SOURCE_DIR)/czechia.xml';
 	java -jar saxon.jar $^ > $@;
 
 .PHONY: cote
 cote: $(BUILD_DIR)/cote.html
 $(BUILD_DIR)/cote.html: $(SOURCE_DIR)/cote.xml $(SOURCE_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $(SOURCE_DIR)/cote.xml;
+	xmllint --noout --relaxng 'validation/countries.rng' '$(SOURCE_DIR)/cote.xml';
 	java -jar saxon.jar $^ > $@;
 
 .PHONY: uk
 uk: $(BUILD_DIR)/united.html
 $(BUILD_DIR)/united.html: $(SOURCE_DIR)/uk.xml $(SOURCE_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $(SOURCE_DIR)/countries.xml
 	java -jar saxon.jar $^ > $@;
 
 .PHONY: spain
 spain: $(BUILD_DIR)/spain.html
 $(BUILD_DIR)/spain.html: $(SOURCE_DIR)/spain.xml $(SOURCE_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $@
 	java -jar saxon.jar $^ > $@;
 
 
