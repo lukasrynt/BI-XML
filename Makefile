@@ -1,37 +1,45 @@
 BUILD_DIR := build
 SOURCE_DIR := source
+STYLESHEET_DIR := stylesheets
 
 .PHONY: all
-all: $(SOURCE_DIR)/countries.xml $(SOURCE_DIR)/countries.xslt
+all: index countries
+countries: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/countries.xslt
+	@mkdir -p $(BUILD_DIR);
+	java -jar saxon.jar $^;
+
+.PHONY: index
+index: index.html
+index.html: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/index.xslt
 	@mkdir -p $(BUILD_DIR);
 	java -jar saxon.jar $^;
 
 .PHONY: czechia
 czechia: $(BUILD_DIR)/czechia.html
-$(BUILD_DIR)/czechia.html: $(SOURCE_DIR)/czechia.xml $(SOURCE_DIR)/countries.xslt
-	@mkdir -p $(BUILD_DIR);
-	xmllint --noout --dtdvalid 'validation/countries.dtd' $(SOURCE_DIR)/czechia.xml;
-	xmllint --noout --relaxng 'validation/countries.rng' '$(SOURCE_DIR)/czechia.xml';
-	java -jar saxon.jar $^ > $@;
+$(BUILD_DIR)/czechia.html: $(SOURCE_DIR)/czechia.xml $(STYLESHEET_DIR)/countries.xslt
+	@#mkdir -p $(BUILD_DIR);
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $<;
+	xmllint --noout --relaxng 'validation/countries.rng' $<;
+	#java -jar saxon.jar $^ > $@;
 
 .PHONY: cote
 cote: $(BUILD_DIR)/cote.html
-$(BUILD_DIR)/cote.html: $(SOURCE_DIR)/cote.xml $(SOURCE_DIR)/countries.xslt
+$(BUILD_DIR)/cote.html: $(SOURCE_DIR)/cote.xml $(STYLESHEET_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
-	xmllint --noout --dtdvalid 'validation/countries.dtd' $(SOURCE_DIR)/cote.xml;
-	xmllint --noout --relaxng 'validation/countries.rng' '$(SOURCE_DIR)/cote.xml';
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $<;
+	xmllint --noout --relaxng 'validation/countries.rng' $<;
 	java -jar saxon.jar $^ > $@;
 
 .PHONY: uk
 uk: $(BUILD_DIR)/united.html
-$(BUILD_DIR)/united.html: $(SOURCE_DIR)/uk.xml $(SOURCE_DIR)/countries.xslt
+$(BUILD_DIR)/united.html: $(SOURCE_DIR)/uk.xml $(STYLESHEET_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
 	xmllint --noout --dtdvalid 'validation/countries.dtd' $(SOURCE_DIR)/countries.xml
 	java -jar saxon.jar $^ > $@;
 
 .PHONY: spain
 spain: $(BUILD_DIR)/spain.html
-$(BUILD_DIR)/spain.html: $(SOURCE_DIR)/spain.xml $(SOURCE_DIR)/countries.xslt
+$(BUILD_DIR)/spain.html: $(SOURCE_DIR)/spain.xml $(STYLESHEET_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
 	xmllint --noout --dtdvalid 'validation/countries.dtd' $@
 	java -jar saxon.jar $^ > $@;

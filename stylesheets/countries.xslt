@@ -50,7 +50,7 @@
     <xsl:template mode="styles" match="//country">
         <xsl:element name="link">
             <xsl:attribute name="rel" select="'stylesheet'"/>
-            <xsl:attribute name="href" select="concat('../stylesheets/', my:country_short(@name),'.css')"/>
+            <xsl:attribute name="href" select="concat('../design/', my:country_short(@name),'.css')"/>
         </xsl:element>
     </xsl:template>
 
