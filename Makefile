@@ -9,18 +9,18 @@ countries: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/countries.xslt
 	java -jar saxon.jar $^;
 
 .PHONY: index
-index: index.html
-index.html: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/index.xslt
+index: $(BUILD_DIR)/index.html
+$(BUILD_DIR)/index.html: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/index.xslt
 	@mkdir -p $(BUILD_DIR);
-	java -jar saxon.jar $^;
+	java -jar saxon.jar $^ > $@;
 
 .PHONY: czechia
 czechia: $(BUILD_DIR)/czechia.html
 $(BUILD_DIR)/czechia.html: $(SOURCE_DIR)/czechia.xml $(STYLESHEET_DIR)/countries.xslt
-	@#mkdir -p $(BUILD_DIR);
+	@mkdir -p $(BUILD_DIR);
 	xmllint --noout --dtdvalid 'validation/countries.dtd' $<;
 	xmllint --noout --relaxng 'validation/countries.rng' $<;
-	#java -jar saxon.jar $^ > $@;
+	java -jar saxon.jar $^ > $@;
 
 .PHONY: cote
 cote: $(BUILD_DIR)/cote.html

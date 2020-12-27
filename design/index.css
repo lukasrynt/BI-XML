@@ -1,0 +1,28 @@
+.index{
+    background: url("backgrounds/gray.png");
+}
+
+.index section{
+    flex-direction: column;
+    display: flex;
+}
+
+.index .nav_item{
+    align-self: center;
+    font-size: xxx-large;
+    color: lightgray;
+}
+
+.index .nav_item:hover{
+    color: slategray;
+    border-bottom-color: slategray;
+}
+
+.index h1{
+    color: black;
+}
+
+.index .author{
+    position: absolute;
+    bottom:0;
+}

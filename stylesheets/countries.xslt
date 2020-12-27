@@ -21,15 +21,15 @@
         <html lang="en">
             <head>
                 <title><xsl:value-of select="@name"/></title>
-                <link rel="stylesheet" href="../stylesheets/main.css"/>
+                <link rel="stylesheet" href="../design/main.css"/>
                 <xsl:apply-templates mode="styles" select="//country"/>
-                <script src="../js/script.js"/>
             </head>
             <body>
                 <xsl:attribute name="class" select="my:country_short(@name)"/>
                 <div class="column_articles">
                     <div class="divider">
                         <nav>
+                            <a class="nav_item" href="index.html">Home</a>
                             <xsl:apply-templates mode="nav" select="//country"/>
                         </nav>
                     </div>
@@ -39,12 +39,24 @@
                             <xsl:apply-templates select="intro"/>
                         </header>
                         <xsl:apply-templates select="chapter"/>
+                        <xsl:apply-templates select="//author"/>
                     </section>
                     <div class="divider"/>
                 </div>
             </body>
             <script src="../js/script.js"/>
         </html>
+    </xsl:template>
+
+    <xsl:template match="author">
+        <div class="{name()}">
+            <xsl:text>Created by: </xsl:text>
+            <xsl:value-of select="@name"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="@surname"/>
+            <xsl:text>, </xsl:text>
+            <xsl:value-of select="@email"/>
+        </div>
     </xsl:template>
 
     <xsl:template mode="styles" match="//country">
