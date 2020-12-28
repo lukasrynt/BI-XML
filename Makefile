@@ -2,8 +2,16 @@ BUILD_DIR := build
 SOURCE_DIR := source
 STYLESHEET_DIR := stylesheets
 
-.PHONY: all
-all: index countries
+.PHONY: pdf
+pdf: $(BUILD_DIR)/countries.pdf
+$(BUILD_DIR)/countries.pdf: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/countries.xsl
+	@mkdir -p $(BUILD_DIR);
+	java -jar saxon.jar $^ > $(BUILD_DIR)/countries.fo;
+	fop -fo $(BUILD_DIR)/countries.fo -pdf $@;
+	@rm $(BUILD_DIR)/countries.fo 2> /dev/null;
+
+.PHONY: html
+html: index countries
 countries: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
 	java -jar saxon.jar $^;

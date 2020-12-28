@@ -1,6 +1,4 @@
 XSLFO EXERCISE - INSTRUCTIONS
 
 1) Sestavte XSL-FO stylesheet pro soubor "Data-1.xml" a vygenerujte vystup
-do PDF. /
-1) Create a XSL-FO stylesheet for the "Data-1.xml" file and generate the
-output in PDF.
+do PDF.
