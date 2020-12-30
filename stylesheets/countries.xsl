@@ -7,7 +7,7 @@
         <xsl:value-of select="tokenize(lower-case($name), ' ')[1]"/>
     </xsl:function>
 
-    <xsl:template match="/countries">
+    <xsl:template match="/">
         <fo:root>
             <fo:layout-master-set>
                 <fo:simple-page-master master-name="simple"
@@ -19,99 +19,108 @@
                 <fo:simple-page-master master-name="intro"
                                        page-height="297mm" page-width="210mm" margin="1in">
                     <fo:region-body margin-bottom="15mm"/>
-                    <fo:region-after extent="10mm"/>
                 </fo:simple-page-master>
-                <fo:page-sequence-master master-name="countries">
-                    <fo:repeatable-page-master-alternatives>
-                        <fo:conditional-page-master-reference master-reference="intro" page-position="first"/>
-                        <fo:conditional-page-master-reference master-reference="simple" page-position="any"/>
-                    </fo:repeatable-page-master-alternatives>
-                </fo:page-sequence-master>
             </fo:layout-master-set>
-            <fo:page-sequence master-reference="countries">
-                <fo:static-content flow-name="xsl-region-after">
-                    <fo:block font-size="6pt">
-                        <xsl:text>Page </xsl:text>
-                        <fo:page-number/>
-                        <xsl:text> of </xsl:text>
-                        <fo:page-number-citation ref-id="last_page"/>
+
+            <fo:page-sequence master-reference="intro">
+                <fo:flow flow-name="xsl-region-body">
+                    <fo:block font-size="50pt" text-align="center" font-weight="bold">
+                        <xsl:text>Semestral Work BI-XML</xsl:text>
+                        <fo:block text-align-last="justify">
+                            <fo:leader leader-pattern="rule"/>
+                        </fo:block>
                     </fo:block>
-                </fo:static-content>
-                <fo:static-content flow-name="xsl-region-before">
-                    <xsl:apply-templates select="author"/>
-                </fo:static-content>
-                <fo:flow flow-name="xsl-region-body" font-family="Arial,Helvetica,sans-serif"
-                         font-size="12pt">
-                    <xsl:for-each select="country">
-                        <xsl:apply-templates select="."/>
-                    </xsl:for-each>
+                    <fo:block font-size="40pt" text-align="center" font-weight="bold" keep-with-previous.within-page="always">
+                        <fo:inline color="gray"><xsl:text>Countries</xsl:text></fo:inline>
+                        <fo:block text-align-last="justify" keep-with-previous.within-page="always">
+                            <fo:leader leader-pattern="rule"/>
+                        </fo:block>
+                    </fo:block>
+                    <fo:block font-size="10pt" text-align="center">
+                        <xsl:apply-templates select="/countries/author"/>
+                    </fo:block>
                 </fo:flow>
+            </fo:page-sequence>
+
+            <fo:page-sequence master-reference="simple">
+               <xsl:apply-templates select="/countries"/>
             </fo:page-sequence>
         </fo:root>
     </xsl:template>
 
+    <xsl:template match="/countries">
+        <fo:static-content flow-name="xsl-region-after">
+            <fo:block font-size="6pt" text-align="center">
+                <xsl:text>Page </xsl:text>
+                <fo:page-number/>
+                <xsl:text> of </xsl:text>
+                <fo:page-number-citation ref-id="last_page"/>
+            </fo:block>
+        </fo:static-content>
+        <fo:static-content flow-name="xsl-region-before">
+            <fo:block text-align="center" font-size="6pt">
+                <xsl:apply-templates select="author"/>
+            </fo:block>
+        </fo:static-content>
+        <fo:flow flow-name="xsl-region-body" font-family="Arial,Helvetica,sans-serif"
+                 font-size="12pt">
+            <xsl:for-each select="country">
+                <xsl:apply-templates select="."/>
+            </xsl:for-each>
+            <fo:block id="last_page"/>
+        </fo:flow>
+    </xsl:template>
+
     <xsl:template match="author">
-        <fo:block text-align-last="justify">
             <xsl:value-of select="@name"/>
             <xsl:text> </xsl:text>
             <xsl:value-of select="@surname"/>
             <xsl:text>, </xsl:text>
             <xsl:value-of select="@email"/>
-        </fo:block>
     </xsl:template>
 
     <xsl:template match="country">
-        <fo:block font-size="20pt" font-weight="bold">
+        <fo:block font-size="30pt" font-weight="bold" text-align="center" space-after="0">
             <xsl:value-of select="@name"/>
         </fo:block>
-<!--        <xsl:apply-templates select="intro"/>-->
-<!--        <xsl:apply-templates select="chapter"/>-->
-    </xsl:template>
-
-    <xsl:template mode="styles" match="//country">
-        <xsl:element name="link">
-            <xsl:attribute name="rel" select="'stylesheet'"/>
-            <xsl:attribute name="href" select="concat('../design/', my:country_short(@name),'.css')"/>
-        </xsl:element>
-    </xsl:template>
-
-    <xsl:template mode="nav" match="//country">
-        <a class="nav_item">
-            <xsl:attribute name="href">
-                <xsl:value-of select="concat(my:country_short(@name),'.html')"/>
-            </xsl:attribute>
-            <xsl:value-of select="@name"/>
-        </a>
+        <fo:block text-align-last="justify" keep-with-previous.within-page="always">
+            <fo:leader leader-pattern="rule"/>
+        </fo:block>
+        <xsl:apply-templates select="intro"/>
+        <xsl:apply-templates select="chapter"/>
     </xsl:template>
 
     <xsl:template match="intro">
-        <div class="intro">
+        <fo:block text-align="center" keep-with-previous.within-page="always">
             <xsl:for-each select="img">
-                <div class="img-wrap">
-                    <xsl:apply-templates select="."/>
-                </div>
+                <fo:external-graphic src="url({@src})" width="40%"
+                    scaling="uniform" content-width="scale-to-fit"/>
             </xsl:for-each>
-        </div>
+        </fo:block>
+    </xsl:template>
+
+    <xsl:template match="//img">
+        <fo:block>
+            <fo:external-graphic src="url({@src})" width="40%"/>
+        </fo:block>
     </xsl:template>
 
     <xsl:template match="country/chapter">
-        <article class="chapter">
-            <h2><xsl:value-of select="@name"/></h2>
+            <fo:block font-weight="bolder" font-size="30pt" color="#333333">
+                <xsl:value-of select="@name"/>
+            </fo:block>
             <xsl:apply-templates select="section"/>
-        </article>
     </xsl:template>
 
     <xsl:template match="country/chapter/section">
-        <article class="section">
-            <div class="collapsible">
-                <h3><xsl:value-of select="@name"/></h3>
-            </div>
-            <div class="content">
-                <xsl:value-of select="text()"/>
-                <xsl:apply-templates select="*"/>
-                <xsl:apply-templates select="@*[name() != 'name']"/>
-            </div>
-        </article>
+        <fo:block font-weight="bold" font-size="20pt" color="#999999">
+            <xsl:value-of select="@name"/>
+        </fo:block>
+        <fo:block keep-with-previous.within-page="always">
+            <xsl:value-of select="text()"/>
+            <xsl:apply-templates select="*"/>
+            <xsl:apply-templates select="@*[name() != 'name']"/>
+        </fo:block>
     </xsl:template>
 
     <xsl:function name="my:format_data">
@@ -137,7 +146,9 @@
     </xsl:template>
 
     <xsl:template match="paragraph">
-        <p><xsl:value-of select="."/><xsl:apply-templates select="@*"/></p>
+        <fo:block text-align="justify">
+            <xsl:value-of select="."/><xsl:apply-templates select="@*"/>
+        </fo:block>
     </xsl:template>
 
     <xsl:template match="@value">
@@ -145,7 +156,7 @@
     </xsl:template>
 
     <xsl:template match="data">
-        <p><xsl:value-of select="my:format_data(.,0)"/></p>
+        <fo:block><xsl:value-of select="my:format_data(.,0)"/></fo:block>
     </xsl:template>
 
     <xsl:template match="list">
@@ -161,45 +172,39 @@
         </xsl:variable>
 
         <xsl:if test="$ls_name!=''">
-            <b><xsl:value-of select="$ls_name"/>:</b>
+            <fo:inline font-weight="bold"><xsl:value-of select="$ls_name"/>:</fo:inline>
         </xsl:if>
-        <ul>
+        <fo:list-block provisional-distance-between-starts="1em"
+                       text-align="justify">
             <xsl:for-each select="*">
-                <li>
-                    <xsl:value-of select="my:format_data(., 1)"/>
-                </li>
+                <fo:list-item>
+                    <fo:list-item-label end-indent="label-end()">
+                        <fo:block>&#x2022;</fo:block>
+                    </fo:list-item-label>
+                    <fo:list-item-body start-indent="body-start()">
+                        <fo:block><xsl:value-of select="my:format_data(., 1)"/></fo:block>
+                    </fo:list-item-body>
+                </fo:list-item>
             </xsl:for-each>
-        </ul>
+        </fo:list-block>
     </xsl:template>
 
     <xsl:template match="subfield">
-        <p>
-            <b><xsl:value-of select="@name"/>: </b>
-            <xsl:choose>
-                <xsl:when test="@oneline='yes'">
-                    <xsl:value-of select="my:format_data(., 0)"/>
-                    <xsl:apply-templates/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <div class="tab">
-                        <xsl:value-of select="my:format_data(., 0)"/>
-                        <xsl:apply-templates/>
-                    </div>
-                </xsl:otherwise>
-            </xsl:choose>
-        </p>
-    </xsl:template>
-
-    <xsl:template match="img|audio">
-        <xsl:copy-of select="."/>
+        <fo:inline font-weight="bold"><xsl:value-of select="@name"/>: </fo:inline>
+        <fo:block start-indent="1em">
+            <fo:inline><xsl:value-of select="my:format_data(., 0)"/></fo:inline>
+            <xsl:apply-templates/>
+        </fo:block>
     </xsl:template>
 
     <xsl:template match="link">
-        <a>
-            <xsl:attribute name="href">
-                <xsl:value-of select="@src"/>
-            </xsl:attribute>
-            <xsl:value-of select="@value"/>
-        </a>
+        <fo:block>
+            <fo:basic-link color="blue">
+                <xsl:attribute name="external-destination">
+                    <xsl:value-of select="@src"/>
+                </xsl:attribute>
+                <xsl:value-of select="@value"/>
+            </fo:basic-link>
+        </fo:block>
     </xsl:template>
 </xsl:stylesheet>
