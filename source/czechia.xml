@@ -169,23 +169,23 @@
                     </list>
                 <list name="15-24 years">
                     <item name="total" value="9.2" unit="%"/>
-                    <item name="male" value="508,329" unit="%"/>
-                    <item name="female" value="475,846" unit="%"/>
+                    <item name="male" value="508,329"/>
+                    <item name="female" value="475,846"/>
                 </list>
                 <list name="25-54 years">
                     <item name="total" value="43.29" unit="%"/>
-                    <item name="male" value="2,382,899" unit="%"/>
-                    <item name="female" value="2,249,774" unit="%"/>
+                    <item name="male" value="2,382,899"/>
+                    <item name="female" value="2,249,774"/>
                 </list>
                 <list name="55-64 years">
                     <item name="total" value="12.12" unit="%"/>
-                    <item name="male" value="636,357" unit="%"/>
-                    <item name="female" value="660,748" unit="%"/>
+                    <item name="male" value="636,357"/>
+                    <item name="female" value="660,748"/>
                 </list>
                 <list name="65 years and over">
                     <item name="total" value="20.23" unit="%"/>
-                    <item name="male" value="907,255" unit="%"/>
-                    <item name="female" value="1,257,515" unit="%"/>
+                    <item name="male" value="907,255"/>
+                    <item name="female" value="1,257,515"/>
                 </list>
                 <subfield name="population pyramid">
                     <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/EZ_popgraph2020.JPG?1586200020s"/>
@@ -324,7 +324,7 @@
             <section name="School life expectancy (primary to tertiary education)" year="2018">
                 <subfield oneline="yes" name="total" value="11" unit="years"/>
                 <subfield oneline="yes" name="male" value="10" unit="years"/>
-                <subfield oneline="yes" name="male" value="9" unit="years"/>
+                <subfield oneline="yes" name="female" value="9" unit="years"/>
             </section>
             <section name="Unemployment, youth ages 15-24" year="2018">
                 <subfield oneline="yes" name="total" value="5.5" unit="%"/>

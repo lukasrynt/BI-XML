@@ -14,6 +14,8 @@ $(BUILD_DIR)/countries.pdf: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/countr
 html: index countries
 countries: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $<;
+	xmllint --noout --relaxng 'validation/countries.rng' $<;
 	java -jar saxon.jar $^;
 
 .PHONY: index
@@ -42,7 +44,8 @@ $(BUILD_DIR)/cote.html: $(SOURCE_DIR)/cote.xml $(STYLESHEET_DIR)/countries.xslt
 uk: $(BUILD_DIR)/united.html
 $(BUILD_DIR)/united.html: $(SOURCE_DIR)/uk.xml $(STYLESHEET_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
-	xmllint --noout --dtdvalid 'validation/countries.dtd' $(SOURCE_DIR)/countries.xml
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $<
+	xmllint --noout --relaxng 'validation/countries.rng' $<;
 	java -jar saxon.jar $^ > $@;
 
 .PHONY: spain

@@ -1,11 +1,11 @@
 <!DOCTYPE countries SYSTEM "../validation/countries.dtd">
 <countries>
     <author name="Lukas" surname="Rynt" email="ryntluka@fit.cvut.cz"/>
-    <country name="United Kingdom">
+    <country name="Spain">
         <intro>
-            <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/UK-flag.jpg"/>
-            <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/locator-maps/UK-locator-map.jpg"/>
-            <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/maps/UK-map.jpg"/>
+            <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/SP-flag.jpg"/>
+            <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/locator-maps/SP-locator-map.jpg"/>
+            <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/maps/SP-map.jpg"/>
         </intro>
         <chapter name="Introduction">
             <section name="Background">
