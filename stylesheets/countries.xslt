@@ -16,7 +16,6 @@
         </xsl:for-each>
     </xsl:template>
 
-
     <xsl:template match="country">
         <html lang="en">
             <head>

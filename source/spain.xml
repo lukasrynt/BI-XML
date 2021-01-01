@@ -13,112 +13,120 @@
                     The United Kingdom has historically played a leading role in developing parliamentary democracy and in advancing literature and science. At its zenith in the 19th century, the British Empire stretched over one-fourth of the earth's surface. The first half of the 20th century saw the UK's strength seriously depleted in two world wars and the Irish Republic's withdrawal from the union. The second half witnessed the dismantling of the Empire and the UK rebuilding itself into a modern and prosperous European nation. As one of five permanent members of the UN Security Council and a founding member of NATO and the Commonwealth, the UK pursues a global approach to foreign policy. The Scottish Parliament, the National Assembly for Wales, and the Northern Ireland Assembly were established in 1998.
                 </paragraph>
                 <paragraph>
-                    The UK has been an active member of the EU since its accession in 1973, although it chose to remain outside the Economic and Monetary Union. However, motivated in part by frustration at a remote bureaucracy in Brussels and massive migration into the country, UK citizens on 23 June 2016 narrowly voted to leave the EU. The UK is scheduled to depart the EU on 31 January 2020, but negotiations on the future EU-UK economic and security relationship will continue throughout 2020 and potentially beyond.
+                    Spain's powerful world empire of the 16th and 17th centuries ultimately yielded command of the seas to England. Subsequent failure to embrace the mercantile and industrial revolutions caused the country to fall behind Britain, France, and Germany in economic and political power. Spain remained neutral in World War I and II, but suffered through a devastating civil war (1936-39). A peaceful transition to democracy following the death of dictator Francisco FRANCO in 1975, and rapid economic modernization (Spain joined the EU in 1986) gave Spain a dynamic and rapidly growing economy, and made it a global champion of freedom and human rights. More recently, Spain has emerged from a severe economic recession that began in mid-2008, posting four straight years of GDP growth above the EU average. Unemployment has fallen, but remains high, especially among youth. Spain is the Eurozone's fourth largest economy. The country has faced increased domestic turmoil in recent years due to the independence movement in its restive Catalonia region.
                 </paragraph>
             </section>
         </chapter>
         <chapter name="Geography">
             <section name="Location">
-                Western Europe, islands - including the northern one-sixth of the island of Ireland - between the North Atlantic Ocean and the North Sea; northwest of France
+                Southwestern Europe, bordering the Mediterranean Sea, North Atlantic Ocean, Bay of Biscay, and Pyrenees Mountains; southwest of France
             </section>
             <section name="Geographic coordinates">
-                54 00 N, 2 00 W
+                40 00 N, 4 00 W
             </section>
             <section name="Map references" value="Europe"/>
             <section name="Area">
-                <subfield oneline="yes" name="total" value="243,610" unit="sq km"/>
-                <subfield oneline="yes" name="land" value="241,930" unit="sq km"/>
-                <subfield oneline="yes" name="water" value="1,680" unit="sq km"/>
-                <subfield name="note 1" oneline="yes" value="the percentage area breakdown of the four UK countries is: England 53%, Scotland 32%, Wales 9%, and Northern Ireland 6%"/>
-                <subfield name="note 2" oneline="yes" value="includes Rockall and the Shetland Islands, which are part of Scotland"/>
-                <subfield oneline="yes" name="country comparison to the world" value="81"/>
+                <subfield oneline="yes" name="total" value="505,370" unit="sq km"/>
+                <subfield oneline="yes" name="land" value="498,980" unit="sq km"/>
+                <subfield oneline="yes" name="water" value="6,390" unit="sq km"/>
+                <subfield name="note" oneline="yes" value="here are two autonomous cities - Ceuta and Melilla - and 17 autonomous communities including Balearic Islands and Canary Islands, and three small Spanish possessions off the coast of Morocco - Islas Chafarinas, Penon de Alhucemas, and Penon de Velez de la Gomera"/>
+                <subfield oneline="yes" name="country comparison to the world" value="53"/>
             </section>
             <section name="Area - comparative">
-                <paragraph>twice the size of Pennsylvania; slightly smaller than Oregon</paragraph>
+                <paragraph>almost five times the size of Kentucky; slightly more than twice the size of Oregon</paragraph>
                 <subfield name="Area comparison map">
-                    <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/UK_area.jpg?1538604837"/>
+                    <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/SP_area.jpg?1538604834"/>
                 </subfield>
             </section>
             <section name="Land boundaries">
-                <subfield oneline="yes" name="total" value="499" unit="km"/>
-                <list name="border countries (1)">
-                    <item name="Ireland" value="499" unit="km"/>
+                <subfield oneline="yes" name="total" value="1,952.7" unit="km"/>
+                <list name="border countries (6)">
+                    <item name="Andorra" value="63" unit="km"/>
+                    <item name="France" value="646" unit="km"/>
+                    <item name="Gibraltar" value="1.2" unit="km"/>
+                    <item name="Portugal" value="1244" unit="km"/>
+                    <item name="Morocco" description="Ceuta" value="8" unit="km"/>
+                    <item name="Morocco" description="Melilla" value="10.5" unit="km"/>
                 </list>
+                <subfield name="note">
+                    an additional 75-meter border segment exists between Morocco and the Spanish exclave of Penon de Velez de la Gomera
+                </subfield>
             </section>
             <section name="Coastline">
-                <data value="12,429" unit="km"/>
+                <data value="4,964" unit="km"/>
             </section>
             <section name="Maritime claims">
                 <subfield name="territorial sea" value="12" unit="nm"/>
-                <subfield name="continental shelf" value="as defined in continental shelf orders or in accordance with agreed upon boundaries"/>
-                <subfield name="exclusive fishing zone" value="200" unit="nm"/>
+                <subfield name="continental shelf" value="200" unit="nm" description="applies only to the Atlantic Ocean"/>
+                <subfield name="exclusive fishing zone" value="24" unit="nm"/>
             </section>
             <section name="Climate">
-                <paragraph>temperate; moderated by prevailing southwest winds over the North Atlantic Current; more than one-half of the days are overcast</paragraph>
+                <paragraph>temperate; clear, hot summers in interior, more moderate and cloudy along coast; cloudy, cold winters in interior, partly cloudy and cool along coast</paragraph>
             </section>
             <section name="Terrain">
-                <paragraph>mostly rugged hills and low mountains; level to rolling plains in east and southeast</paragraph>
+                <paragraph>large, flat to dissected plateau surrounded by rugged hills; Pyrenees Mountains in north</paragraph>
             </section>
             <section name="Elevation">
-                <subfield oneline="yes" name="mean elevation" value="162" unit="m"/>
-                <subfield oneline="yes" name="lowest point" value="-4" unit="m" description="The Fens"/>
-                <subfield oneline="yes" name="highest point" value="1,345" unit="m" description="Ben Nevis"/>
+                <subfield oneline="yes" name="mean elevation" value="660" unit="m"/>
+                <subfield oneline="yes" name="lowest point" value="0" unit="m" description="Atlantic Ocean"/>
+                <subfield oneline="yes" name="highest point" value="3,718" unit="m" description="Pico de Teide (Tenerife) on Canary Islands"/>
             </section>
             <section name="Natural resources">
                 <list>
                     <item value="coal"/>
-                    <item value="petroleum"/>
-                    <item value="petroleum"/>
-                    <item value="natural gas"/>
+                    <item value="lignite"/>
                     <item value="iron ore"/>
+                    <item value="copper"/>
                     <item value="lead"/>
                     <item value="zinc"/>
-                    <item value="gold"/>
-                    <item value="tin"/>
-                    <item value="limestone"/>
-                    <item value="salt"/>
-                    <item value="clay"/>
-                    <item value="chalk"/>
+                    <item value="uranium"/>
+                    <item value="tungsten"/>
+                    <item value="mercury"/>
+                    <item value="putites"/>
+                    <item value="magnesite"/>
+                    <item value="fluorspar"/>
                     <item value="gypsum"/>
+                    <item value="sepiolite"/>
+                    <item value="kaolin"/>
                     <item value="potash"/>
-                    <item value="silica sand"/>
-                    <item value="slate"/>
+                    <item value="hydropower"/>
                     <item value="arable land"/>
                 </list>
             </section>
             <section name="Land use">
-                <subfield oneline="yes" name="agricultural land" value="71" unit="%" year="2011 est."/>
-                <subfield oneline="yes" name="arable land" value="25.11" unit="%" year="2011 est.">
+                <subfield oneline="yes" name="agricultural land" value="54.1" unit="%" year="2011 est."/>
+                <subfield oneline="yes" name="arable land" value="24.9" unit="%" year="2011 est.">
                     <list>
-                        <item name="permanent crops" value="0.2" unit="%" year="2011 est."/>
-                        <item name="permanent pasture" value="45.7" unit="%" year="2011 est."/>
+                        <item name="permanent crops" value="9.1" unit="%" year="2011 est."/>
+                        <item name="permanent pasture" value="20.1" unit="%" year="2011 est."/>
                     </list>
                 </subfield>
-                <subfield oneline="yes" name="forest" value="11.9" unit="%" year="2011 est."/>
-                <subfield oneline="yes" name="other" value="17.1" year="2011 est."/>
+                <subfield oneline="yes" name="forest" value="36.8" unit="%" year="2011 est."/>
+                <subfield oneline="yes" name="other" value="9.1" year="2011 est."/>
             </section>
             <section name="Irrigated land">
-                <data value="950" unit="sq km" year="2012"/>
+                <data value="38,000" unit="sq km" year="2012"/>
             </section>
             <section name="Population distribution">
-                the core of the population lies in and around London, with significant clusters found in central Britain around Manchester and Liverpool, in the Scotish lowlands between Endinburgh and Glasgow, southern Wales in and around Cardiff, and far eastern Northern Ireland centered on Belfast
+                with the notable exception of Madrid, Sevilla, and Zaragoza, the largest urban agglomerations are found along the Mediterranean and Atlantic coasts; numerous smaller cities are spread throughout the interior reflecting Spain's agrarian heritage; very dense settlement around the capital of Madrid, as well as the port city of Barcelona
             </section>
             <section name="Natural hazards">
-                winter windstorms; floods
+                periodic droughts, occasional flooding
+                <subfield name="volcanism">
+                    volcanic activity in the Canary Islands, located off Africa's northwest coast; Teide (3,715 m) has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; La Palma (2,426 m), which last erupted in 1971, is the most active of the Canary Islands volcanoes; Lanzarote is the only other historically active volcano
+                </subfield>
             </section>
             <section name="Environment - current issues">
-                air pollution improved but remains a concern, particularly in the London region; soil pollution from pesticides and heavy metals; decline in marine and coastal habitats brought on by pressures from housing, tourism, and industry
+                pollution of the Mediterranean Sea from raw sewage and effluents from the offshore production of oil and gas; water quality and quantity nationwide; air pollution; deforestation; desertification
             </section>
             <section name="Environment - international agreements">
                 <list name="party to">
                     <item value="Air Pollution"/>
                     <item value="Air Pollution-Nitrogen Oxides"/>
-                    <item value="Air Pollution-Persistent Organic Pollutants"/>
                     <item value="Air Pollution-Sulfur 94"/>
                     <item value="Air Pollution-Volatile Organic Compounds"/>
                     <item value="Antarctic-Environmental Protocol"/>
                     <item value="Antarctic-Marine Living Resources"/>
-                    <item value="Antarctic Seals"/>
                     <item value="Antarctic Treaty"/>
                     <item value="Biodiversity"/>
                     <item value="Climate Change"/>
@@ -137,15 +145,15 @@
                     <item value="Wetlands"/>
                     <item value="Whaling"/>
                 </list>
-                <subfield oneline="yes" name="singed, but not ratified" value="none of the selected agreements"/>
+                <subfield oneline="yes" name="singed, but not ratified" value="Air Pollution-Persistent Organic Pollutants"/>
             </section>
             <section name="Geography - note">
-                <paragraph>lies near vital North Atlantic sea lanes; only 35 km from France and linked by tunnel under the English Channel (the Channel Tunnel or Chunnel); because of heavily indented coastline, no location is more than 125 km from tidal waters</paragraph>
+                <paragraph>strategic location along approaches to Strait of Gibraltar; Spain controls a number of territories in northern Morocco including the enclaves of Ceuta and Melilla, and the islands of Penon de Velez de la Gomera, Penon de Alhucemas, and Islas Chafarinas; Spain's Canary Islands are one of four North Atlantic archipelagos that make up Macaronesia; the others are Azores (Portugal), Madeira (Portugal), and Cabo Verde</paragraph>
             </section>
         </chapter>
         <chapter name="People and Society">
             <section name="Population">
-                <data value="65,761,117" year="July 2020 est."/>
+                <data value="50,015,792" year="July 2020 est."/>
                 <subfield name="constituent countries by percentage of total population">
                     <list>
                         <item name="England" value="84" unit="%"/>
@@ -154,148 +162,156 @@
                         <item name="Northern Ireland" value="3" unit="%"/>
                     </list>
                 </subfield>
-                <subfield oneline="yes" name="country comparison to the world" value="22"/>
+                <subfield oneline="yes" name="country comparison to the world" value="29"/>
             </section>
             <section name="Nationality">
-                <subfield oneline="yes" name="noun">Briton(s), British (collective plural)</subfield>
-                <subfield oneline="yes" name="adjective">British</subfield>
+                <subfield oneline="yes" name="noun">Spaniard(s)</subfield>
+                <subfield oneline="yes" name="adjective">Spanish</subfield>
             </section>
-            <section name="Ethnic groups" year="2011 est.">
+            <section name="Ethnic groups">
                 <list>
-                    <item name="White" value="87.2" unit="%"/>
-                    <item name="Black/African/Caribbean/black British" value="3" unit="%"/>
-                    <item name="Asian/Asian British : Indian" value="2.3" unit="%"/>
-                    <item name="Asian/Asian British : Pakistani" value="1.9" unit="%"/>
-                    <item name="mixed" value="2" unit="%"/>
-                    <item name="other" value="3.7" unit="%"/>
+                    <item name="Spanish" value="86.4" unit="%"/>
+                    <item name="Moroccan" value="1.8" unit="%"/>
+                    <item name="Romanian" value="1.3" unit="%"/>
+                    <item name="other" value="10.5" unit="%" year="2018 est."/>
                 </list>
+                <subfield name="note" value="data represent population by country of birth"/>
             </section>
             <section name="Languages" year="2011 census">
-                English
-                <subfield name="note" year="2012 est.">
-                    the following are recognized regional languages: Scots (about 30% of the population of Scotland), Scottish Gaelic (about 60,000 speakers in Scotland), Welsh (about 20% of the population of Wales), Irish (about 10% of the population of Northern Ireland), Cornish (some 2,000 to 3,000 people in Cornwall)
+                <list>
+                    <item name="Castilian Spanish" value="74" unit="%" description="official nationwide"/>
+                    <item name="Catalan" value="17" unit="%" description="official in Catalonia, the Balearic Islands, and the Valencian Community (where it is known as Valencian)"/>
+                    <item name="Galician" value="7" unit="%" description="official in Galicia"/>
+                    <item name="Basque" value="2" unit="%" description="official in the Basque Country and in the Basque-speaking area of Navarre"/>
+                    <item value="Aranese" unit="%" description="official in the northwest corner of Catalonia (Vall d'Aran) along with Catalan, &lt;5,000 speakers"/>
+                </list>
+                <subfield name="note">
+                    Aragonese, Aranese Asturian, Basque, Calo, Catalan, Galician, and Valencian are recognized as regional languages under the European Charter for Regional or Minority Languages
                 </subfield>
             </section>
-            <section name="Religions" year="2011 est.">
+            <section name="Religions" year="2019 est.">
                 <list>
-                    <item name="Christian" value="59.5" unit="%" description="includes Anglican, Roman Catholic, Presbyterian, Methodist"/>
-                    <item name="Muslim" value="4.4" unit="%"/>
-                    <item name="Hindu" value="1.3" unit="%"/>
-                    <item name="other" value="2" unit="%"/>
-                    <item name="unspecified" value="7.2" unit="%"/>
-                    <item name="none" value="25.7" unit="%"/>
+                    <item name="Roman Catholic" value="68.9" unit="%"/>
+                    <item name="atheist" value="11.3" unit="%"/>
+                    <item name="agnostic" value="7.6" unit="%"/>
+                    <item name="other" value="2.8" unit="%"/>
+                    <item name="non-believers" value="8.2" unit="%"/>
+                    <item name="unspecified" value="1.1" unit="%"/>
                 </list>
             </section>
             <section name="Age structure" year="2020 est.">
                 <list name="0-14 years">
-                    <item name="total" value="17.63" unit="%"/>
-                    <item name="male" value="5,943,435"/>
-                    <item name="female" value="5,651,780"/>
+                    <item name="total" value="15.02" unit="%"/>
+                    <item name="male" value="3,861,522"/>
+                    <item name="female" value="3,650,085"/>
                 </list>
                 <list name="15-24 years">
-                    <item name="total" value="11.49" unit="%"/>
-                    <item name="male" value="3,860,435"/>
-                    <item name="female" value="3,692,398"/>
+                    <item name="total" value="9.9" unit="%"/>
+                    <item name="male" value="2,557,504"/>
+                    <item name="female" value="2,392,498"/>
                 </list>
                 <list name="25-54 years">
-                    <item name="total" value="39.67" unit="%"/>
-                    <item name="male" value="13,339,965"/>
-                    <item name="female" value="12,747,598"/>
+                    <item name="total" value="43.61" unit="%"/>
+                    <item name="male" value="11,134,006"/>
+                    <item name="female" value="10,675,873"/>
                 </list>
                 <list name="55-64 years">
-                    <item name="total" value="12.73" unit="%"/>
-                    <item name="male" value="4,139,378" unit="%"/>
-                    <item name="female" value="4,234,701" unit="%"/>
+                    <item name="total" value="12.99" unit="%"/>
+                    <item name="male" value="3,177,080" unit="%"/>
+                    <item name="female" value="3,319,823" unit="%"/>
                 </list>
                 <list name="65 years and over">
-                    <item name="total" value="18.48" unit="%"/>
-                    <item name="male" value="5,470,116" unit="%"/>
-                    <item name="female" value="6,681,311" unit="%"/>
+                    <item name="total" value="18.49" unit="%"/>
+                    <item name="male" value="3,970,417" unit="%"/>
+                    <item name="female" value="5,276,984" unit="%"/>
                 </list>
                 <subfield name="population pyramid">
-                    <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/UK_popgraph2020.JPG?1584367311"/>
+                    <img src="https://www.cia.gov/library/publications/the-world-factbook/attachments/images/thumb/SP_popgraph2020.JPG?1584364909"/>
                 </subfield>
             </section>
             <section name="Dependency ratios" year="2020 est.">
-                <subfield oneline="yes" name="total dependency ratio" value="57.1"/>
-                <subfield oneline="yes" name="youth dependency ratio" value="27.8"/>
-                <subfield oneline="yes" name="elderly dependency ratio" value="29.3"/>
-                <subfield oneline="yes" name="potential support ratio" value="3.4"/>
+                <subfield oneline="yes" name="total dependency ratio" value="52.4"/>
+                <subfield oneline="yes" name="youth dependency ratio" value="21.9"/>
+                <subfield oneline="yes" name="elderly dependency ratio" value="30.4"/>
+                <subfield oneline="yes" name="potential support ratio" value="3.3"/>
             </section>
             <section name="Median age">
-                <subfield oneline="yes" name="total" value="40.6" unit="years"/>
-                <subfield oneline="yes" name="male" value="39.6" unit="years"/>
-                <subfield oneline="yes" name="female" value="41.7" unit="years"/>
-                <subfield oneline="yes" name="country comparison to the world" value="50"/>
+                <subfield oneline="yes" name="total" value="43.9" unit="years"/>
+                <subfield oneline="yes" name="male" value="42.7" unit="years"/>
+                <subfield oneline="yes" name="female" value="45.1" unit="years" description="2020 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="19"/>
             </section>
             <section name="Population growth rate">
-                <data value="0.49" unit="%" year="2020 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="155"/>
+                <data value="0.67" unit="%" year="2020 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="141"/>
             </section>
             <section name="Birth rate">
-                <data value="11.9" unit="births/1,000 population" year="2020 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="165"/>
+                <data value="8.7" unit="births/1,000 population" year="2020 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="212"/>
             </section>
             <section name="Death rate">
-                <data value="9.5" unit="deaths/1,000 population" year="2020 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="47"/>
+                <data value="9.3" unit="deaths/1,000 population" year="2020 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="51"/>
             </section>
             <section name="Net migration rate">
-                <data value="2.5" unit="migrant(s)/1,000 population" year="2020 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="40"/>
+                <data value="7" unit="migrant(s)/1,000 population" year="2020 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="15"/>
             </section>
             <section name="Population distribution">
                 <paragraph>
-                    the core of the population lies in and around London, with significant clusters found in central Britain around Manchester and Liverpool, in the Scotish lowlands between Endinburgh and Glasgow, southern Wales in and around Cardiff, and far eastern Northern Ireland centered on Belfast
+                    with the notable exception of Madrid, Sevilla, and Zaragoza, the largest urban agglomerations are found along the Mediterranean and Atlantic coasts; numerous smaller cities are spread throughout the interior reflecting Spain's agrarian heritage; very dense settlement around the capital of Madrid, as well as the port city of Barcelona
                 </paragraph>
             </section>
             <section name="Urbanization">
-                <subfield name="urban population" value="83.9" unit="% of total population" year="2020"/>
-                <subfield name="rate of urbanization" value="0.89" unit="% annual rate of change" year="2015-2020 est."/>
+                <subfield name="urban population" value="80.8" unit="% of total population" year="2020"/>
+                <subfield name="rate of urbanization" value="0.33" unit="% annual rate of change" year="2015-20 est."/>
+                <subfield name="note">
+                    data include Canary Islands, Ceuta, and Melilla
+                </subfield>
                 <subfield name="total population growth rate v. urban population growth rate, 2000-2030">
-                    <link value="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_UK.pdf?1602854187"/>
+                    <link value="population growth rate" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/docs/original/urban_SP.pdf?1602852870"/>
                 </subfield>
             </section>
             <section name="Major urban areas - population" year="2020">
-                <data name="Prague" value="9.304" unit="million" description="capital"/>
-                <data name="Manchester" value="2.730" unit="million"/>
-                <data name="Birmingham" value="2.607" unit="million"/>
-                <data name="West Yorkshire" value="1.889" unit="million"/>
-                <data name="Glasgow" value="1.663" unit="million"/>
-                <data name="Southampton/Portsmouth" value="928,000"/>
+                <data name="MADRID" value="6.618" unit="million" description="capital"/>
+                <data name="Barcelona" value="5.586" unit="million"/>
+                <data name="Valencia" value="834,000"/>
             </section>
             <section name="Sex ratio" year="2020 est.">
-                <subfield oneline="yes" name="at birth" value="1.05" unit="male(s)/female"/>
-                <subfield oneline="yes" name="0-14 years" value="1.05" unit="male(s)/female"/>
-                <subfield oneline="yes" name="15-24 years" value="1.05" unit="male(s)/female"/>
-                <subfield oneline="yes" name="25-54 years" value="1.05" unit="male(s)/female"/>
-                <subfield oneline="yes" name="55-64 years" value="0.98" unit="male(s)/female"/>
-                <subfield oneline="yes" name="65 years and over" value="0.82" unit="male(s)/female"/>
-                <subfield oneline="yes" name="total population" value="0.99" unit="male(s)/female"/>
+                <subfield oneline="yes" name="at birth" value="1.07" unit="male(s)/female"/>
+                <subfield oneline="yes" name="0-14 years" value="1.06" unit="male(s)/female"/>
+                <subfield oneline="yes" name="15-24 years" value="1.07" unit="male(s)/female"/>
+                <subfield oneline="yes" name="25-54 years" value="1.04" unit="male(s)/female"/>
+                <subfield oneline="yes" name="55-64 years" value="0.96" unit="male(s)/female"/>
+                <subfield oneline="yes" name="65 years and over" value="0.75" unit="male(s)/female"/>
+                <subfield oneline="yes" name="total population" value="0.98" unit="male(s)/female"/>
             </section>
             <section name="Mother's mean age at first birth">
-                <data value="28.8" unit="years" year="2018 est."/>
-                <subfield name="note" value="data represent England and Wales only"/>
+                <data value="30.9" unit="years" year="2018 est."/>
             </section>
             <section name="Maternal mortality rate">
-                <data value="7" unit="deaths/100,000 live births" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="158"/>
+                <data value="4" unit="deaths/100,000 live births" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="174"/>
             </section>
             <section name="Infant mortality rate">
-                <subfield oneline="yes" name="total" value="4.1" unit="deaths/1,000 live births"/>
-                <subfield oneline="yes" name="male" value="4.5" unit="deaths/1,000 live births"/>
-                <subfield oneline="yes" name="female" value="3.7" unit="deaths/1,000 live births" year="2020 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="189"/>
+                <subfield oneline="yes" name="total" value="3.2" unit="deaths/1,000 live births"/>
+                <subfield oneline="yes" name="male" value="3.5" unit="deaths/1,000 live births"/>
+                <subfield oneline="yes" name="female" value="2.9" unit="deaths/1,000 live births" year="2020 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="212"/>
             </section>
             <section name="Life expectancy at birth">
-                <subfield oneline="yes" name="total population" value="81.1" unit="years"/>
-                <subfield oneline="yes" name="male" value="78.8" unit="years"/>
-                <subfield oneline="yes" name="female" value="83.5" unit="years"/>
-                <subfield oneline="yes" name="country comparison to the world" value="40"/>
+                <subfield oneline="yes" name="total population" value="82" unit="years"/>
+                <subfield oneline="yes" name="male" value="79" unit="years"/>
+                <subfield oneline="yes" name="female" value="85.2" unit="years"/>
+                <subfield oneline="yes" name="country comparison to the world" value="24"/>
             </section>
             <section name="Total fertility rate">
-                <data value="1.86" unit="children born/woman" year="2020 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="139"/>
+                <data value="1.51" unit="children born/woman" year="2020 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="199"/>
+            </section>
+            <section name="Contraceptive prevalence rate">
+                <data value="62.1" unit="%" description="2018"/>
+                <subfield name="note" value="percent of women aged 18-49"/>
             </section>
             <section name="Drinking water source" year="2017 est.">
                 <list name="improved">
@@ -310,13 +326,13 @@
                 </list>
             </section>
             <section name="Current Health Expenditure">
-                <data value="9.6" unit="%" year="2017"/>
+                <data value="8.9" unit="%" year="2017"/>
             </section>
             <section name="Physicians density">
-                <data value="2.79" unit="physicians/1,000 population" year="2017"/>
+                <data value="3.87" unit="physicians/1,000 population" year="2017"/>
             </section>
             <section name="Hospital bed density">
-                <data value="2.5" unit="beds/1,000 population" year="2017"/>
+                <data value="3" unit="beds/1,000 population" year="2017"/>
             </section>
             <section name="Sanitation facility access" year="2017">
                 <list name="improved">
@@ -331,201 +347,181 @@
                 </list>
             </section>
             <section name="HIV/AIDS - adult prevalence rate">
-                NA
+                <data value="0.4" unit="%" year="2019 est."/>
+                <subfield name="country comparison to the world" value="83"/>
             </section>
             <section name="HIV/AIDS - people living with HIV/AIDS">
-                NA
+                <data value="150,000" unit="%" year="2019 est."/>
+                <subfield name="country comparison to the world" value="36"/>
             </section>
             <section name="HIV/AIDS - deaths">
-                NA
+                <data value="&lt;1000" year="2019"/>
             </section>
             <section name="Major infectious diseases">
                 <data value="Covid-19" description="see note" year="2020"/>
                 <subfield name="note">
-                    widespread ongoing transmission of a respiratory illness caused by the novel coronavirus (COVID-19) is occurring throughout the UK; as of 8 December 2020, the UK has reported a total of 1,705,975 cases of COVID-19 or 25,130 cumulative cases of COVID-19 per 1 million population with 899 cumulative deaths per 1 million population; individuals arriving in the UK must self-isolate for 14 days and may be contacted to verify compliance; new arrivals will be required to provide UK officials with contact and travel information prior to arrival; the US Department of Homeland Security has issued instructions requiring US passengers who have been in the UK to travel through select airports where the US Government has implemented enhanced screening procedures
+                    widespread ongoing transmission of a respiratory illness caused by the novel coronavirus (COVID-19) is occurring throughout Spain; as of 8 December 2020, Spain has reported a total of 1,684,647 cases of COVID-19 or 36,032 cumulative cases of COVID-19 per 1 million population with 989 cumulative deaths per 1 million population; the Spanish Government is gradually relaxing confinement measures in phases over the next several weeks; these measures will vary from region to region within Spain; the Department of Homeland Security has issued instructions requiring US passengers who have been in Spain to travel through select airports where the US Government has implemented enhanced screening procedures
                 </subfield>
             </section>
             <section name="Obesity - adult prevalence rate">
-                <data value="27.8" unit="%" year="2016"/>
-                <subfield oneline="yes" name="country comparison to the world" value="36"/>
+                <data value="23.8" unit="%" year="2016"/>
+                <subfield oneline="yes" name="country comparison to the world" value="62"/>
             </section>
             <section name="Education expenditures">
-                <data value="5.4" unit="% of GDP" year="2016"/>
-                <subfield oneline="yes" name="country comparison to the world" value="43"/>
+                <data value="4.2" unit="% of GDP" year="2016"/>
+                <subfield oneline="yes" name="country comparison to the world" value="89"/>
+            </section>
+            <section name="Literacy">
+                <subfield name="definition">
+                    age 15 and over can read and write
+                </subfield>
+                <subfield name="total population" value="98.4" unit="%"/>
+                <subfield name="male" value="98.9" unit="%"/>
+                <subfield name="female" value="98" unit="%" year="2018"/>
             </section>
             <section name="School life expectancy (primary to tertiary education)" year="2018">
-                <subfield oneline="yes" name="total" value="17" unit="years"/>
+                <subfield oneline="yes" name="total" value="18" unit="years"/>
                 <subfield oneline="yes" name="male" value="17" unit="years"/>
                 <subfield oneline="yes" name="female" value="18" unit="years"/>
             </section>
             <section name="Unemployment, youth ages 15-24" year="2018">
-                <subfield oneline="yes" name="total" value="11.3" unit="%"/>
-                <subfield oneline="yes" name="male" value="12.2" unit="%"/>
-                <subfield oneline="yes" name="female" value="10.3" unit="%"/>
-                <subfield oneline="yes" name="country comparison to the world" value="115"/>
+                <subfield oneline="yes" name="total" value="34.3" unit="%"/>
+                <subfield oneline="yes" name="male" value="35.2" unit="%"/>
+                <subfield oneline="yes" name="female" value="33.3" unit="%"/>
+                <subfield oneline="yes" name="country comparison to the world" value="24"/>
             </section>
         </chapter>
         <chapter name="Government">
             <section name="Country name">
-                <subfield oneline="yes" name="conventional long form" value="United Kingdom of Great Britain and Northern Ireland; note - the island of Great Britain includes England, Scotland, and Wales"/>
-                <subfield oneline="yes" name="conventional short form" value="United Kingdom"/>
-                <subfield oneline="yes" name="abbreviation" value="uk"/>
+                <subfield oneline="yes" name="conventional long form" value="Kingdom of Spain"/>
+                <subfield oneline="yes" name="conventional short form" value="Spain"/>
+                <subfield oneline="yes" name="local long form" value="Reino de Espana"/>
+                <subfield oneline="yes" name="local short form" value="Espana"/>
                 <subfield oneline="yes" name="etymology">
-                    self-descriptive country name; the designation "Great Britain," in the sense of "Larger Britain," dates back to medieval times and was used to distinguish the island from "Little Britain," or Brittany in modern France; the name Ireland derives from the Gaelic "Eriu," the matron goddess of Ireland (goddess of the land)
+                    derivation of the name "Espana" is uncertain, but may come from the Phoenician term "span," related to the word "spy," meaning "to forge metals," so, "i-spn-ya" would mean "place where metals are forged"; the ancient Phoenicians long exploited the Iberian Peninsula for its mineral wealth
                 </subfield>
             </section>
             <section name="Government type">
-                parliamentary constitutional monarchy; a Commonwealth realm
+                parliamentary constitutional monarchy
             </section>
             <section name="Capital">
-                <subfield oneline="yes" name="name" value="London"/>
+                <subfield oneline="yes" name="name" value="Madrid"/>
                 <subfield name="geographical coordinates">
-                    <data value="51 30 N"/>
-                    <data value="0 05 E"/>
+                    <data value="40 24 N"/>
+                    <data value="3 41 W"/>
                 </subfield>
-                <subfield name="time difference" value="UTC-0" description="5 hours ahead of Washington, DC, during Standard Time"/>
+                <subfield name="time difference" value="UTC+1" description="6 hours ahead of Washington, DC, during Standard Time"/>
                 <subfield name="daylight saving time">
                     +1hr, begins last Sunday in March; ends last Sunday in October
                 </subfield>
                 <subfield name="note">
-                    the time statements apply to the United Kingdom proper, not to its crown dependencies or overseas territories
+                    Spain has two time zones, including the Canary Islands (UTC 0)
                 </subfield>
                 <subfield name="etymology">
-                    the name derives from the Roman settlement of Londinium, established on the current site of London around A.D. 43; the original meaning of the name is uncertain
+                    the Romans named the original settlement "Matrice" after the river that ran through it; under Arab rule it became "Majerit," meaning "source of water"; in medieval Romance dialects (Mozarabic) it became "Matrit," which over time changed to "Madrid"
                 </subfield>
             </section>
             <section name="Administrative division">
-                <subfield name="England">
-                    two-tier counties, 32 London boroughs and 1 City of London or Greater London, 36 metropolitan districts, 56 unitary authorities (including 4 single-tier counties*);
+                <paragraph>17 autonomous communities (comunidades autonomas, singular - comunidad autonoma) and 2 autonomous cities* (ciudades autonomas, singular - ciudad autonoma); Andalucia; Aragon; Asturias; Canarias (Canary Islands); Cantabria; Castilla-La Mancha; Castilla-Leon; Cataluna (Castilian), Catalunya (Catalan), Catalonha (Aranese) [Catalonia]; Ceuta*; Comunidad Valenciana (Castilian), Comunitat Valenciana (Valencian) [Valencian Community]; Extremadura; Galicia; Illes Baleares (Balearic Islands); La Rioja; Madrid; Melilla*; Murcia; Navarra (Castilian), Nafarroa (Basque) [Navarre]; Pais Vasco (Castilian), Euskadi (Basque) [Basque Country]</paragraph>
+                <subfield name="note">
+                    the autonomous cities of Ceuta and Melilla plus three small islands of Islas Chafarinas, Penon de Alhucemas, and Penon de Velez de la Gomera, administered directly by the Spanish central government, are all along the coast of Morocco and are collectively referred to as Places of Sovereignty (Plazas de Soberania)
                 </subfield>
-                <subfield name="two-tier counties">
-                    Buckinghamshire, Cambridgeshire, Cumbria, Derbyshire, Devon, Dorset, East Sussex, Essex, Gloucestershire, Hampshire, Hertfordshire, Kent, Lancashire, Leicestershire, Lincolnshire, Norfolk, Northamptonshire, North Yorkshire, Nottinghamshire, Oxfordshire, Somerset, Staffordshire, Suffolk, Surrey, Warwickshire, West Sussex, Worcestershire
-                </subfield>
-                <subfield name="London boroughs and City of London or Greater London">
-                    Barking and Dagenham, Barnet, Bexley, Brent, Bromley, Camden, Croydon, Ealing, Enfield, Greenwich, Hackney, Hammersmith and Fulham, Haringey, Harrow, Havering, Hillingdon, Hounslow, Islington, Kensington and Chelsea, Kingston upon Thames, Lambeth, Lewisham, City of London, Merton, Newham, Redbridge, Richmond upon Thames, Southwark, Sutton, Tower Hamlets, Waltham Forest, Wandsworth, Westminster
-                </subfield>
-                <subfield name="metropolitan districts">
-                    Barnsley, Birmingham, Bolton, Bradford, Bury, Calderdale, Coventry, Doncaster, Dudley, Gateshead, Kirklees, Knowlsey, Leeds, Liverpool, Manchester, Newcastle upon Tyne, North Tyneside, Oldham, Rochdale, Rotherham, Salford, Sandwell, Sefton, Sheffield, Solihull, South Tyneside, St. Helens, Stockport, Sunderland, Tameside, Trafford, Wakefield, Walsall, Wigan, Wirral, Wolverhampton
-                </subfield>
-                <subfield name="unitary authorities">
-                    Bath and North East Somerset; Bedford; Blackburn with Darwen; Blackpool; Bournemouth, Christchurch and Poole; Bracknell Forest; Brighton and Hove; City of Bristol; Central Bedfordshire; Cheshire East; Cheshire West and Chester; Cornwall; Darlington; Derby; Dorset; Durham County*; East Riding of Yorkshire; Halton; Hartlepool; Herefordshire*; Isle of Wight*; Isles of Scilly; City of Kingston upon Hull; Leicester; Luton; Medway; Middlesbrough; Milton Keynes; North East Lincolnshire; North Lincolnshire; North Somerset; Northumberland*; Nottingham; Peterborough; Plymouth; Portsmouth; Reading; Redcar and Cleveland; Rutland; Shropshire; Slough; South Gloucestershire; Southampton; Southend-on-Sea; Stockton-on-Tees; Stoke-on-Trent; Swindon; Telford and Wrekin; Thurrock; Torbay; Warrington; West Berkshire; Wiltshire; Windsor and Maidenhead; Wokingham; York
-                </subfield>
-                <subfield name="Northern Ireland">
-                    5 borough councils, 4 district councils, 2 city councils;
-                </subfield>
-                <subfield name="borough councils">
-                    Antrim and Newtownabbey; Ards and North Down; Armagh City, Banbridge, and Craigavon; Causeway Coast and Glens; Mid and East Antrim
-                </subfield>
-                <subfield name="district councils">
-                    Derry City and Strabane; Fermanagh and Omagh; Mid Ulster; Newry, Murne, and Down
-                </subfield>
-                <subfield name="city councils">
-                    Belfast; Lisburn and Castlereagh
-                </subfield>
-                <subfield name="Scotland">
-                    32 council areas;
-                </subfield>
-                <subfield name="council areas">
-                    Aberdeen City, Aberdeenshire, Angus, Argyll and Bute, Clackmannanshire, Dumfries and Galloway, Dundee City, East Ayrshire, East Dunbartonshire, East Lothian, East Renfrewshire, City of Edinburgh, Eilean Siar (Western Isles), Falkirk, Fife, Glasgow City, Highland, Inverclyde, Midlothian, Moray, North Ayrshire, North Lanarkshire, Orkney Islands, Perth and Kinross, Renfrewshire, Shetland Islands, South Ayrshire, South Lanarkshire, Stirling, The Scottish Borders, West Dunbartonshire, West Lothian
-                </subfield>
-                <subfield name="Wales">
-                    22 unitary authorities;
-                </subfield>
-                <subfield name="unitary authorities">
-                    Blaenau Gwent, Bridgend, Caerphilly, Cardiff, Carmarthenshire, Ceredigion, Conwy, Denbighshire, Flintshire, Gwynedd, Isle of Anglesey, Merthyr Tydfil, Monmouthshire, Neath Port Talbot, Newport, Pembrokeshire, Powys, Rhondda Cynon Taff, Swansea, The Vale of Glamorgan, Torfaen, Wrexham
-                </subfield>
-            </section>
-            <section name="Dependent areas">
-                Anguilla; Bermuda; British Indian Ocean Territory; British Virgin Islands; Cayman Islands; Falkland Islands; Gibraltar; Montserrat; Pitcairn Islands; Saint Helena, Ascension, and Tristan da Cunha; South Georgia and the South Sandwich Islands; Turks and Caicos Islands
             </section>
             <section name="Independence">
-                no official date of independence: 927 (minor English kingdoms unite); 3 March 1284 (enactment of the Statute of Rhuddlan uniting England and Wales); 1536 (Act of Union formally incorporates England and Wales); 1 May 1707 (Acts of Union formally unite England, Scotland, and Wales as Great Britain); 1 January 1801 (Acts of Union formally unite Great Britain and Ireland as the United Kingdom of Great Britain and Ireland); 6 December 1921 (Anglo-Irish Treaty formalizes partition of Ireland; six counties remain part of the United Kingdom and Northern Ireland); 12 April 1927 (Royal and Parliamentary Titles Act establishes current name of the United Kingdom of Great Britain and Northern Ireland)
+                1492; the Iberian peninsula was characterized by a variety of independent kingdoms prior to the Muslim occupation that began in the early 8th century A.D. and lasted nearly seven centuries; the small Christian redoubts of the north began the reconquest almost immediately, culminating in the seizure of Granada in 1492; this event completed the unification of several kingdoms and is traditionally considered the forging of present-day Spain
             </section>
             <section name="National holiday">
-                the UK does not celebrate one particular national holiday
+                National Day (Hispanic Day), 12 October (1492); note - commemorates the arrival of COLUMBUS in the Americas
             </section>
             <section name="Constitution">
                 <subfield name="history">
-                    unwritten; partly statutes, partly common law and practice
+                    previous 1812; latest approved by the General Courts 31 October 1978, passed by referendum 6 December 1978, signed by the king 27 December 1978, effective 29 December 1978
                 </subfield>
                 <subfield name="amendments">
-                    proposed as a bill for an Act of Parliament by the government, by the House of Commons, or by the House of Lords; passage requires agreement by both houses and by the monarch (Royal Assent); note - additions include the Human Rights Act of 1998, the Constitutional Reform and Governance Act 2010, the Parliamentary Voting System and Constituencies Act 2011, the Fixed-term Parliaments Act 2011, and the House of Lords (Expulsion and Suspension) Act 2015
+                    proposed by the government, by the General Courts (the Congress or the Senate), or by the self-governing communities submitted through the government; passage requires three-fifths majority vote by both houses and passage by referendum if requested by one tenth of the members of either house; proposals disapproved by both houses are submitted to a joint committee, which submits an agreed upon text for another vote; passage requires two-thirds majority vote in Congress and simple majority vote in the Senate; amended 1992, 2007, 2011
                 </subfield>
             </section>
             <section name="Legal system">
-                common law system; has nonbinding judicial review of Acts of Parliament under the Human Rights Act of 1998
+                civil law system with regional variations
             </section>
             <section name="International law organization participation">
                 <paragraph>accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction</paragraph>
             </section>
             <section name="Citizenship">
                 <subfield oneline="yes" name="citizenship by birth" value="no"/>
-                <subfield oneline="yes" name="citizenship by descent only" value="at least one parent must be a citizen of the United Kingdom"/>
-                <subfield oneline="yes" name="dual citizenship recognized" value="yes"/>
-                <subfield oneline="yes" name="residency requirement for naturalization" value="5" unit="years"/>
+                <subfield oneline="yes" name="citizenship by descent only" value="at least one parent must be a citizen of Spain"/>
+                <subfield oneline="yes" name="dual citizenship recognized" value="only with select Latin American countries"/>
+                <subfield oneline="yes" name="residency requirement for naturalization" value="10 years for persons with no ties to Spain"/>
             </section>
             <section name="Suffrage">
                 18 years of age; universal
             </section>
             <section name="Executive branch">
                 <subfield name="chief of state">
-                    <data value="Queen ELIZABETH II" year="since 6 February 1952"/>
-                    <data value="Heir Apparent Prince CHARLES" description="son of the queen, born 14 November 1948"/>
+                    <data value="King FELIPE VI" year="since 19 June 2014"/>
+                    <data value="Heir Apparent Princess LEONOR, Princess of Asturias" description="daughter of the monarch, born 31 October 2005"/>
                 </subfield>
                 <subfield name="head of government">
-                    <data value="Prime minister Boris JOHNSON" description="Conservative" year="since 24 July 2019"/>
+                    <data value="President of the Government (Prime Minister-equivalent) Pedro SANCHEZ Perez-Castejon" year="since 2 June 2018"/>
+                    <data value="Vice President (and Minister of the President's Office) Maria del Carmen CALVO Poyato" year="since 7 June 2018"/>
                 </subfield>
                 <subfield name="cabinet">
-                    Cabinet appointed by the prime minister
+                    Council of Ministers designated by the president
                 </subfield>
                 <subfield name="elections/appointments">
-                    the monarchy is hereditary; following legislative elections, the leader of the majority party or majority coalition usually becomes the prime minister; election last held on 12 December 2019 (next to be held by 2 May 2024)
+                    the monarchy is hereditary; following legislative elections, the monarch usually proposes as president the leader of the party or coalition with the largest majority of seats, who is then indirectly elected by the Congress of Deputies; election last held on 10 November 2019 (next to be held November 2023); vice president and Council of Ministers appointed by the president
+                </subfield>
+                <subfield name="election results">
+                    percent of National Assembly vote - NA
                 </subfield>
                 <subfield name="note">
-                    in addition to serving as the UK head of state, the British sovereign is the constitutional monarch for 15 additional Commonwealth countries (these 16 states are each referred to as a Commonwealth realm)
+                    there is also a Council of State that is the supreme consultative organ of the government, but its recommendations are non-binding
                 </subfield>
             </section>
             <section name="Legislative branch">
                 <subfield name="description">
-                    <paragraph>bicameral Parliament consists of:</paragraph>
-                    <paragraph>House of Lords (membership not fixed; as of December 2019, 796 lords were eligible to participate in the work of the House of Lords - 679 life peers, 91 hereditary peers, and 26 clergy; members are appointed by the monarch on the advice of the prime minister and non-party political members recommended by the House of Lords Appointments Commission); note - House of Lords total does not include ineligible members or members on leave of absence</paragraph>
-                    <paragraph>House of Commons (650 seats; members directly elected in single-seat constituencies by simple majority popular vote to serve 5-year terms unless the House is dissolved earlier)</paragraph>
+                    <paragraph>bicameral General Courts or Las Cortes Generales consists of:</paragraph>
+                    <paragraph>Senate or Senado (266 seats; 208 members directly elected in multi-seat constituencies by simple majority vote and 58 members indirectly elected by the legislatures of the autonomous communities; members serve 4-year terms)</paragraph>
+                    <paragraph>Congress of Deputies or Congreso de los Diputados (350 seats; 348 members directly elected in 50 multi-seat constituencies by closed-list proportional representation vote, with a 3% threshold needed to gain a seat, and 2 directly elected from the North African Ceuta and Melilla enclaves by simple majority vote; members serve 4-year terms or until the government is dissolved)</paragraph>
                 </subfield>
                 <subfield name="elections">
-                    <paragraph>House of Lords - no elections; note - in 1999, as provided by the House of Lords Act, elections were held in the House of Lords to determine the 92 hereditary peers who would remain; elections held only as vacancies in the hereditary peerage arise)</paragraph>
-                    <paragraph>House of Commons - last held on 12 December 2019 (next to be held by 2 May 2024)</paragraph>
+                    <paragraph>Senate - last held on 10 November 2019 (next to be held no later than November 2023)</paragraph>
+                    <paragraph>Congress of Deputies - last held on 10 November 2019 (next to be held no later than November 2023)</paragraph>
                 </subfield>
                 <subfield name="election results">
-                    <paragraph>House of Lords - composition - men 579, women 217, percent of women 27.3%</paragraph>
-                    <paragraph>House of Commons - percent of vote by party - Conservative 43.6%, Labor 32.1%, Lib Dems 11.6%, SNP 3.9%, Greens 2.7%, Brexit Party 2.0%, other 4.1%; seats by party - Conservative 365, Labor 202, SNP 48, Lib Dems 11, DUP 8, Sinn Fein 7, Plaid Cymru 4, other 9; composition - men 430, women 220, percent of women 34%; total Parliament percent of women 30.2%</paragraph>
+                    <paragraph>Senate - percent of vote by party - NA; seats by party - PSOE 113, PP 97, ERC 15, EAJ/PNV 10, C's 9, other 22; composition - men 163, women 103; percent of women 39%</paragraph>
+                    <paragraph>Congress of Deputies - percent of vote by party - PSOE 28.7%, PP 20.8%,Vox 15.1%, Unidos Podemos 12.8%, C's 6.8%, ERC 3.6%, other 12.8%; seats by party - PSOE 120, PP 88, Vox 52,  Unidos Podemos 35, C's 10, ERC 13, other 23; composition - men 184, women 166; percent of women 47.4%; note - total  General Courts percent of women 43.7%</paragraph>
                 </subfield>
             </section>
             <section name="Judicial branch">
                 <subfield name="highest courts">
-                    Supreme Court (consists of 12 justices, including the court president and deputy president); note - the Supreme Court was established by the Constitutional Reform Act 2005 and implemented in 2009, replacing the Appellate Committee of the House of Lords as the highest court in the United Kingdom
+                    Supreme Court or Tribunal Supremo (consists of the court president and organized into the Civil Room, with a president and 9 judges; the Penal Room, with a president and 14 judges; the Administrative Room, with a president and 32 judges; the Social Room, with a president and 12 judges; and the Military Room, with a president and 7 judges); Constitutional Court or Tribunal Constitucional de Espana (consists of 12 judges)
                 </subfield>
                 <subfield name="judge selection and term of office">
-                    judge candidates selected by an independent committee of several judicial commissions, followed by their recommendations to the prime minister, and appointed by the monarch; justices serve for life
+                    Supreme Court judges appointed by the monarch from candidates proposed by the General Council of the Judiciary Power, a 20-member governing board chaired by the monarch that includes presidential appointees, lawyers, and jurists confirmed by the National Assembly; judges can serve until age 70; Constitutional Court judges nominated by the National Assembly, executive branch, and the General Council of the Judiciary, and appointed by the monarch for 9-year terms
                 </subfield>
                 <subfield name="subordinate courts">
-                    England and Wales: Court of Appeal (civil and criminal divisions); High Court; Crown Court; County Courts; Magistrates' Courts; Scotland: Court of Sessions; Sheriff Courts; High Court of Justiciary; tribunals; Northern Ireland: Court of Appeal in Northern Ireland; High Court; county courts; magistrates' courts; specialized tribunals
+                    National High Court; High Courts of Justice (in each of the autonomous communities); provincial courts; courts of first instance
                 </subfield>
             </section>
             <section name="Political parties and leaders">
                 <list>
-                    <item value="Alliance Party" description="Northern Ireland" description2="Naomi LONG"/>
-                    <item value="Brexit Party"  description="Nigel FARAGE"/>
-                    <item value="Conservative and Unionist Party"  description="Boris JOHNSON"/>
-                    <item value="Democratic Unionist Party or DUP"  description="Northern Ireland" description2="Arlene FOSTER"/>
-                    <item value="Green Party of England and Wales or Greens"  description="Sian BERRY and Jonathan BARTLEY"/>
-                    <item value="Labor (Labour) Party"  description="Sir Keir STARMER"/>
-                    <item value="Liberal Democrats" description="Lib Dems"  description2="Ed Davey"/>
-                    <item value="Party of Wales" description="Plaid Cymru" description2="Ed Davey"/>
-                    <item value="Scottish National Party or SNP" description="Nicola STURGEON"/>
-                    <item value="Sinn Fein" description="Northern Ireland" description2="Mary Lou MCDONALD"/>
-                    <item value="Social Democratic and Labor Party or SDLP" description="Northern Ireland" description2="Colum EASTWOOD"/>
-                    <item value="Ulster Unionist Party or UUP" description="Northern Ireland" description2="Robin SWANN"/>
-                    <item value="UK Independence Party or UKIP" description="Pat MOUNTAIN, interim leader"/>
+                    <item value="Asturias Forum or FAC" description="Carmen MORIYON"/>
+                    <item value="Basque Country Unite (Euskal Herria Bildu) or EH Bildu" description="coalition of 4 Basque pro-independence parties"/>
+                    <item value="Basque Nationalist Party or PNV or EAJ" description="Andoni ORTUZAR"/>
+                    <item value="Canarian Coalition or CC" description="Ana ORAMAS" description2="coalition of 5 parties"/>
+                    <item value="Junts per Catalunia or JxCat" description="Carles PUIDGEMONT"/>
+                    <item value="Ciudadanos Party or C's" description="Albert RIVERA"/>
+                    <item value="Compromis - Communist Coalition" description="Joan BALDOVI"/>
+                    <item value="New Canary or NCa" description="Pedro QUEVEDOS"/>
+                    <item value="Unidas Podemos" description="Pablo IGLESIAS Turrion" description2="formerly Podemos IU; electoral coalition formed for May 2016 election"/>
+                    <item value="People's Party or PP" description="Pablo CASADO"/>
+                    <item value="Republican Left of Catalonia or ERC" description="Oriol JUNQUERAS i Vies"/>
+                    <item value="Spanish Socialist Workers Party or PSOE" description="Pedro SANCHEZ"/>
+                    <item value="JxCat-Junts Together for Catalonia" description="Jordi SANCHEZ"/>
+                    <item value="Union of People of Navarra or UPN" description="Javier ESPARZA"/>
+                    <item value="Navarra Suma" description="(electoral Coaltion formed by Navarrese People's Union (UPN), Ciudadanos (C's), and the Popular Partty (PP) ahead of the 2019 election)"/>
+                    <item value="Vox or Vox" description="Santiago ABASCAL"/>
                 </list>
             </section>
             <section name="International organization participation">
@@ -534,11 +530,11 @@
                     <item value="AfDB" description="nonregional member"/>
                     <item value="Arctic council" description="observer"/>
                     <item value="Australia Group"/>
+                    <item value="BCIE"/>
                     <item value="BIS"/>
-                    <item value="C"/>
+                    <item value="CAN" description="observer"/>
                     <item value="CBSS" description="observer"/>
                     <item value="CD"/>
-                    <item value="CDS"/>
                     <item value="CE"/>
                     <item value="CERN"/>
                     <item value="EAPC"/>
@@ -546,15 +542,11 @@
                     <item value="ECB"/>
                     <item value="EIB"/>
                     <item value="EITI" description="implementing country"/>
+                    <item value="EMU"/>
                     <item value="ESA"/>
                     <item value="EU"/>
                     <item value="FAO"/>
                     <item value="FATF"/>
-                    <item value="G-5"/>
-                    <item value="G-7"/>
-                    <item value="G-8"/>
-                    <item value="G-10"/>
-                    <item value="G-20"/>
                     <item value="IADB"/>
                     <item value="IAEA"/>
                     <item value="IBRD"/>
@@ -568,7 +560,6 @@
                     <item value="IFAD"/>
                     <item value="IFC"/>
                     <item value="IFRCS"/>
-                    <item value="IGAD" description="partners"/>
                     <item value="IHO"/>
                     <item value="ILO"/>
                     <item value="IMF"/>
@@ -582,9 +573,8 @@
                     <item value="ITSO"/>
                     <item value="ITU"/>
                     <item description="NGOs" value="ITUC"/>
+                    <item value="LAIA" description="observer"/>
                     <item value="MIGA"/>
-                    <item value="MINUSMA"/>
-                    <item value="MONUSCO"/>
                     <item value="NATO"/>
                     <item value="NEA"/>
                     <item value="NSG"/>
@@ -596,15 +586,19 @@
                     <item value="Paris Club"/>
                     <item value="PCA"/>
                     <item value="PIF" description="partner"/>
+                    <item value="Schengen Convention"/>
                     <item value="SELEC" description="observer"/>
                     <item value="SICA" description="observer"/>
                     <item value="UN"/>
                     <item value="UNCTAD"/>
                     <item value="UNESCO"/>
                     <item value="UNHCR"/>
-                    <item value="UNMISS"/>
+                    <item value="UNIDO"/>
+                    <item value="UNIFIL"/>
+                    <item value="Union Latina"/>
+                    <item value="UNOCI"/>
                     <item value="UNRWA"/>
-                    <item value="UN Security Council" description="permanent"/>
+                    <item value="UNWTO"/>
                     <item value="UPU"/>
                     <item value="WCO"/>
                     <item value="WHO"/>
@@ -615,371 +609,370 @@
                 </list>
             </section>
             <section name="Diplomatic representation in the US">
-                <subfield name="chief of mission">
-                    <data value="Ambassador Karen Elizabeth PIERCE" year="since 8 April 2020"/>
-                </subfield>
-                <subfield name="chancery" value="3100 Massachusetts Avenue NW, Washington, DC 20008"/>
-                <subfield name="telephone" value="[1] (202) 588-6500"/>
-                <subfield name="FAX" value="[1] (202) 588-7870"/>
-                <subfield name="consulate(s) general" value="Atlanta, Boston, Chicago, Denver, Houston, Los Angeles, Miami, New York, San Francisco"/>
-                <subfield name="consulate(s)" value="Orlando (FL), San Juan (Puerto Rico)"/>
+                <subfield name="chief of mission" value="Ambassador Santiago CABANAS Ansorena" year="since 17 September 2018"/>
+                <subfield name="chancery" value="2375 Pennsylvania Avenue NW, Washington, DC 20037"/>
+                <subfield name="telephone" value="[1] (202) 452-0100, 728-2340"/>
+                <subfield name="FAX" value="[1] (202) 833-5670"/>
+                <subfield name="consulate(s) general" value="Boston, Chicago, Houston, Los Angeles, Miami, New York, San Francisco, San Juan (Puerto Rico)"/>
+                <subfield name="consulate(s)" value="Kansas City (MO)"/>
             </section>
             <section name="Diplomatic representation from the US">
-                <subfield name="chief of mission">
-                    <data value="Ambassador Robert Wood &apos;Woody&apos; JOHNSON IV" year="since 29 August 2017"/>
-                </subfield>
-                <subfield name="telephone" value="[44] 20-7499-9000"/>
-                <subfield name="embassy" value="33 Nine Elms Lane, London, SW11 7US or SW8 5DB (driving/GPS postcode)"/>
-                <subfield name="mailing address" value="PSC 801, Box 40, FPO AE 09498-4040"/>
-                <subfield name="FAX" value="[44] 20-7891-3151"/>
-                <subfield name="consulate(s) general" value="Belfast Edinburgh"/>
+                <subfield name="chief of mission" value="Ambassador Richard Duke BUCHAN III" year="since 18 January 2018" description="note - also accredited to Andorra"/>
+                <subfield name="telephone" value="[34] (91) 587-2200"/>
+                <subfield name="embassy" value="Calle de Serrano 75, 28006 Madrid"/>
+                <subfield name="mailing address" value="PSC 61, APO AE 09642"/>
+                <subfield name="FAX" value="[34] (91) 587-2303"/>
+                <subfield name="consulate(s) general" value="Barcelona"/>
             </section>
             <section name="Flag description">
-                blue field with the red cross of Saint George (patron saint of England) edged in white superimposed on the diagonal red cross of Saint Patrick (patron saint of Ireland), which is superimposed on the diagonal white cross of Saint Andrew (patron saint of Scotland); properly known as the Union Flag, but commonly called the Union Jack; the design and colors (especially the Blue Ensign) have been the basis for a number of other flags including other Commonwealth countries and their constituent states or provinces, and British overseas territories
+                three horizontal bands of red (top), yellow (double width), and red with the national coat of arms on the hoist side of the yellow band; the coat of arms is quartered to display the emblems of the traditional kingdoms of Spain (clockwise from upper left, Castile, Leon, Navarre, and Aragon) while Granada is represented by the stylized pomegranate at the bottom of the shield; the arms are framed by two columns representing the Pillars of Hercules, which are the two promontories (Gibraltar and Ceuta) on either side of the eastern end of the Strait of Gibraltar; the red scroll across the two columns bears the imperial motto of "Plus Ultra" (further beyond) referring to Spanish lands beyond Europe; the triband arrangement with the center stripe twice the width of the outer dates to the 18th century
+                <subfield name="note">
+                    the red and yellow colors are related to those of the oldest Spanish kingdoms: Aragon, Castile, Leon, and Navarre
+                </subfield>
             </section>
             <section name="National symbol(s)">
-                lion (Britain in general); lion, Tudor rose, oak (England); lion, unicorn, thistle (Scotland); dragon, daffodil, leek (Wales); shamrock, flax (Northern Ireland); national colors: red, white, blue (Britain in general); red, white (England); blue, white (Scotland); red, white, green (Wales)
+                Pillars of Hercules; national colors: red, yellow
             </section>
             <section name="National anthem">
-                <subfield name="name" value="God Save the Queen"/>
-                <subfield name="lyrics/music" value="unknown"/>
+                <subfield name="name" value="&quot;Himno Nacional Espanol&quot; (National Anthem of Spain)"/>
+                <subfield name="lyrics/music" value="no lyrics/unknown"/>
                 <subfield name="note">
-                    in use since 1745; by tradition, the song serves as both the national and royal anthem of the UK; it is known as either "God Save the Queen" or "God Save the King," depending on the gender of the reigning monarch; it also serves as the royal anthem of many Commonwealth nations
+                    officially in use between 1770 and 1931, restored in 1939; the Spanish anthem is the first anthem to be officially adopted, but it has no lyrics; in the years prior to 1931 it became known as "Marcha Real" (The Royal March); it first appeared in a 1761 military bugle call book and was replaced by "Himno de Riego" in the years between 1931 and 1939; the long version of the anthem is used for the king, while the short version is used for the prince, prime minister, and occasions such as sporting events
                 </subfield>
-                <audio type="audio/mp3" controls="controls" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/UK.mp3?1538604761" alt="National anthem audio file for United Kingdom"/>
+                <audio type="audio/mp3" controls="controls" src="https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/SP.mp3?1538604760" alt="National anthem audio file for United Kingdom"/>
             </section>
         </chapter>
         <chapter name="Economy">
             <section name="Economy-overview">
-                <paragraph>The UK, a leading trading power and financial center, is the third largest economy in Europe after Germany and France. Agriculture is intensive, highly mechanized, and efficient by European standards, producing about 60% of food needs with less than 2% of the labor force. The UK has large coal, natural gas, and oil resources, but its oil and natural gas reserves are declining; the UK has been a net importer of energy since 2005. Services, particularly banking, insurance, and business services, are key drivers of British GDP growth. Manufacturing, meanwhile, has declined in importance but still accounts for about 10% of economic output.</paragraph>
-                <paragraph>In 2008, the global financial crisis hit the economy particularly hard, due to the importance of its financial sector. Falling home prices, high consumer debt, and the global economic slowdown compounded the UK’s economic problems, pushing the economy into recession in the latter half of 2008 and prompting the then BROWN (Labour) government to implement a number of measures to stimulate the economy and stabilize the financial markets. Facing burgeoning public deficits and debt levels, in 2010 the then CAMERON-led coalition government (between Conservatives and Liberal Democrats) initiated an austerity program, which has continued under the Conservative government. However, the deficit still remains one of the highest in the G7, standing at 3.6% of GDP as of 2017, and the UK has pledged to lower its corporation tax from 20% to 17% by 2020. The UK had a debt burden of 90.4% GDP at the end of 2017.</paragraph>
-                <paragraph>The UK economy has begun to slow since the referendum vote to leave the EU in June 2016. A sustained depreciation of the British pound has increased consumer and producer prices, weighing on consumer spending without spurring a meaningful increase in exports. The UK has an extensive trade relationship with other EU members through its single market membership, and economic observers have warned the exit will jeopardize its position as the central location for European financial services. The UK is slated to leave the EU at the end of January 2020.</paragraph>
+                <paragraph>After a prolonged recession that began in 2008 in the wake of the global financial crisis, Spain marked the fourth full year of positive economic growth in 2017, with economic activity surpassing its pre-crisis peak, largely because of increased private consumption. The financial crisis of 2008 broke 16 consecutive years of economic growth for Spain, leading to an economic contraction that lasted until late 2013. In that year, the government successfully shored up its struggling banking sector - heavily exposed to the collapse of Spain’s real estate boom - with the help of an EU-funded restructuring and recapitalization program.</paragraph>
+                <paragraph>Until 2014, contraction in bank lending, fiscal austerity, and high unemployment constrained domestic consumption and investment. The unemployment rate rose from a low of about 8% in 2007 to more than 26% in 2013, but labor reforms prompted a modest reduction to 16.4% in 2017. High unemployment strained Spain's public finances, as spending on social benefits increased while tax revenues fell. Spain’s budget deficit peaked at 11.4% of GDP in 2010, but Spain gradually reduced the deficit to about 3.3% of GDP in 2017. Public debt has increased substantially – from 60.1% of GDP in 2010 to nearly 96.7% in 2017.</paragraph>
+                <paragraph>Strong export growth helped bring Spain's current account into surplus in 2013 for the first time since 1986 and sustain Spain’s economic growth. Increasing labor productivity and an internal devaluation resulting from moderating labor costs and lower inflation have improved Spain’s export competitiveness and generated foreign investor interest in the economy, restoring FDI flows.</paragraph>
+                <paragraph>In 2017, the Spanish Government’s minority status constrained its ability to implement controversial labor, pension, health care, tax, and education reforms. The European Commission expects the government to meet its 2017 budget deficit target and anticipates that expected economic growth in 2018 will help the government meet its deficit target. Spain’s borrowing costs are dramatically lower since their peak in mid-2012, and increased economic activity has generated a modest level of inflation, at 2% in 2017.</paragraph>
             </section>
             <section name="GDP - real growth rate">
-                <data value="1.2620.758" unit="%" year="2019 est."/>
-                <data value="1.25" unit="%" year="2018 est."/>
-                <data value="1.74" unit="%" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="164"/>
+                <data value="1.95" unit="%" year="2019 est."/>
+                <data value="2.43" unit="%" year="2018 est."/>
+                <data value="2.97" unit="%" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="141"/>
             </section>
             <section name="Inflation rate (consumer prices)">
-                <data value="1.7" unit="%" year="2019 est."/>
-                <data value="2.4" unit="%" year="2018 est."/>
-                <data value="2.6" unit="%" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="99"/>
+                <data value="0.7" unit="%" year="2019 est."/>
+                <data value="2.43" unit="%" year="2018 est."/>
+                <data value="2.97" unit="%" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="55"/>
             </section>
             <section name="Credit ratings">
-                <subfield name="Fitch rating" value="AA-" year="2020"/>
-                <subfield name="Moody's rating" value="Aaa" year="2020"/>
-                <subfield name="Standard &amp; Poors rating" value="AA" year="2016"/>
+                <subfield name="Fitch rating" value="A-" year="2018"/>
+                <subfield name="Moody's rating" value="Baa1" year="2018"/>
+                <subfield name="Standard &amp; Poors rating" value="A" year="2019"/>
             </section>
             <section name="GDP (purchasing power parity) - real">
-                <data value="2,683,983,000,000" unit="$" year="2019 est."/>
-                <data value="2,650,562,000,000" unit="$" year="2018 est."/>
-                <data value="2,617,772,000,000" unit="$" year="2017 est."/>
+                <data value="1,633,916,000,000" unit="$" year="2019 est."/>
+                <data value="1,602,663,000,000" unit="$" year="2018 est."/>
+                <data value="1,564,642,000,000" unit="$" year="2017 est."/>
                 <subfield name="note" value="data are in 2010 dollars"/>
             </section>
             <section name="GDP (official exchange rate)">
-                <data value="2,827,918,000,000" unit="$" year="2019 est."/>
+                <data value="1,393,351,000,000" unit="$" year="2019 est."/>
             </section>
             <section name="GDP - per capita (PPP)">
-                <data value="43,111" unit="$" year="2017 est."/>
-                <data value="42,821" unit="$" year="2016 est."/>
-                <data value="42,554" unit="$" year="2015 est."/>
+                <data value="33,698" unit="$" year="2019 est."/>
+                <data value="33,084" unit="$" year="2018 est."/>
+                <data value="32,331" unit="$" year="2017 est."/>
                 <subfield oneline="yes" name="note" value="data are in 2010 dollars"/>
-                <subfield oneline="yes" name="country comparison to the world" value="38"/>
+                <subfield oneline="yes" name="country comparison to the world" value="52"/>
             </section>
             <section name="Gross national saving">
-                <data value="13.6" unit="% of GDP" year="2017 est."/>
-                <data value="12" unit="% of GDP" year="2016 est."/>
-                <data value="12.3" unit="% of GDP" year="2015 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="142"/>
+                <data value="23" unit="% of GDP" year="2017 est."/>
+                <data value="22.4" unit="% of GDP" year="2016 est."/>
+                <data value="21.5" unit="% of GDP" year="2015 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="76"/>
             </section>
             <section name="GDP - composition, by sector of origin">
-                <subfield oneline="yes" name="agriculture" value="0.7" unit="%" year="2017 est."/>
-                <subfield oneline="yes" name="industry" value="20.2" unit="%" year="2017 est."/>
-                <subfield oneline="yes" name="services" value="79.2" unit="%" year="2017 est."/>
+                <subfield oneline="yes" name="agriculture" value="2.6" unit="%" year="2017 est."/>
+                <subfield oneline="yes" name="industry" value="23.2" unit="%" year="2017 est."/>
+                <subfield oneline="yes" name="services" value="74.2" unit="%" year="2017 est."/>
             </section>
             <section name="GDP - composition, by end use">
-                <subfield name="household consumption" value="65.8" unit="%" year="2017 est."/>
-                <subfield name="government consumption" value="18.3" unit="%" year="2017 est."/>
-                <subfield name="investment in fixed capital" value="17.2" unit="%" year="2017 est."/>
-                <subfield name="investment in inventories" value="0.2" unit="%" year="2017 est."/>
-                <subfield name="exports of goods and services" value="30.2" unit="%" year="2017 est."/>
-                <subfield name="imports of goods and services" value="-31.5" unit="%" year="2017 est."/>
+                <subfield name="household consumption" value="57.7" unit="%" year="2017 est."/>
+                <subfield name="government consumption" value="18.5" unit="%" year="2017 est."/>
+                <subfield name="investment in fixed capital" value="20.6" unit="%" year="2017 est."/>
+                <subfield name="investment in inventories" value="0.6" unit="%" year="2017 est."/>
+                <subfield name="exports of goods and services" value="34.1" unit="%" year="2017 est."/>
+                <subfield name="imports of goods and services" value="-31.4" unit="%" year="2017 est."/>
             </section>
             <section name="Agriculture - products">
                 <list>
-                    <item value="cereals"/>
-                    <item value="oilseed"/>
-                    <item value="potatoes"/>
+                    <item value="grain"/>
                     <item value="vegetables"/>
-                    <item value="cattle"/>
-                    <item value="sheep"/>
+                    <item value="olives"/>
+                    <item value="wine grapes"/>
+                    <item value="sugar beets"/>
+                    <item value="citrus"/>
+                    <item value="beef"/>
+                    <item value="pork"/>
                     <item value="poultry"/>
+                    <item value="dairy products"/>
                     <item value="fish"/>
-                    <item value="milk"/>
-                    <item value="eggs"/>
                 </list>
             </section>
             <section name="Industries">
                 <list>
-                    <item value="machine tools"/>
-                    <item value="electric power equipment"/>
-                    <item value="automation equipment"/>
-                    <item value="railroad equipment"/>
-                    <item value="shipbuilding"/>
-                    <item value="aircraft"/>
-                    <item value="motor vehicles and parts"/>
-                    <item value="electronics and communications equipment"/>
+                    <item value="textiles and apparel" description="including footwear"/>
+                    <item value="food and beverages"/>
+                    <item value="metals and metal manufactures"/>
                     <item value="chemicals"/>
-                    <item value="coal"/>
-                    <item value="petroleum"/>
-                    <item value="paper and paper products"/>
-                    <item value="food processing"/>
-                    <item value="textiles"/>
-                    <item value="clothing"/>
-                    <item value="other consumer goods"/>
+                    <item value="shipbuilding"/>
+                    <item value="automobiles"/>
+                    <item value="machine tools"/>
+                    <item value="tourism"/>
+                    <item value="clay and refractory products"/>
+                    <item value="footwear"/>
+                    <item value="pharmaceuticals"/>
+                    <item value="medical equipment"/>
                 </list>
             </section>
             <section name="Industrial production growth rate">
-                <data value="3.4" unit="%" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="93"/>
+                <data value="4" unit="%" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="76"/>
             </section>
             <section name="Labor force">
-                <data value="16.033" unit="million" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="33"/>
+                <data value="19.057" unit="million" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="28"/>
             </section>
             <section name="Labor force - by occupation">
-                <subfield oneline="yes" name="agriculture" value="1.3" unit="%"/>
-                <subfield oneline="yes" name="industry" value="15.2" unit="%"/>
-                <subfield oneline="yes" name="services" value="83.5" unit="%" year="2015"/>
+                <subfield oneline="yes" name="agriculture" value="4.2" unit="%"/>
+                <subfield oneline="yes" name="industry" value="24" unit="%"/>
+                <subfield oneline="yes" name="services" value="71.7" unit="%" year="2009"/>
             </section>
             <section name="Unemployment rate">
-                <data value="3.17" unit="%" year="2017 est."/>
-                <data value="2.51" unit="%" year="2016 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="33"/>
+                <data value="14.13" unit="%" year="2019 est."/>
+                <data value="15.25" unit="%" year="2018 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="173"/>
             </section>
             <section name="Population below poverty line">
-                <data value="15" unit="%" year="2015 est."/>
+                <data value="21.1" unit="%" year="2012 est."/>
             </section>
             <section name="Household income or consumption by percentage share">
-                <subfield oneline="yes" name="lowest 10%" value="1.7" unit="%"/>
-                <subfield oneline="yes" name="highest 10%" value="31.1" unit="%" year="2015"/>
+                <subfield oneline="yes" name="lowest 10%" value="2.5" unit="%"/>
+                <subfield oneline="yes" name="highest 10%" value="24" unit="%" year="2011"/>
             </section>
             <section name="Budget">
-                <subfield oneline="yes" name="revenues" value="1.028" unit="trillion" year="2017 est."/>
-                <subfield oneline="yes" name="expenditures" value="1.079" unit="trillion" year="2017 est."/>
+                <subfield oneline="yes" name="revenues" value="498.1" unit="billion" year="2017 est."/>
+                <subfield oneline="yes" name="expenditures" value="539" unit="billion" year="2017 est."/>
             </section>
             <section name="Taxes and other revenues">
-                <data value="39.1" unit="% of GDP" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="49"/>
+                <data value="37.9" unit="% of GDP" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="52"/>
             </section>
             <section name="Budget surplus (+) or deficit (-)">
-                <data value="-1.9" unit="% of GDP" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="102"/>
+                <data value="-3.1" unit="% of GDP" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="136"/>
             </section>
             <section name="Public debt">
-                <data value="87.5" unit="% of GDP" year="2017 est."/>
-                <data value="87.9" unit="% of GDP" year="2016 est."/>
+                <data value="98.4" unit="% of GDP" year="2017 est."/>
+                <data value="99" unit="% of GDP" year="2016 est."/>
                 <subfield name="note">
                     data cover general government debt and include debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities; the data include debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are not sold at public auctions
                 </subfield>
-                <subfield oneline="yes" name="country comparison to the world" value="29"/>
+                <subfield oneline="yes" name="country comparison to the world" value="18"/>
             </section>
-            <section name="Fiscal year" value="6 April - 5 April"/>
+            <section name="Fiscal year" value="calendar year"/>
             <section name="Current account balance">
-                <data value="-121.921" unit="billion $" year="2017 est."/>
-                <data value="-104.927" unit="billion $" year="2016 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="205"/>
+                <data value="29.603" unit="billion $" year="2017 est."/>
+                <data value="27.206" unit="billion $" year="2016 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="13"/>
             </section>
             <section name="Exports">
-                <data value="901.882" unit="billion $" year="2019 est."/>
-                <data value="877.501" unit="billion $" year="2018 est."/>
-                <data value="851.693" unit="billion $" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="6"/>
+                <data value="533.771" unit="billion $" year="2019 est."/>
+                <data value="521.855" unit="billion $" year="2018 est."/>
+                <data value="510.327" unit="billion $" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="16"/>
             </section>
             <section name="Exports - partners">
                 <list>
-                    <item name="US" value="13.2" unit="%"/>
-                    <item name="Germany" value="10.5" unit="%"/>
-                    <item name="France" value="7.4" unit="%"/>
-                    <item name="Netherlands" value="6.2" unit="%"/>
-                    <item name="Ireland" value="5.6" unit="%"/>
-                    <item name="China" value="4.8" unit="%"/>
-                    <item name="Switzerland" value="4.5" unit="%" year="2017"/>
+                    <item name="France" value="15.1" unit="%"/>
+                    <item name="Germany" value="11.3" unit="%"/>
+                    <item name="Italy" value="7.8" unit="%"/>
+                    <item name="Portugal" value="7.1" unit="%"/>
+                    <item name="UK" value="6.9" unit="%"/>
+                    <item name="US" value="4.4" unit="%" year="2017"/>
                 </list>
             </section>
             <section name="Exports - commodities">
                 <list>
-                    <item value="manufactured goods"/>
-                    <item value="fuels"/>
-                    <item value="chemicals"/>
-                    <item value="food"/>
-                    <item value="beverages"/>
-                    <item value="tobacco"/>
+                    <item value="machinery"/>
+                    <item value="motor vehicles"/>
+                    <item value="foodstuffs"/>
+                    <item value="pharmaceuticals"/>
+                    <item value="medicines"/>
+                    <item value="other consumer goods"/>
                 </list>
             </section>
             <section name="Imports">
-                <data value="987.018" unit="billion $" year="2019 est."/>
-                <data value="955.655" unit="billion $" year="2018 est."/>
-                <data value="930.354" unit="billion $" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="6"/>
+                <data value="463.145" unit="billion $" year="2019 est."/>
+                <data value="459.742" unit="billion $" year="2018 est."/>
+                <data value="441.197" unit="billion $" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="18"/>
             </section>
             <section name="Imports - commodities">
                 <list>
-                    <item value="manufactured goods"/>
-                    <item value="machinery"/>
+                    <item value="machinery and equipment"/>
                     <item value="fuels"/>
+                    <item value="chemicals"/>
+                    <item value="semi-finished goods"/>
                     <item value="foodstuffs"/>
+                    <item value="consumer goods"/>
+                    <item value="measuring and medical control instruments"/>
                 </list>
             </section>
             <section name="Imports - partners">
                 <list>
-                    <item name="Germany" value="13.7" unit="%"/>
-                    <item name="US" value="9.5" unit="%"/>
-                    <item name="China" value="9.3" unit="%"/>
-                    <item name="Netherlands" value="8" unit="%"/>
-                    <item name="France" value="5.4" unit="%"/>
-                    <item name="Belgium" value="5" unit="%" year="2017"/>
+                    <item name="Germany" value="14.2" unit="%"/>
+                    <item name="France" value="11.9" unit="%"/>
+                    <item name="China" value="6.9" unit="%"/>
+                    <item name="Italy" value="6.8" unit="%"/>
+                    <item name="Netherlands" value="5.1" unit="%"/>
+                    <item name="UK" value="4" unit="%" year="2017"/>
                 </list>
             </section>
             <section name="Reserves of foreign exchange and gold">
-                <data value="150.8" unit="billion $" year="31 December 2017 est."/>
-                <data value="129.6" unit="billion $" year="31 December 2015 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="17"/>
+                <data value="69.41" unit="billion $" year="31 December 2017 est."/>
+                <data value="63.14" unit="billion $" year="31 December 2016 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="32"/>
             </section>
             <section name="Debt - external">
-                <data value="8.126" unit="billion $" year="31 March 2016 est."/>
-                <data value="8.642" unit="billion $" year="31 March 2015 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="2"/>
+                <data value="2.094" unit="trillion $" year="31 March 2017 est."/>
+                <data value="1.963" unit="trillion $" year="31 March 2015 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="10"/>
             </section>
             <section name="Exchange rates">
-                <list name="British pounds (GBP) per US dollar">
-                    <item value="0.7836" year="2017 est."/>
-                    <item value="0.738" year="2016 est."/>
-                    <item value="0.738" year="2015 est."/>
-                    <item value="0.607" year="2014 est."/>
-                    <item value="0.6391" year="2013 est."/>
+                <list name="euros (EUR) per US dollar">
+                    <item value="0.82771" year="2020 est."/>
+                    <item value="0.90338" year="2019 est."/>
+                    <item value="0.87789" year="2018 est."/>
+                    <item value="0.7525" year="2014 est."/>
+                    <item value="0.7634" year="2013 est."/>
                 </list>
             </section>
         </chapter>
         <chapter name="Energy">
             <section name="Electricity access">
-                <subfield name="electrification - total population" value="100" unit="%" year="2016"/>
+                <subfield name="electrification - total population" value="100" unit="%" year="2020"/>
             </section>
             <section name="Electricity - production">
-                <data value="318.2" unit="billion kWh" year="2016 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="12"/>
-            </section>
-            <section name="Electricity - consumption">
-                <data value="309.2" unit="billion kWh" year="2016 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="11"/>
-            </section>
-            <section name="Electricity - exports">
-                <data value="2.153" unit="billion kWh" year="2016 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="45"/>
-            </section>
-            <section name="Electricity - imports">
-                <data value="19.7" unit="billion kWh" year="2016 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="12"/>
-            </section>
-            <section name="Electricity - installed generating capacity">
-                <data value="97.06" unit="billion kWh" year="2016 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="13"/>
-            </section>
-            <section name="Electricity - from fossil fuels">
-                <data value="50" unit="% of total installed capacity" year="2016 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="151"/>
-            </section>
-            <section name="Electricity - from nuclear fuels">
-                <data value="9" unit="% of total installed capacity" year="2017 est."/>
+                <data value="258.6" unit="billion kWh" year="2016 est."/>
                 <subfield oneline="yes" name="country comparison to the world" value="17"/>
             </section>
-            <section name="Electricity - from hydroelectric plants">
-                <data value="2" unit="% of total installed capacity" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="143"/>
-            </section>
-            <section name="Electricity - from other renewable sources">
-                <data value="39" unit="% of total installed capacity" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="7"/>
-            </section>
-            <section name="Crude oil - production">
-                <data value="1" unit="million bbl/day" year="2018 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="20"/>
-            </section>
-            <section name="Crude oil - exports">
-                <data value="710,600" unit="bbl/day" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="20"/>
-            </section>
-            <section name="Crude oil - imports">
-                <data value="907,100" unit="bbl/day" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="11"/>
-            </section>
-            <section name="Crude oil - proved reserves">
-                <data value="2.069" unit="million bbl" year="1 January 2018 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="16"/>
-            </section>
-            <section name="Refined petroleum products - production">
-                <data value="1.29" unit="million bbl/day" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="16"/>
-            </section>
-            <section name="Refined petroleum products - consumption">
-                <data value="1.584" unit="bbl/day" year="2017 est."/>
+            <section name="Electricity - consumption">
+                <data value="239.5" unit="billion kWh" year="2016 est."/>
                 <subfield oneline="yes" name="country comparison to the world" value="15"/>
             </section>
+            <section name="Electricity - exports">
+                <data value="14.18" unit="billion kWh" year="2016 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="13"/>
+            </section>
+            <section name="Electricity - imports">
+                <data value="21.85" unit="billion kWh" year="2016 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="9"/>
+            </section>
+            <section name="Electricity - installed generating capacity">
+                <data value="105.9" unit="billion kWh" year="2016 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="12"/>
+            </section>
+            <section name="Electricity - from fossil fuels">
+                <data value="47" unit="% of total installed capacity" year="2016 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="156"/>
+            </section>
+            <section name="Electricity - from nuclear fuels">
+                <data value="7" unit="% of total installed capacity" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="19"/>
+            </section>
+            <section name="Electricity - from hydroelectric plants">
+                <data value="14" unit="% of total installed capacity" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="108"/>
+            </section>
+            <section name="Electricity - from other renewable sources">
+                <data value="32" unit="% of total installed capacity" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="15"/>
+            </section>
+            <section name="Crude oil - production">
+                <data value="1,700" unit="bbl/day" year="2018 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="88"/>
+            </section>
+            <section name="Crude oil - exports">
+                <data value="0" unit="bbl/day" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="198"/>
+            </section>
+            <section name="Crude oil - imports">
+                <data value="1.325" unit="million bbl/day" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="8"/>
+            </section>
+            <section name="Crude oil - proved reserves">
+                <data value="150" unit="million bbl" year="1 January 2018 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="62"/>
+            </section>
+            <section name="Refined petroleum products - production">
+                <data value="1.361" unit="million bbl/day" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="13"/>
+            </section>
+            <section name="Refined petroleum products - consumption">
+                <data value="1.296" unit="bbl/day" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="18"/>
+            </section>
             <section name="Refined petroleum products - exports">
-                <data value="613,800" unit="bbl/day" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="14"/>
+                <data value="562,400" unit="bbl/day" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="16"/>
             </section>
             <section name="Refined petroleum products - imports">
-                <data value="907,500" unit="bbl/day" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="7"/>
+                <data value="464,800" unit="bbl/day" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="18"/>
             </section>
             <section name="Natural gas - production">
-                <data value="42.11" unit="million cu m" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="19"/>
+                <data value="36.81" unit="million cu m" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="87"/>
             </section>
             <section name="Natural gas - consumption">
-                <data value="79.17" unit="million cu m" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="10"/>
+                <data value="31.27" unit="million cu m" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="29"/>
             </section>
             <section name="Natural gas - exports">
-                <data value="11.27" unit="billion cu m" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="19"/>
+                <data value="2.888" unit="billion cu m" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="36"/>
             </section>
             <section name="Natural gas - imports">
-                <data value="47" unit="billion cu m" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="11"/>
+                <data value="34.63" unit="billion cu m" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="12"/>
             </section>
             <section name="Natural gas - proved reserves">
-                <data value="176" unit="million cu m" year="1 January 2018 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="46"/>
+                <data value="2.548" unit="million cu m" year="1 January 2018 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="96"/>
             </section>
             <section name="Carbon dioxide emissions from consumption of energy">
-                <data value="424" unit="million Mt" year="2017 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="16"/>
+                <data value="286.7" unit="million Mt" year="2017 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="25"/>
             </section>
         </chapter>
         <chapter name="Communications">
             <section name="Telephones - fixed lines">
-                <subfield name="total subscriptions" value="31,160,866"/>
-                <subfield name="subscriptions per 100 inhabitants" value="47.62" year="2019 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="8"/>
+                <subfield name="total subscriptions" value="21,065,700"/>
+                <subfield name="subscriptions per 100 inhabitants" value="42.4" year="2019 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="12"/>
             </section>
             <section name="Telephones - mobile cellular">
-                <subfield name="total subscriptions" value="76,920,618"/>
-                <subfield name="subscriptions per 100 inhabitants" value="117.55" year="2019 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="21"/>
+                <subfield name="total subscriptions" value="58,750,448"/>
+                <subfield name="subscriptions per 100 inhabitants" value="118.25" year="2019 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="27"/>
             </section>
             <section name="Telecommunication systems">
                 <subfield name="general assessment" year="2020">
-                    technologically advanced domestic and international system; one of the largest mobile and telecom markets in Europe for revenue and subscribers; will complete the switch to fiber by 2033; mobile penetration above the EU average; govt. to invest in fiber infrastructure and 5G technologies; operators expanded the reach of 5G services; FttP provided to over a million customers; super-fast broadband available to about 95% of customers
+                    well-developed, one of the largest telecom markets in Europe, average mobile penetration for Europe; LTE universal; launch of 5G services; regulator has championed competition; Chinese company Huawei contributes to the telecom sector; fiber broadband accounts for 62% of all fixed-line broadband connections
                 </subfield>
                 <subfield name="domestic" year="2019">
-                    equal mix of buried cables, microwave radio relay, and fiber-optic systems; fixed-line 48 per 100 and mobile-cellular 118 per 100
+                    fixed-line 42 per 100 and mobile-cellular 118 telephones per 100 persons
                 </subfield>
-                <subfield name="international" year="2018">
-                    country code - 44; Landing points for the GTT Atlantic, Scotland-Northern Ireland -1, &amp; -2, Lanis 1,-2, &amp;-3, Sirius North, BT-MT-1, SHEFA-2, BT Highlands and Islands Submarine Cable System, Northern Lights, FARICE-1, Celtic Norse, Tampnet Offshore FOC Network, England Cable, CC-2, E-LLan, Sirius South, ESAT -1 &amp; -2, Rockabill, Geo-Eirgrid, UK-Netherlands-14, Circle North &amp; South, Ulysses2, Conceto, Farland North, Pan European Crossing, Solas, Swansea-Bream, GTT Express, Tata TGN-Atlantic &amp; -Western Europe, Apollo, EIG, Glo-1, TAT-14, Yellow, Celtic, FLAG Atlantic-1, FEA, Isle of Scilly Cable, UK-Channel Islands-8 and SeaMeWe-3 submarine cables providing links throughout Europe, Asia, Africa, the Middle East, Southeast Asia, Australia, and US; satellite earth stations - 10 Intelsat (7 Atlantic Ocean and 3 Indian Ocean), 1 Inmarsat (Atlantic Ocean region), and 1 Eutelsat; at least 8 large international switching centers
+                <subfield name="international" year="2019">
+                    country code - 34; landing points for the MAREA, Tata TGN-Western Europe, Pencan-9, SAT-3/WASC, Canalink, Atlantis-2, Columbus -111, Estepona-Tetouan, FEA, Balalink, ORVAL and PENBAL-5 submarine cables providing connectivity to Europe, the Middle East, Africa, South America, Asia, Southeast Asia and the US; satellite earth stations - 2 Intelsat (1 Atlantic Ocean and 1 Indian Ocean), NA Eutelsat; tropospheric scatter to adjacent countries
                 </subfield>
                 <subfield name="note">
                     the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated
@@ -987,150 +980,136 @@
             </section>
             <section name="Broadcast media">
                 <paragraph>
-                    public service broadcaster, British Broadcasting Corporation (BBC), is the largest broadcasting corporation in the world; BBC operates multiple TV networks with regional and local TV service; a mixed system of public and commercial TV broadcasters along with satellite and cable systems provide access to hundreds of TV stations throughout the world; BBC operates multiple national, regional, and local radio networks with multiple transmission sites; a large number of commercial radio stations, as well as satellite radio services are available (2018)
+                    a mixture of both publicly operated and privately owned TV and radio stations; overall, hundreds of TV channels are available including national, regional, local, public, and international channels; satellite and cable TV systems available; multiple national radio networks, a large number of regional radio networks, and a larger number of local radio stations; overall, hundreds of radio stations (2019)
                 </paragraph>
             </section>
-            <section name="Internet country code" value=".uk"/>
+            <section name="Internet country code" value=".es"/>
             <section name="Internet users">
-                <subfield name="total" value="61,784,878"/>
-                <subfield name="percent of population" value="94.9" unit="%" year="July 2018 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="13"/>
+                <subfield name="total" value="42,478,990"/>
+                <subfield name="percent of population" value="86.11" unit="%" year="July 2018 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="20"/>
             </section>
             <section name="Broadband - fixed subscriptions">
-                <subfield name="total" value="26,586,110"/>
-                <subfield name="subscriptions per 100 inhabitants" value="41" year="2018 est."/>
-                <subfield oneline="yes" name="country comparison to the world" value="8"/>
-            </section>
-            <section name="Communications - note">
-                <subfield name="note 1">
-                    the British Library claims to be the largest library in the world with well over 150 million items and in most known languages; it receives copies of all books produced in the UK or Ireland, as well as a significant proportion of overseas titles distributed in the UK; in addition to books (print and digital), holdings include: journals, manuscripts, newspapers, magazines, sound and music recordings, videos, maps, prints, patents, and drawings
-                </subfield>
-                <subfield name="note 2">
-                    on 1 May 1840, the United Kingdom led the world with the introduction of postage stamps; the Austrian Empire had examined the idea of an "adhesive tax postmark" for the prepayment of postage in 1835; while the suggestion was reviewed in detail, it was rejected for the time being; other countries (including Austria) soon followed the UK's example with their own postage stamps; by the 1860s, most countries were issuing stamps; originally, stamps had to be cut from sheets; the UK issued the first postage stamps with perforations in 1854
-                </subfield>
+                <subfield name="total" value="15,176,954"/>
+                <subfield name="subscriptions per 100 inhabitants" value="31" year="2018 est."/>
+                <subfield oneline="yes" name="country comparison to the world" value="13"/>
             </section>
         </chapter>
         <chapter name="Transportation">
             <section name="National air transport system">
-                <subfield name="number of registered air carriers" value="20" year="2020"/>
-                <subfield name="inventory of registered aircraft operated by air carriers" value="794"/>
-                <subfield name="annual passenger traffic on registered air carriers" value="165,388,610" year="2018"/>
-                <subfield name="annual freight traffic on registered air carriers" value="6,198,370,000" unit="mt-km" year="2018"/>
+                <subfield name="number of registered air carriers" value="21" year="2020"/>
+                <subfield name="inventory of registered aircraft operated by air carriers" value="552"/>
+                <subfield name="annual passenger traffic on registered air carriers" value="80,672,105" year="2018"/>
+                <subfield name="annual freight traffic on registered air carriers" value="1,117,070,000" unit="mt-km" year="2018"/>
             </section>
-            <section name="Civil aircraft registration country code prefix" value="G" year="2016"/>
+            <section name="Civil aircraft registration country code prefix" value="EC" year="2016"/>
             <section name="Airports">
-                <data value="460" year="2013"/>
-                <subfield oneline="yes" name="country comparison to the world" value="16"/>
+                <data value="135" year="2020"/>
+                <subfield oneline="yes" name="country comparison to the world" value="40"/>
             </section>
             <section name="Airports - with paved runways">
-                <subfield oneline="yes" name="total" value="271" year="2013"/>
-                <subfield oneline="yes" name="over 3,047 m" value="7" year="2013"/>
-                <subfield oneline="yes" name="2,438 to 3,047 m" value="29" year="2013"/>
-                <subfield oneline="yes" name="1,524 to 2,437 m" value="89" year="2013"/>
-                <subfield oneline="yes" name="914 to 1,523 m" value="80" year="2013"/>
-                <subfield oneline="yes" name="under 914 m" value="66" year="2013"/>
+                <subfield oneline="yes" name="total" value="102" year="2020"/>
+                <subfield oneline="yes" name="over 3,047 m" value="18" year="2013"/>
+                <subfield oneline="yes" name="2,438 to 3,047 m" value="16" year="2013"/>
+                <subfield oneline="yes" name="1,524 to 2,437 m" value="19" year="2013"/>
+                <subfield oneline="yes" name="914 to 1,523 m" value="26" year="2013"/>
+                <subfield oneline="yes" name="under 914 m" value="23" year="2013"/>
             </section>
             <section name="Airports - with unpaved runways">
-                <subfield oneline="yes" name="total" value="189" year="2013"/>
-                <subfield oneline="yes" name="1,524 to 2,437 m" value="3" year="2013"/>
-                <subfield oneline="yes" name="914 to 1,523 m" value="26" year="2013"/>
-                <subfield oneline="yes" name="under 914 m" value="160" year="2013"/>
+                <subfield oneline="yes" name="total" value="33" year="2020"/>
+                <subfield oneline="yes" name="914 to 1,523 m" value="14" year="2013"/>
+                <subfield oneline="yes" name="under 914 m" value="19" year="2013"/>
             </section>
-            <section name="Heliports" value="9" year="2013"/>
+            <section name="Heliports" value="13" year="2020"/>
             <section name="Pipelines">
                 <list>
-                    <item name="condensate" value="502" unit="km"/>
-                    <item name="condensate/gas" value="9" unit="km"/>
-                    <item name="gas" value="28603" unit="km"/>
-                    <item name="liquid petroleum gas" value="59" unit="km"/>
-                    <item name="oil" value="5256" unit="km"/>
-                    <item name="oil/gas/water" value="175" unit="km"/>
-                    <item name="refined products" value="4919" unit="km"/>
-                    <item name="water" value="255" unit="km" year="2013"/>
+                    <item name="gas" value="10481" unit="km"/>
+                    <item name="oil" value="358" unit="km"/>
+                    <item name="refined products" value="4378" unit="km" year="2017"/>
                 </list>
             </section>
             <section name="Railways">
-                <subfield name="total" value="16,837" unit="km" year="2015"/>
-                <subfield name="standard gauge" value="16,534" unit="km 1.435-m gauge" description="5,357 km electrified" year="2015"/>
-                <subfield name="standard gauge" value="303" unit="km 0.760-m gauge" description="in Northern Ireland" year="2015"/>
-                <subfield oneline="yes" name="country comparison to the world" value="17"/>
-            </section>
-            <section name="Roadways">
-                <subfield name="total" value="394,428" unit="km" year="2009"/>
-                <subfield name="394,428" value="55,744" unit="km" description="includes 3,519 km of expressways" year="2009"/>
+                <subfield name="total" value="15,333" unit="km" description="9,699 km electrified" year="2015"/>
+                <subfield name="standard gauge" value="2,571" unit="km 1.435-m gauge" description="2,571 km electrified" year="2017"/>
+                <subfield name="narrow gauge" value="1,207" unit="km 1.000-m gauge" description="400 km electrified" year="2017"/>
+                <subfield name="broad gauge" value="11,333" unit="km 1.668-m gauge" description="6,538 km electrified" year="2017"/>
+                <paragraph>mixed gauge: 190 km 1.668-m and 1.435m gage (190.1 km electrified); 28 km 0.914-m gauge (28 km electrified); 4 km 0.600-m gauge</paragraph>
                 <subfield oneline="yes" name="country comparison to the world" value="19"/>
             </section>
+            <section name="Roadways">
+                <subfield name="total" value="683,175" unit="km" year="2011"/>
+                <subfield name="paved" value="683,175" unit="km" description="includes 3,519 km of expressways" year="2009"/>
+                <subfield oneline="yes" name="country comparison to the world" value="11"/>
+            </section>
             <section name="Waterways">
-                <data value="3200" unit="km" description="620 km used for commerce" year="2009"/>
-                <subfield oneline="yes" name="country comparison to the world" value="31"/>
+                <data value="1,000" unit="km" year="2012"/>
+                <subfield oneline="yes" name="country comparison to the world" value="64"/>
             </section>
             <section name="Merchant marine">
-                <subfield name="total" value="1,426"/>
-                <subfield name="by type" value="bulk carrier 143, container ship 108, general cargo 125, oil tanker 137, other 913" year="2019"/>
-                <subfield name="country comparison to the world" value="19"/>
+                <subfield name="total" value="119"/>
+                <subfield name="by type" value="container ship 2, general cargo 17, oil tanker 12, other 88" year="2019"/>
+                <subfield name="country comparison to the world" value="81"/>
             </section>
             <section name="Ports and terminals">
                 <list name="major seaport(s)">
-                    <item value="Dover"/>
-                    <item value="Felixstowe"/>
-                    <item value="immingham"/>
-                    <item value="Liverpool"/>
-                    <item value="London"/>
-                    <item value="Southampton"/>
-                    <item value="Teesport" description="England"/>
-                    <item value="Forth Ports" description="Scotland"/>
-                    <item value="Milford Haven" description="Wales"/>
-                </list>
-                <list name="oil temrminal(s)">
-                    <item value="Fawley Marine terminal"/>
-                    <item value="Liverpool Bay terminal" description="England"/>
-                    <item value="Braefoot Bay terminal"/>
-                    <item value="Finnart oil terminal"/>
-                    <item value="Hound Point terminal" description="Scotland"/>
+                    <item value="Algeciras"/>
+                    <item value="Barcelona"/>
+                    <item value="Bilbao"/>
+                    <item value="Cartagena"/>
+                    <item value="Huelva"/>
+                    <item value="Tarragona"/>
+                    <item value="Valencia" description="All in Spain"/>
+                    <item value="Las Palmas"/>
+                    <item value="Santa Cruz de Tenerife" description="in the Canary Islands"/>
                 </list>
                 <list name="contrainer port(s) (TEUs)">
-                    <item value="Felixstowe" description="3,849,700"/>
-                    <item value="London" description="2,431,000"/>
-                    <item value="Southamtpon" description="2,040,000" year="2017"/>
+                    <item value="Algeciras" description="4,389,836"/>
+                    <item value="Barcelona" description="2,968,757"/>
+                    <item value="Valencia" description="4,832,156" year="2017"/>
                 </list>
                 <list name="LNG terminal(s) (import)">
-                    <item value="Isle of Grain"/>
-                    <item value="Milford Have"/>
-                    <item value="Teeside"/>
+                    <item value="Barcelona"/>
+                    <item value="Bilbao"/>
+                    <item value="Cartagena"/>
+                    <item value="Huelva"/>
+                    <item value="Mugardos"/>
+                    <item value="Sagunto"/>
                 </list>
-            </section>
-            <section name="Transportation - note">
-                begun in 1988 and completed in 1994, the Channel Tunnel (nicknamed the Chunnel) is a 50.5-km (31.4-mi) rail tunnel beneath the English Channel at the Strait of Dover that runs from Folkestone, Kent, England to Coquelles, Pas-de-Calais in northern France; it is the only fixed link between the island of Great Britain and mainland Europe
             </section>
         </chapter>
         <chapter name="Military and Security">
             <section name="Military and security forces" year="2019">
-                British Army, Royal Navy (includes Royal Marines), Royal Air Force
+                <paragraph>
+                    Spanish Armed Forces: Army (Ejercito de Tierra), Spanish Navy (Armada Espanola, AE, includes Marine Corps), Spanish Air Force (Ejercito del Aire Espanola, EdA); Civil Guard (Guardia Civil)
+                </paragraph>
+                <subfield name="note">
+                    the Civil Guard is a military force with police duties (including coast guard) under both the Ministry of Defence and the Ministry of the Interior; it also responds to the needs of the Ministry of Finance
+                </subfield>
             </section>
             <section name="Military expenditures">
-                <data value="2.14" unit="% of GDP" year="2019 est."/>
-                <data value="2.13" unit="% of GDP" year="2018"/>
-                <data value="2.11" unit="% of GDP" year="2017"/>
-                <data value="2.11" unit="% of GDP" year="2016"/>
-                <data value="2.05" unit="% of GDP" year="2015"/>
-                <subfield oneline="yes" name="country comparison to the world" value="45"/>
+                <data value="0.92" unit="% of GDP" year="2019 est."/>
+                <data value="0.92" unit="% of GDP" year="2018"/>
+                <data value="0.9" unit="% of GDP" year="2017"/>
+                <data value="0.81" unit="% of GDP" year="2016"/>
+                <data value="0.92" unit="% of GDP" year="2015"/>
+                <subfield oneline="yes" name="country comparison to the world" value="125"/>
             </section>
-            <section name="Military and security service personnel strengths" year="2020">
-                the British military has approximately 149,000 total active duty troops (83,000 Army; 33,000 Navy, including 7,000 marines; 33,000 Air Force)
+            <section name="Military and security service personnel strengths" year="2019 est.">
+                the Spanish Armed Forces have approximately 120,000 active duty troops (70,000 Army; 20,000 Navy; 20,000 Air Force; 10,000 other/joint); 70-75,000 Guardia Civil
             </section>
             <section name="Military equipment inventories and acquisitions" year="2019 est.">
-                the inventory of the British military is comprised of a mix of domestically-produced and imported Western weapons systems; the US is the leading supplier of armaments to the UK since 2010; the UK defense industry is capable of producing a wide variety of air, land, and sea weapons systems
+                the inventory of the Spanish military is comprised of domestically-produced and imported Western weapons systems; France, Germany, and the US are the leading suppliers of military hardware since 2010; Spain's defense industry manufactures land, air, and sea weapons systems and is integrated within the European defense-industrial sector
             </section>
             <section name="Military deployments" year="2020">
-                950 Afghanistan (NATO); approximately 1,000 Brunei; more than 400 Canada (BATUS); est. 2,200 Cyprus; 250 Cyprus (UNFICYP); 900 Estonia (NATO); approx. 1,200 Falkland Islands; est. 200 Germany (note - previously about 2,500, but the UK pledged to remove all but 200 troops by the end of 2020); 570 Gibraltar; approx. 1,300 Middle East (coalition against ISIS; NATO); up to 350 Kenya (BATUK); 400 Mali (EUTM, MINUSMA, and Operation Barkhane; 150 Poland (NATO)
+                150 Iraq (training mission, counter-ISIS coalition); 350 Latvia (NATO); 600 Lebanon (UNIFIL); 180 Mali (EUTM); 150 Turkey (NATO)
             </section>
-            <section name="Military service age and obligation" year="2019">
-                slight variations by service, but generally 16-36 years of age for enlisted (with parental consent under 18) and 18-29 for officers; minimum length of service 4 years; women serve in military services including ground combat roles
+            <section name="Military service age and obligation" year="2013">
+                18-26 years of age for voluntary military service by a Spanish citizen or legal immigrant, 2-3 year obligation; women allowed to serve in all SAF branches, including combat units; no conscription, but Spanish Government retains right to mobilize citizens 19-25 years of age in a national emergency; mandatory retirement of non-NCO enlisted personnel at age 45 or 58, depending on service length
             </section>
         </chapter>
         <chapter name="Terrorism">
             <section name="Terrorist group(s)">
-                Continuity Irish Republican Army; Islamic State of Iraq and ash-Sham; New Irish Republican Army (2020)
+                Basque Fatherland and Liberty (disbanded); Islamic State of Iraq and ash-Sham (ISIS); al-Qa’ida (2019)
                 <subfield name="note">
                     details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in Appendix-T
                 </subfield>
@@ -1138,22 +1117,20 @@
         </chapter>
         <chapter name="Transnational Issues">
             <section name="Disputes - international">
-                n 2002, Gibraltar residents voted overwhelmingly by referendum to reject any "shared sovereignty" arrangement between the UK and Spain; the Government of Gibraltar insisted on equal participation in talks between the two countries; Spain disapproved of UK plans to grant Gibraltar greater autonomy; Mauritius and Seychelles claim the Chagos Archipelago (British Indian Ocean Territory); in 2001, the former inhabitants of the archipelago, evicted 1967 - 1973, were granted UK citizenship and the right of return, followed by Orders in Council in 2004 that banned rehabitation, a High Court ruling reversed the ban, a Court of Appeal refusal to hear the case, and a Law Lords' decision in 2008 denied the right of return; in addition, the UK created the world's largest marine protection area around the Chagos islands prohibiting the extraction of any natural resources therein; UK rejects sovereignty talks requested by Argentina, which still claims the Falkland Islands (Islas Malvinas) and South Georgia and the South Sandwich Islands; territorial claim in Antarctica (British Antarctic Territory) overlaps Argentine claim and partially overlaps Chilean claim; Iceland, the UK, and Ireland dispute Denmark's claim that the Faroe Islands' continental shelf extends beyond 200 nm
+                in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any "shared sovereignty" arrangement; the Government of Gibraltar insists on equal participation in talks between the UK and Spain; Spain disapproves of UK plans to grant Gibraltar greater autonomy; after voters in the UK chose to leave the EU in a June 2016 referendum, Spain again proposed shared sovereignty of Gibraltar; UK officials rejected Spain’s joint sovereignty proposal; Morocco protests Spain's control over the coastal enclaves of Ceuta, Melilla, and the islands of Penon de Velez de la Gomera, Penon de Alhucemas, and Islas Chafarinas, and surrounding waters; both countries claim Isla Perejil (Leila Island); Morocco serves as the primary launching site of illegal migration into Spain from North Africa; Portugal does not recognize Spanish sovereignty over the territory of Olivenza based on a difference of interpretation of the 1815 Congress of Vienna and the 1801 Treaty of Badajoz
             </section>
             <section name="Refugees and internally displaced persons">
                 <list name="refugees (country of origin)">
-                    <item value="19,744" description="Iran"/>
-                    <item value="13,755" description="Eritrea"/>
-                    <item value="10,575" description="Sudan"/>
-                    <item value="10,389" description="Syria"/>
-                    <item value="9,513" description="Afghanistan"/>
-                    <item value="8,164" description="Pakistan"/>
-                    <item value="5,522" description="Sri Lanka" year="2019"/>
+                    <item value="14,133" description="Syria" year="2019"/>
+                    <item value="16,540" description="Venezuela" year="2020" description2="economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay"/>
                 </list>
-                <subfield oneline="yes" name="stateless persons" value="161" year="2019"/>
+                <subfield oneline="yes" name="stateless persons" value="4,246" year="2019"/>
+                <subfield name="note">
+                    196,837 estimated refugee and migrant arrivals (January 2015-December 2020)
+                </subfield>
             </section>
             <section name="Illicit drugs">
-                producer of limited amounts of synthetic drugs and synthetic precursor chemicals; major consumer of Southwest Asian heroin, Latin American cocaine, and synthetic drugs; money-laundering center
+                despite rigorous law enforcement efforts, North African, Latin American, Galician, and other European traffickers take advantage of Spain's long coastline to land large shipments of cocaine and hashish for distribution to the European market; consumer for Latin American cocaine and North African hashish; destination and minor transshipment point for Southwest Asian heroin; money-laundering site for Colombian narcotics trafficking organizations and organized crime
             </section>
         </chapter>
     </country>

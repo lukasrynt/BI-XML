@@ -2,6 +2,9 @@ BUILD_DIR := build
 SOURCE_DIR := source
 STYLESHEET_DIR := stylesheets
 
+.PHONY: all
+all: pdf html
+
 .PHONY: pdf
 pdf: $(BUILD_DIR)/countries.pdf
 $(BUILD_DIR)/countries.pdf: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/countries.xsl
@@ -52,7 +55,8 @@ $(BUILD_DIR)/united.html: $(SOURCE_DIR)/uk.xml $(STYLESHEET_DIR)/countries.xslt
 spain: $(BUILD_DIR)/spain.html
 $(BUILD_DIR)/spain.html: $(SOURCE_DIR)/spain.xml $(STYLESHEET_DIR)/countries.xslt
 	@mkdir -p $(BUILD_DIR);
-	xmllint --noout --dtdvalid 'validation/countries.dtd' $@
+	xmllint --noout --dtdvalid 'validation/countries.dtd' $<
+	xmllint --noout --relaxng 'validation/countries.rng' $<
 	java -jar saxon.jar $^ > $@;
 
 

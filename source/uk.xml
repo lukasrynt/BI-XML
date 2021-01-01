@@ -656,7 +656,7 @@
                 <paragraph>The UK economy has begun to slow since the referendum vote to leave the EU in June 2016. A sustained depreciation of the British pound has increased consumer and producer prices, weighing on consumer spending without spurring a meaningful increase in exports. The UK has an extensive trade relationship with other EU members through its single market membership, and economic observers have warned the exit will jeopardize its position as the central location for European financial services. The UK is slated to leave the EU at the end of January 2020.</paragraph>
             </section>
             <section name="GDP - real growth rate">
-                <data value="1.2620.758" unit="%" year="2019 est."/>
+                <data value="1.26" unit="%" year="2019 est."/>
                 <data value="1.25" unit="%" year="2018 est."/>
                 <data value="1.74" unit="%" year="2017 est."/>
                 <subfield oneline="yes" name="country comparison to the world" value="164"/>
@@ -1052,12 +1052,12 @@
             <section name="Railways">
                 <subfield name="total" value="16,837" unit="km" year="2015"/>
                 <subfield name="standard gauge" value="16,534" unit="km 1.435-m gauge" description="5,357 km electrified" year="2015"/>
-                <subfield name="standard gauge" value="303" unit="km 0.760-m gauge" description="in Northern Ireland" year="2015"/>
+                <subfield name="narrow gauge" value="303" unit="km 0.760-m gauge" description="in Northern Ireland" year="2015"/>
                 <subfield oneline="yes" name="country comparison to the world" value="17"/>
             </section>
             <section name="Roadways">
                 <subfield name="total" value="394,428" unit="km" year="2009"/>
-                <subfield name="394,428" value="55,744" unit="km" description="includes 3,519 km of expressways" year="2009"/>
+                <subfield name="paved" value="55,744" unit="km" description="includes 3,519 km of expressways" year="2009"/>
                 <subfield oneline="yes" name="country comparison to the world" value="19"/>
             </section>
             <section name="Waterways">

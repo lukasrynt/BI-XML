@@ -1,0 +1,37 @@
+.spain{
+    background: url('backgrounds/yellow.png');
+}
+
+.spain header{
+    background-color: goldenrod;
+}
+
+.spain h2{
+    background-color: goldenrod;
+    color: lightyellow;
+}
+
+.spain h3{
+    color: goldenrod;
+}
+
+.spain .nav_item{
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.spain .nav_item:hover{
+    background-color: lightyellow;
+}
+
+.spain .collapsible {
+    background-color: yellow;
+}
+
+.spain .collapsible:hover {
+    background-color: lightyellow;
+}
+
+.spain .content {
+    background-color: lightyellow;
+}
