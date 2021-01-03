@@ -170,8 +170,7 @@
         <fo:block text-align-last="justify" keep-with-previous.within-page="always">
             <fo:leader leader-pattern="rule"/>
         </fo:block>
-        <xsl:apply-templates select="intro"/>
-        <xsl:apply-templates select="chapter"/>
+        <xsl:apply-templates select="intro | chapter"/>
     </xsl:template>
 
     <xsl:template match="intro">

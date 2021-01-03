@@ -1,11 +1,5 @@
 # XML - semestralka
 
-## Oblasti
-Czechia: https://www.cia.gov/library/publications/the-world-factbook/geos/ez.html  
-Cote d'Ivoire: https://www.cia.gov/library/publications/the-world-factbook/geos/iv.html  
-United Kingdom: https://www.cia.gov/library/publications/the-world-factbook/geos/uk.html  
-Spain: https://www.cia.gov/library/publications/the-world-factbook/geos/sp.html
-
 ## Zadání
 - Vytvořte XML dokumenty se všemi daty pro každou vybranou oblast (z
   https://www.cia.gov/library/publications/the-world-factbook/). Podrobnosti

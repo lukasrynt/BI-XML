@@ -1,4 +1,6 @@
 <!ELEMENT countries (author, country+)>
+<!ATTLIST countries
+        xmlns:xi CDATA #REQUIRED>
 
 <!ELEMENT author EMPTY>
 <!ATTLIST author
