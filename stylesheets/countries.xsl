@@ -10,42 +10,61 @@
     <xsl:template match="/">
         <fo:root>
             <fo:layout-master-set>
-                <fo:simple-page-master master-name="simple"
-                                       page-height="29.7cm" page-width="21.0cm" margin="1in">
-                    <fo:region-body margin-bottom="15mm" margin-top="15mm"/>
-                    <fo:region-before extent="10mm"/>
-                    <fo:region-after extent="10mm"/>
-                </fo:simple-page-master>
-                <fo:simple-page-master master-name="intro"
-                                       page-height="297mm" page-width="210mm" margin="1in">
-                    <fo:region-body margin-bottom="15mm"/>
-                </fo:simple-page-master>
+                <xsl:call-template name="layout"/>
             </fo:layout-master-set>
 
             <fo:page-sequence master-reference="intro">
+                <xsl:call-template name="intro"/>
+            </fo:page-sequence>
+
+            <fo:page-sequence master-reference="content">
                 <fo:flow flow-name="xsl-region-body">
-                    <fo:block font-size="50pt" text-align="center" font-weight="bold">
-                        <xsl:text>Semestral Work BI-XML</xsl:text>
-                        <fo:block text-align-last="justify">
-                            <fo:leader leader-pattern="rule"/>
-                        </fo:block>
-                    </fo:block>
-                    <fo:block font-size="40pt" text-align="center" font-weight="bold" keep-with-previous.within-page="always">
-                        <fo:inline color="gray"><xsl:text>Countries</xsl:text></fo:inline>
-                        <fo:block text-align-last="justify" keep-with-previous.within-page="always">
-                            <fo:leader leader-pattern="rule"/>
-                        </fo:block>
-                    </fo:block>
-                    <fo:block font-size="10pt" text-align="center">
-                        <xsl:apply-templates select="/countries/author"/>
-                    </fo:block>
+                    <xsl:apply-templates select="countries/country | countries/country/chapter" mode="toc"/>
                 </fo:flow>
             </fo:page-sequence>
 
-            <fo:page-sequence master-reference="simple">
-               <xsl:apply-templates select="/countries"/>
+            <fo:page-sequence master-reference="simple" id="{generate-id(.)}">
+                <xsl:apply-templates select="/countries"/>
             </fo:page-sequence>
         </fo:root>
+    </xsl:template>
+
+    <xsl:template name="layout">
+        <fo:simple-page-master master-name="simple"
+                               page-height="29.7cm" page-width="21.0cm" margin="1in">
+            <fo:region-body margin-bottom="15mm" margin-top="15mm"/>
+            <fo:region-before extent="10mm"/>
+            <fo:region-after extent="10mm"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="intro"
+                               page-height="297mm" page-width="210mm" margin="1in">
+            <fo:region-body margin-bottom="15mm"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="content"
+                               page-height="297mm" page-width="210mm" margin="1in">
+            <fo:region-body margin-bottom="15mm" margin-top="15mm"/>
+            <fo:region-after extent="10mm"/>
+        </fo:simple-page-master>
+    </xsl:template>
+
+    <xsl:template name="intro">
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block font-size="50pt" text-align="center" font-weight="bold">
+                <xsl:text>Semestral Work BI-XML</xsl:text>
+                <fo:block text-align-last="justify">
+                    <fo:leader leader-pattern="rule"/>
+                </fo:block>
+            </fo:block>
+            <fo:block font-size="40pt" text-align="center" font-weight="bold" keep-with-previous.within-page="always">
+                <fo:inline color="gray"><xsl:text>Countries</xsl:text></fo:inline>
+                <fo:block text-align-last="justify" keep-with-previous.within-page="always">
+                    <fo:leader leader-pattern="rule"/>
+                </fo:block>
+            </fo:block>
+            <fo:block font-size="10pt" text-align="center">
+                <xsl:apply-templates select="/countries/author"/>
+            </fo:block>
+        </fo:flow>
     </xsl:template>
 
     <xsl:template match="/countries">
@@ -64,6 +83,9 @@
         </fo:static-content>
         <fo:flow flow-name="xsl-region-body" font-family="Arial,Helvetica,sans-serif"
                  font-size="12pt">
+            <xsl:if test='position() = 1'>
+                <xsl:attribute name='initial-page-number'>1</xsl:attribute>
+            </xsl:if>
             <xsl:for-each select="country">
                 <xsl:apply-templates select="."/>
             </xsl:for-each>
@@ -79,8 +101,70 @@
             <xsl:value-of select="@email"/>
     </xsl:template>
 
+    <xsl:template match="country" mode="toc">
+        <fo:block text-align='justify' text-align-last="justify" space-after="3pt" keep-with-next="always">
+            <fo:basic-link>
+                <xsl:variable name="country-number">
+                    <xsl:number level="multiple" count="country" format="1.1.1. "/>
+                </xsl:variable>
+
+                <xsl:variable name="reference">
+                    <xsl:number level="multiple" count="country" format="1.1"/>
+                </xsl:variable>
+
+                <xsl:attribute name='internal-destination'>chapter-refid-<xsl:value-of select="$reference"/></xsl:attribute>
+
+                <xsl:value-of select="$country-number"/>
+                <xsl:value-of select='@name'/>
+
+                &#160;
+                <fo:leader leader-pattern='dots' rule-thickness='.2pt'
+                           leader-alignment='reference-area' font-size="10pt"/>
+                &#160;
+
+                <fo:page-number-citation>
+                    <xsl:attribute name='ref-id'>chapter-refid-<xsl:value-of select="$reference"/></xsl:attribute>
+                </fo:page-number-citation>
+
+            </fo:basic-link>
+
+        </fo:block>
+    </xsl:template>
+
+    <xsl:template match="chapter" mode='toc'>
+        <fo:block text-align='justify' text-align-last="justify" space-after="3pt" margin-left="1cm"
+                  margin-right='.1cm'  font-size='0.9em'>
+
+            <xsl:variable name="country-number">
+                <xsl:number level="multiple" count="country | chapter" format="1.1. "/>
+            </xsl:variable>
+
+            <xsl:variable name="reference">
+                <xsl:number level="multiple" count="country | chapter" format="1.1"/>
+            </xsl:variable>
+            <fo:basic-link>
+                <xsl:attribute name='internal-destination'>chapter-refid-<xsl:value-of select="$reference"/></xsl:attribute>
+
+                <xsl:value-of select='$country-number'/>
+                <xsl:value-of select="@name"/>
+                &#160;
+                <fo:leader leader-pattern='dots' rule-thickness='.2pt'
+                           leader-alignment='reference-area' font-size="10pt"/>
+                &#160;
+
+                <fo:page-number-citation>
+                    <xsl:attribute name='ref-id'>chapter-refid-<xsl:value-of select="$reference"/></xsl:attribute>
+                </fo:page-number-citation>
+            </fo:basic-link>
+        </fo:block>
+    </xsl:template>
+
     <xsl:template match="country">
+        <xsl:variable name="reference">
+            <xsl:number level="multiple" count="country | chapter" format="1.1"/>
+        </xsl:variable>
         <fo:block font-size="30pt" font-weight="bold" text-align="center" space-after="0">
+            <xsl:attribute name='id'>chapter-refid-<xsl:value-of select="$reference"/></xsl:attribute>
             <xsl:value-of select="@name"/>
         </fo:block>
         <fo:block text-align-last="justify" keep-with-previous.within-page="always">
@@ -106,10 +190,14 @@
     </xsl:template>
 
     <xsl:template match="country/chapter">
-            <fo:block font-weight="bolder" font-size="30pt" color="#333333">
-                <xsl:value-of select="@name"/>
-            </fo:block>
-            <xsl:apply-templates select="section"/>
+        <xsl:variable name="reference">
+            <xsl:number level="multiple" count="country | chapter" format="1.1"/>
+        </xsl:variable>
+        <fo:block keep-with-next.within-page="always" font-weight="bolder" font-size="30pt" color="#333333">
+            <xsl:attribute name='id'>chapter-refid-<xsl:value-of select="$reference"/></xsl:attribute>
+            <xsl:value-of select="@name"/>
+        </fo:block>
+        <xsl:apply-templates select="section"/>
     </xsl:template>
 
     <xsl:template match="country/chapter/section">

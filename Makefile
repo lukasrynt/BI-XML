@@ -11,7 +11,7 @@ $(BUILD_DIR)/countries.pdf: $(SOURCE_DIR)/countries.xml $(STYLESHEET_DIR)/countr
 	@mkdir -p $(BUILD_DIR);
 	java -jar saxon.jar $^ > $(BUILD_DIR)/countries.fo;
 	fop -fo $(BUILD_DIR)/countries.fo -pdf $@;
-	@rm $(BUILD_DIR)/countries.fo 2> /dev/null;
+	@#rm $(BUILD_DIR)/countries.fo 2> /dev/null;
 
 .PHONY: html
 html: index countries
